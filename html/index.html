@@ -1,13 +1,108 @@
 <!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello</h1>
-</body>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<!--<link rel="stylesheet" href="../css/common.css" />-->
+		<link rel="stylesheet" href="../css/index.css" />
+		<script src="../js/mui.min.js"></script>
+		<script>
+			(function(win) {
+    var docEl = win.document.documentElement;
+    var time=null;
+    function refreshRem() {
+        var width = docEl.getBoundingClientRect().width;
+        if (width > 414) { // 鏈�澶у搴�
+            width = 414;
+        }
+        // 灏嗗睆骞曞搴﹀垎鎴�7.5浠斤紝 1浠戒负1rem,1rem=100px
+        var rem =width/7.5;
+        if (rem > 100) {
+            rem = 100;
+        }
+        docEl.style.fontSize = rem + 'px';
+    }
+    win.addEventListener('resize', function() {
+        clearTimeout(time);
+        time = setTimeout(refreshRem, 1);
+    }, false);
+    win.addEventListener('pageshow', function(e) {
+        if (e.persisted) {
+            clearTimeout(time);
+            time = setTimeout(refreshRem, 1);
+        }
+    }, false);
+    refreshRem();
+
+})(window);
+		</script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+    <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+        <div class="mui-scroll">
+            <a class="mui-control-item">
+                <i></i>
+                <b></b>
+                资讯
+            </a>
+            <a class="mui-control-item">
+                <i></i>
+                <b></b>
+                学堂出品
+            </a>
+            <a class="mui-control-item">
+                <i></i>
+                <b></b>
+                红人黄叶
+            </a>
+            <a class="mui-control-item">
+                <i></i>
+                <b></b>
+                案例分析
+            </a>
+            <a class="mui-control-item">
+                <i></i>
+                <b></b>
+                红人直通车
+            </a>
+            <a class="mui-control-item">
+                <i></i>
+                <b></b>
+                红人通告
+            </a>
+            <a class="mui-control-item">
+                <i></i>
+                <b></b>
+                书籍推荐
+            </a>
+            <a class="mui-control-item">
+                <i></i>
+                <b></b>
+                学堂成果
+            </a>
+            <a class="mui-control-item">
+                <i></i>
+                <b></b>
+                众筹
+            </a>
+            <a class="mui-control-item">
+                <i></i>
+                <b></b>
+                人气榜
+            </a>
+        </div>
+    </div>
+    <div class="headopera">
+        <div class="headsearch"><a class="mui-icon mui-icon-search"></a></div>
+        <div class="headmenu"><a class="mui-icon mui-icon-bars"></a></div>
+    </div>
+</header>
+	</body>
 </html>
