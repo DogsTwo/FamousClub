@@ -1,0 +1,701 @@
+.wrap{
+    padding-bottom:40px ;
+}
+header .mui-scroll-wrapper{
+    height:44px;
+}
+header .mui-scroll-wrapper .mui-scroll{
+    height:44px;
+}
+header .mui-scroll-wrapper .mui-scroll .mui-control-item{
+    line-height:44px !important;
+    font-size:14px !important;
+    padding: 0 8px;
+    position:relative;
+}
+header .mui-scroll-wrapper .mui-scroll a.mui-active{
+    color:black !important;
+    line-height:44px !important;
+}
+header{
+    width:100%;
+    height:44px;
+    background-color: #fff;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:999;
+}
+header .mui-scroll-wrapper{
+    width:auto !important;
+    margin:0 88px 0 5px;
+    display: block;
+}
+header .mui-segmented-control.mui-scroll-wrapper .mui-control-item i{
+    display: block;
+    width: 1px;
+    height: 10px;
+    line-height: 0;
+    background-color: rgb(221,221,221);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+}
+header .mui-segmented-control.mui-scroll-wrapper .mui-control-item b{
+    width: 60px;
+    height: 2px;
+    background: #ff165b;
+    position: absolute;
+    left: 6px;
+    right: 11px;
+    bottom: 6px;
+}
+header .headoper{
+    position: absolute;
+    top:0;
+    right:14px;
+    width:60px;
+    height:44px;
+}
+header .headoper .headsearch{
+    display: flex;
+}
+.pl{
+    font-size:14px;
+    padding-top:14px;
+    padding-left:10px;
+}
+.tab1 .mui-slider{
+    margin-top:44px;
+}
+.tab2{
+    width: auto;
+    height: 40px;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.tab2 ul li{
+    width: 33.333%;
+    height: 40px;
+    float: left;
+}
+.tab2 ul li a{
+    display: block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    color: #666;
+}
+.tab2 ul li a.on{
+    color: #333333;
+    background: #eeeeee;
+}
+.tab2 ul li .opfilter span.icon-filter {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/tabfilter.png) no-repeat right center;
+    background-size: 15px 15px;
+    padding-right: 25px;
+}
+.tab3{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    overflow: hidden;
+    background: #fff;
+}
+.tab3 ul li{
+    width: 33.333%;
+    height: auto;
+    float: left;
+    padding: 5px;
+}
+.tab3 ul li a .img img {
+    width: 100%;
+    height:100%;
+    border-radius: 5px;
+}
+.tab3 ul li a .con {
+    width: auto;
+    height: auto;
+    padding-top: 8px;
+}
+.tab3 ul li a .con .tit {
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+}
+.tab3 ul li a .con .txt {
+    width: auto;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #999;
+}
+
+
+/*rednotice*/
+.tab4 .item{
+    background: #fff;
+    margin-bottom: 10px;
+}
+.tab4 .item .tit {
+    padding: 10px 0;
+}
+.tab4 .item .tit a {
+    display: inline-block;
+    border-left: 2px solid #f54744;
+    padding-left: 12px;
+}
+.tab4 .item .tit a span {
+    display: block;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #333;
+    padding-right: 20px;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+}
+.tab4 .item .img a {
+    display: block;
+}
+.tab4 .item .img img {
+    width: 100%;
+    height:100%;
+}
+.icon_2 {
+    background-position: -20px -20px !important;
+}
+
+/*throughtrain*/
+.tab5{
+    width: auto;
+    height: 40px;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.tab5 ul li{
+    width: 50%;
+    height: 40px;
+    float: left;
+}
+.tab5 ul li a{
+    display: block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    color: #666;
+}
+.tab5 ul li a.on{
+    color: #333333;
+    background: #eeeeee;
+}
+.tab6 ul li {
+    padding-bottom: 5px;
+}
+.tab6 ul li .box a {
+    display: block;
+    background: #fff;
+    position: relative;
+    padding: 15px;
+}
+.tab6 ul li .box a .con {
+    min-height: 80px;
+    padding-right: 120px;
+}
+.tab6 ul li .box a .con .tit {
+    font-size: 14px;
+    color: #333;
+}
+.tab6 ul li .box a .con .txt {
+    font-size: 12px;
+    color: #999;
+    line-height: 1.6em;
+    padding-top: 5px;
+}
+.tab6 ul li .box a .con .note span {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    color: #999;
+    padding-left: 15px;
+    position: relative;
+}
+.tab6 ul li .box a .con .note span i {
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background: url(../images/inopera.png) no-repeat;
+    background-size: 48px 24px;
+}
+.tab6 ul li .box a .img {
+    width: 110px;
+    height: 80px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.tab6 ul li .box a .img img {
+    width: 110px;
+    height: 80px;
+}
+.tab6 ul li .ima a {
+    display: block;
+    position: relative;
+}
+.tab6 ul li .ima a .con {
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    color: #fff;
+    padding: 30px 15px 0 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+}
+.tab6 ul li .ima a .img img {
+    width: 100%;
+}
+
+/*throughtraincon*/
+.tab7 {
+    background: #fff;
+}
+.tab7 .txt1{
+    padding: 20px 15px 0 15px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+.tab7 .txt2{
+    margin: 15px 15px 0 15px;
+    background-color: #eee !important;
+    border-radius: 5px;
+    padding: 10px 15px 10px 45px;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.6em;
+    background: url(../images/icon-intro.png) no-repeat;
+    background-size: 17px 13px;
+    background-position: 15px 15px;
+}
+.tab7 .main{
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.6em;
+}
+.tab7 .main .txt3{
+    padding: 15px;
+    text-align: justify;
+}
+.tab7 .main .video a{
+    display: block;
+    position: relative;
+}
+.tab7 .main .video a .icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    background: url(../images/video-play.png) no-repeat;
+    background-size: 40px 40px;
+    z-index: 2;
+}
+.tab7 .main .video a img{
+    width:100%;
+    height:100%;
+}
+.tab7 .main .img{
+    padding:0 15px;
+}
+.tab7 .main .img img{
+    width:100%;
+    height:100%;
+}
+.tab7 .main .imgg img{
+    width:100%;
+    height:100%;
+}
+
+.tab7 .four{
+    height: 35px;
+    padding: 5px 0;
+}
+.tab7 .four ul li{
+    width: 25%;
+    height: 24px;
+    float: left;
+}
+.tab7 .four ul li a{
+    display: block;
+    width: auto;
+    height: 24px;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    text-align: center;
+}
+.tab7 .four ul li a .item{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    margin-left: 20px;
+}
+.tab7 .four ul li a .item span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background: url(../images/inopera.png) no-repeat;
+    background-size: 48px 24px;
+}
+.tab7 .four ul li a .item span.ico1{
+    background-position: 0px 0px;
+}
+.tab7 .four ul li a .item span.ico2{
+     background-position: -12px 0px;
+ }
+.tab7 .four ul li a .item span.ico3{
+    background-position: -24px 0px;
+}
+.tab7 .four ul li a .item span.ico4{
+    background-position: -36px 0px;
+}
+
+/*producedcon*/
+.tab8{
+    background: #fff;
+    margin-top: 10px;
+}
+.tab8 .tab8_header{
+    height: 44px;
+    padding: 0 15px;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+}
+.tab8 .tab8_header .name{
+    height: 44px;
+    line-height: 44px;
+    float: left;
+    font-size: 12px;
+    color: #333;
+}
+.tab8 .tab8_header .more{
+    height: 44px;
+    float: right;
+}
+.tab8 .tab8_header .more a{
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color: #999;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+    padding-right: 10px;
+}
+.tab8 .tab8_main{
+    background: #fff;
+}
+.tab8 .tab8_main .item{
+    padding-left: 55px;
+    position: relative;
+}
+.tab8 .tab8_main .item .tou{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.tab8 .tab8_main .item .tou a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.tab8 .tab8_main .item .shen{
+    min-height: 60px;
+    padding: 15px 15px 15px 0;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+}
+.tab8 .tab8_main .item .shen .name{
+    font-size: 10px;
+    color: #333;
+}
+.tab8 .tab8_main .item .shen .name a{
+    color: #333;
+}
+.tab8 .tab8_main .item .shen .cont{
+    padding-top: 5px;
+    position: relative;
+}
+.tab8 .tab8_main .item .shen .cont .text{
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    margin-right: 75px;
+}
+.tab8 .tab8_main .item .shen .cont .opera{
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+.tab8 .tab8_main .item .shen .cont .opera .like{
+    height: 36px;
+    float: left;
+}
+.tab8 .tab8_main .item .shen .cont .opera .like a{
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+    font-size: 12px;
+    color: #999999;
+    padding-left: 18px;
+}
+.tab8 .tab8_main .item .shen .cont .opera .like a i{
+    display: block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background: url(../images/inopera.png) no-repeat;
+    background-size: 48px 24px;
+    background-position: -24px 0px;
+}
+.tab8 .tab8_main .item .shen .cont .opera .other{
+    height: 36px;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+}
+.tab8 .tab8_main .item .shen .cont .opera .other .icon{
+    height:36px;
+}
+.tab8 .tab8_main .item .shen .cont .opera .other .icon a{
+    display: block;
+    height: 36px;
+    background: url(../images/icon-other.png) no-repeat right center;
+    background-size: 3px 12px;
+    padding-left: 10px;
+}
+.tab8 .tab8_main .item .shen .cont .opera .other .btns{
+    width: 44px;
+    position: absolute;
+    right: -10px;
+    top: 44px;
+    background: #f0f0f0;
+    border-radius: 3px;
+}
+.tab8 .tab8_main .item .shen .cont .opera .other .btns i{
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #f0f0f0;
+    position: absolute;
+    top: -4px;
+    right: 8px;
+    -webkit-transform: rotate(45deg);
+}
+.tab8 .tab8_main .item .shen .cont .opera .other .btns ul{
+    display: block;
+    position: relative;
+    z-index: 2;
+    padding: 0 5px;
+}
+.tab8 .tab8_main .item .shen .cont .opera .other .btns ul li a{
+    display: block;
+    font-size: 12px;
+    color: #666;
+    line-height: 12px;
+    padding: 6px 0;
+    text-align: center;
+}
+.tab8 .tab8_main .item .shen .cont .opera .other .btns ul li a.red{
+    color:#ff5500;
+}
+.tab8 .tab8_main .item .shen .note{
+    padding-top: 5px;
+    font-size: 10px;
+    color: #999;
+}
+.tab8 .tab8_main .item .shen .note a{
+    color: #999;
+    position: relative;
+    margin-left: 6px;
+    padding-left: 8px;
+}
+.tab8 .tab8_main .item .shen .note a i{
+    display: block;
+    width: 2px;
+    height: 2px;
+    background: #999;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+}
+.tab8 .tab8_main .item .shen .look{
+    padding-top: 10px;
+}
+.tab8 .tab8_main .item .shen .look a{
+    display: block;
+    background: #f9f9f9;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #666666;
+    padding: 0 10px;
+}
+.tab8 .tab8_main .item .shen .look a span{
+    display: block;
+    padding: 6px 0;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+    padding-right: 10px;
+    line-height: 12px;
+}
+.tab8 .tab8_main .item .shen .huifu{
+    margin-top: 10px;
+    background-color: #f9f9f9 !important;
+    border-radius: 5px;
+    background: url(../images/discuss-reply.png) no-repeat;
+    background-size: 12px 11px;
+    background-position: 12px 11px;
+    padding-left: 33px;
+}
+.tab8 .tab8_main .item .shen .huifu ul li{
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+}
+.tab8 .tab8_main .item .shen .huifu ul li .huifubox{
+    padding: 10px 0;
+}
+.tab8 .tab8_main .item .shen .huifu ul li .huifubox .huifuname{
+    line-height: 12px;
+    position: relative;
+    font-size: 10px;
+    color: #333333;
+}
+.tab8 .tab8_main .item .shen .huifu ul li .huifubox .huifuname a{
+    color:#3d6fce;
+}
+.tab8 .tab8_main .item .shen .huifu ul li .huifubox .huifuname .time{
+    display: block;
+    height: 12px;
+    line-height: 12px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -6px;
+    color: #999;
+}
+.tab8 .tab8_main .item .shen .huifu ul li .huifubox .huifutext{
+    font-size: 10px;
+    color: #333333;
+    padding-top: 5px;
+}
+.tab9{
+    width: 100%;
+    height: 50px;
+    background: url(../images/borgrayt.png) repeat-x top #f6f6f6;
+    background-size: 1px 1px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    padding: 6px 76px 6px 6px;
+}
+.tab9 span.icon{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    z-index: 2;
+    background: url(../images/icon-edit.png) no-repeat center;
+    background-size: 18px 18px;
+}
+.tab9 form .inp{
+    width: 100%;
+    height: 38px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 14px;
+    color: #333;
+    line-height: 16px;
+    padding: 10px 10px 10px 38px;
+    /*outline:5px solid #ffcc33;*/
+}
+.tab{
+    padding-bottom:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
