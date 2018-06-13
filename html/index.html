@@ -45,66 +45,7 @@
 		</script>
 	</head>
 	<body>
-		<header class="mui-bar mui-bar-nav">
-    <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
-        <div class="mui-scroll">
-            <a class="mui-control-item">
-                <i></i>
-                <b></b>
-                资讯
-            </a>
-            <a class="mui-control-item">
-                <i></i>
-                <b></b>
-                学堂出品
-            </a>
-            <a class="mui-control-item">
-                <i></i>
-                <b></b>
-                红人黄叶
-            </a>
-            <a class="mui-control-item">
-                <i></i>
-                <b></b>
-                案例分析
-            </a>
-            <a class="mui-control-item">
-                <i></i>
-                <b></b>
-                红人直通车
-            </a>
-            <a class="mui-control-item">
-                <i></i>
-                <b></b>
-                红人通告
-            </a>
-            <a class="mui-control-item">
-                <i></i>
-                <b></b>
-                书籍推荐
-            </a>
-            <a class="mui-control-item">
-                <i></i>
-                <b></b>
-                学堂成果
-            </a>
-            <a class="mui-control-item">
-                <i></i>
-                <b></b>
-                众筹
-            </a>
-            <a class="mui-control-item">
-                <i></i>
-                <b></b>
-                人气榜
-            </a>
-        </div>
-    </div>
-    <div class="headopera">
-        <div class="headsearch"><a class="mui-icon mui-icon-search"></a></div>
-        <div class="headmenu"><a class="mui-icon mui-icon-bars"></a></div>
-    </div>
-</header>
+		<header class="mui-bar mui-bar-nav" id="header"></header>
 		<div class="menu">
 			<div class="menu-close">
 				<a href="#"></a>
@@ -433,5 +374,21 @@
        		box:$('#footer'),
        		cur:2
    		})
+		  var w=new Header({
+       		  box:"#header",
+            	  nav:{
+                "咨询":'news.html',
+                "学堂出品":'produced.html',
+                "红人黄页":'yellow.html',
+                '案例分析':'vipcourse.tml',
+                '红人直通车':'throughtrain.html',
+                '红人通告':'rednotice.html',
+                '书籍推荐':'#',
+                '学堂成果':'#',
+                '众筹':'#',
+                '人气榜':'#'
+            },
+            cur:1
+   	})
 	</script>
 </html>
