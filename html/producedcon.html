@@ -124,10 +124,10 @@
                                     </a>
                                 </div>
                                 <div class="other">
-                                    <div class="icon">
-                                        <a href=""></a>
+                                    <div class="icon iconone">
+                                        <a></a>
                                     </div>
-                                    <div class="btns" style="display:none;">
+                                    <div class="btns btnone" style="display:none;">
                                         <i></i>
                                         <ul>
                                             <li>
@@ -171,10 +171,10 @@
                                     </a>
                                 </div>
                                 <div class="other">
-                                    <div class="icon">
-                                        <a href=""></a>
+                                    <div class="icon icontwo">
+                                        <a></a>
                                     </div>
-                                    <div class="btns" style="display:none;">
+                                    <div class="btns btntwo" style="display:none;">
                                         <i></i>
                                         <ul>
                                             <li>
@@ -254,10 +254,10 @@
                                     </a>
                                 </div>
                                 <div class="other">
-                                    <div class="icon">
-                                        <a href=""></a>
+                                    <div class="icon iconthree">
+                                        <a></a>
                                     </div>
-                                    <div class="btns" style="display:none;">
+                                    <div class="btns btnthree" style="display:none;">
                                         <i></i>
                                         <ul>
                                             <li>
@@ -304,11 +304,49 @@
         });
 
         // 显示隐藏
-        $(".icon").hover(function(){
-            $(".btns").show();
-        }, function(){
-            $(".btns").hide();
+//        $(".iconone").hover(function(){
+//            $(".btnone").show();
+//        }, function(){
+//            $(".btnone").hide();
+//        });
+//        $(".icontwo").hover(function(){
+//            $(".btntwo").show();
+//        }, function(){
+//            $(".btntwo").hide();
+//        });
+//        $(".iconthree").hover(function(){
+//            $(".btnthree").show();
+//        }, function(){
+//            $(".btnthree").hide();
+//        });
+
+        $(function () {
+            $(".iconone").click(function () {
+                if($('.btnone').is(":hidden")){
+                    $('.btnone').show();
+                }else{
+                    $('.btnone').hide();
+                }
+            })
         });
+        $(function () {
+            $(".icontwo").click(function () {
+                if($('.btntwo').is(":hidden")){
+                    $('.btntwo').show();
+                }else{
+                    $('.btntwo').hide();
+                }
+            })
+        });
+        $(function () {
+            $(".iconthree").click(function () {
+                if($('.btnthree').is(":hidden")){
+                    $('.btnthree').show();
+                }else{
+                    $('.btnthree').hide();
+                }
+            })
+        })
     </script>
 </body>
 </html>
