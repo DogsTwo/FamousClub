@@ -812,7 +812,6 @@ header .headoper .headsearch{
     color: #666;
     font-size:12px;
 }
-
 /*筛选*/
 .shaixuan{
     background-color: #fff;
@@ -1306,10 +1305,380 @@ header .headoper .headsearch{
 .wenda .list .item .da{
     padding: 15px 0;
 }
+.wenda .head .num36{
+    height: 36px;
+    line-height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    color: #999999;
+}
+.wenda .list .item .da .cent{
+    min-height: 36px;
+    margin-top: 15px;
+    position: relative;
+}
+.wenda .list .item .da .cent .listen{
+    height: 36px;
+    position: relative;
+    margin-right: 60px;
+}
+.wenda .list .item .da .cent .listen a{
+    display: block;
+    height: 36px;
+    border-radius: 20px;
+    position: relative;
+    padding: 0 10px;
+    background: linear-gradient(to right, #44ca77, #2ab45e);
+}
+.wenda .list .item .da .cent .listen a span{
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+}
+.wenda .list .item .da .cent .listen a span.state{
+    float: left;
+    background: url(../images/music.png) no-repeat;
+    background-position: left center;
+    background-size: 12px 12px;
+    padding-left: 15px;
+}
+.wenda .list .item .da .cent .listen a span.time{
+    float: right;
+}
+
+/*bbstopic*/
+.tab13{
+    background: #fff;
+    margin-top: 10px;
+    padding: 15px;
+}
+.tab13 .title{
+    height: 30px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.tab13 .title .note{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    margin-left:10px;
+}
+.tab13 .main .textarea{
+    position: relative;
+}
+.tab13 .main .textarea textarea{
+    width: 100%;
+    height: 150px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #666;
+    padding: 10px;
+}
+.tab13 .main .textarea .of{
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 12px;
+    color: #999;
+}
+.tab13 .main .jia{
+    padding-top: 15px;
+}
+.tab13 .main .jia a{
+    display: block;
+    width: 56px;
+    height: 56px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: url(../images/icon-add.png) no-repeat center #fff;
+    background-size: 22px 22px;
+}
+.tab13 .main .niming{
+    padding-top: 10px;
+    overflow: hidden;
+}
+.tab13 .main .niming label{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    font-size: 12px;
+    color: #999;
+}
+.tab13 .main .niming label input{
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    float: left;
+    margin: 5px 5px 0 0;
+    background: #fff;
+}
+.tab13 .main .btn{
+    padding-top: 10px;
+    margin-bottom:10px;
+}
+.tab13 .main .btn input{
+    display: block;
+    width: 150px;
+    height: 44px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.tab14{
+    background: #fff;
+    margin-top: 10px;
+    padding: 15px;
+}
+.tab14 .top{
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+    padding-bottom: 15px;
+}
+.tab14 .top .head{
+    height: 36px;
+    position: relative;
+}
+.tab14 .top .head .user{
+    height: 36px;
+    position: relative;
+    padding-left: 46px;
+}
+.tab14 .top .head .user .tou{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tab14 .top .head .user .tou a{
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+.tab14 .top .head .user .tou a img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.tab14 .top .head .user .name{
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #333;
+}
+.tab14 .top .head .user .yuan{
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #999;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.tab14 .top .text{
+    padding-top: 10px;
+    font-size: 12px;
+    color: #999999;
+}
+.tab14 .top .note{
+    padding-top: 5px;
+    font-size: 12px;
+    color: #db7679;
+}
+.tab14 .bot{
+    padding: 25px 0;
+}
+.tab14 .bot .icon{
+    width: 50px;
+    height: 50px;
+    font-size: 0;
+    margin: 0 auto;
+}
+.tab14 .bot .icon img{
+    width: 50px;
+    height: 50px;
+}
+.tab14 .bot .text{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #fa655b;
+    font-weight: bold;
+}
+.tab14 .bot .back{
+    padding-top: 20px;
+}
+.tab14 .bot .back a{
+    display: block;
+    width: 150px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+
+/*bbsreply*/
+.tab14 .inpt{
+    padding-top: 10px;
+}
+.tab14 .inpt .inp{
+    position: relative;
+}
+.tab14 .inpt .inp input{
+    display: block;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    padding: 13px 54px 13px 10px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #333;
+}
+.tab14 .inpt .inp a{
+    display: block;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(../images/icon-voice.png) no-repeat center;
+    background-size: 16px 16px;
+    z-index: 2;
+}
+.tab14 .inpt .btn{
+    padding: 30px 0;
+}
+.tab14 .inpt .btn input{
+    display: block;
+    width: 150px;
+    height: 44px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.tab15 .mui-scroll-wrapper .mui-scroll .act{
+    background: #eeeeee;
+    color: #333;
+}
+.tab15 .mui-scroll-wrapper .mui-scroll .mui-control-item{
+    width:20.6%;
+    color: #333;
+}
+.yaoqing img{
+    width:100%;
+}
 
 
-
-
+/*bind*/
+.login .login_tit{
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    padding: 15px 0;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.login .from{
+    padding:13px 60px;
+}
+.login .from ul li{
+    padding:7px 0;
+}
+.login .from ul li .tit{
+    font-size: 13px;
+    color: #666666;
+}
+.login .from ul li .inpbox{
+    position: relative;
+    margin-top: 5px;
+}
+.login .from ul li .inpbox input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+    background: #fff;
+}
+.login .from ul li .inpbox .obtain{
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0 5px 5px 0;
+    z-index: 99;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.login .from ul li .inpbox .yzm{
+    display: block;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+    border-radius: 0 5px 5px 0;
+    z-index: 99;
+}
+.login .from ul li .inpbox .yzm img{
+    width: 100px;
+    height: 30px;
+}
+.login .from ul li .inpbox .inp3{
+    padding-right: 110px;
+}
+.login .from ul li .btnbox input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    border:0;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
 
 
 

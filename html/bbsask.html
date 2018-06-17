@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>bbslisten</title>
+    <title>bbsask</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <link href="../css/mui.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/common.css">
@@ -20,7 +20,6 @@
             <div class="mui-scroll">
                 <a class="mui-control-item mui-active">
                     <i></i>
-                    <b></b>
                     学堂教员
                 </a>
                 <a class="mui-control-item">
@@ -36,12 +35,16 @@
                     时尚造型
                 </a>
                 <a class="mui-control-item">
+                    <i></i>
                     情感大师
                 </a>
                 <a class="mui-control-item">
+                    <i></i>
                     星座运势
                 </a>
                 <a class="mui-control-item">
+                    <i></i>
+                    <b></b>
                     留言板
                 </a>
             </div>
@@ -91,44 +94,31 @@
         <div class="jbjs">基本介绍：剑风倚荡激千尺,白云日上影中仙。便是这，白衣段云！便是这，白衣段云！“草民段云，不日定去府上做客</div>
     </div>
 
-    <!--问答-->
-    <div class="wenda">
-        <div class="list">
-            <div class="item" style="margin-bottom:0;">
-                <div class="wen">
-                    <div class="head">
-                        <div class="user">
-                            <div class="tou">
-                                <a href="">
-                                    <img src="../images/bbslist-portrait3.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="name">赵四的提问</div>
-                        </div>
-                    </div>
-                    <div class="text">社交就该做社交的事，钱包就该做钱包的事！支付宝能不能简化成只有支付功能？</div>
-                </div>
-                <div class="da">
-                    <div class="head">
-                        <div class="user">
-                            <div class="tou">
-                                <a href="">
-                                    <img src="../images/bbslist-portrait1.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="name">陈茂源的回答</div>
-                        </div>
-                        <div class="num36">看过36</div>
-                    </div>
-                    <div class="cent">
-                        <div class="listen">
-                            <a href="" class="opmusic" style="width:80%;">
-                                <span class="state">点击播放</span>
-                                <span class="time">22s</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+    <!--公开提问-->
+    <div class="tab13">
+        <div class="title">
+            <!-- 简洁模式开关打开状态 -->
+            <div class="mui-switch mui-switch-mini mui-active">
+                <div class="mui-switch-handle"></div>
+            </div>
+            <span class="note">公开提问（推荐）</span>
+        </div>
+        <div class="main">
+            <!--提问框-->
+            <div class="textarea">
+                <textarea placeholder="输入你的提问" cols="30" rows="10"></textarea>
+                <span class="of">0/150</span>
+            </div>
+            <div class="jia">
+                <a href=""></a>
+            </div>
+            <div class="niming">
+                <label>
+                    <input type="checkbox">匿名提问
+                </label>
+            </div>
+            <div class="btn">
+                <input type="button" value="支付39元提问" onclick="location.href='bbsaskok.html'">
             </div>
         </div>
     </div>
@@ -169,23 +159,19 @@
         </ul>
     </div>
 
-</div>
+    <script src="../js/com.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
 
-<script src="../js/com.js"></script>
-<script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <script type="text/javascript">
+        //			头部横向滚动
+        mui.init();
 
-<script src="../js/mui.min.js"></script>
-<script type="text/javascript">
-    //			头部横向滚动
-    mui.init();
-
-    //			横向滚动
-    var gallery = mui('.mui-slider');
-    gallery.slider({
-        interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
-    });
-
-
-</script>
+        //			横向滚动
+        var gallery = mui('.mui-slider');
+        gallery.slider({
+            interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
+        });
+    </script>
 </body>
 </html>

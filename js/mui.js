@@ -1545,7 +1545,7 @@ Function.prototype.bind = Function.prototype.bind || function(to) {
 	}())
 	window.addEventListener($.EVENT_START, handleTouchEvent);
 	window.addEventListener($.EVENT_MOVE, handleTouchEvent, supportsPassive ? {
-		passive: false,
+		passive: true,
 		capture: false
 	} : false);
 	window.addEventListener($.EVENT_END, handleTouchEvent);

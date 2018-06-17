@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>bbscon</title>
+    <title>bbs_mes</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <link rel="stylesheet" href="../css/mui.min.css">
+    <link href="../css/mui.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/swiper.min.css">
     <link rel="stylesheet" href="../css/com.css">
 </head>
 <body>
-    <div class="wrap">
 
+    <div class="wrap">
         <!--头部-->
         <header>
             <!--nav导航-->
@@ -36,12 +36,15 @@
                         时尚造型
                     </a>
                     <a class="mui-control-item">
+                        <i></i>
                         情感大师
                     </a>
                     <a class="mui-control-item">
+                        <i></i>
                         星座运势
                     </a>
-                    <a href="bbs_mes.html" class="mui-control-item">
+                    <a class="mui-control-item">
+                        <i></i>
                         <b></b>
                         留言板
                     </a>
@@ -72,24 +75,7 @@
             </div>
         </div>
 
-        <!--陈茂源-->
         <div class="tab10">
-            <div class="user">
-                <div class="touxiang">
-                    <a href="">
-                        <span></span>
-                        <img src="../images/bbslist-portrait1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="jieshao">
-                    <div class="name">
-                        <a href="">陈茂源</a>
-                    </div>
-                    <div class="txt">红人学堂认证教员</div>
-                </div>
-                <div class="note">已回答20个问题</div>
-            </div>
-            <div class="jbjs">基本介绍：剑风倚荡激千尺,白云日上影中仙。便是这，白衣段云！便是这，白衣段云！“草民段云，不日定去府上做客</div>
             <div class="btn">
                 <a href="">发起话题</a>
             </div>
@@ -98,16 +84,18 @@
         <!--主内容-->
         <div class="tab11">
             <!--tab选项-->
-            <div class="title">
+            <div class="tab2">
                 <ul>
                     <li>
-                        <a href="" class="on">最热问题</a>
+                        <a href="" class="on">最新答主</a>
                     </li>
                     <li>
-                        <a href="">最新问题</a>
+                        <a href="">最热答主</a>
                     </li>
                     <li>
-                        <a href="">向TA提问</a>
+                        <a href="shaixuan.html" class="opfilter">
+                            <span class="icon-filter">筛选</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -151,7 +139,7 @@
                         </div>
                         <div class="text">Google play审核能过不?</div>
                         <div class="note">
-                            <a href="">回复</a>
+                            <a href="bbsreply.html">回复</a>
                         </div>
                     </div>
                     <div class="da">
@@ -214,28 +202,27 @@
                         </div>
                         <div class="text">社交就该做社交的事，钱包就该做钱包的事！支付宝能不能简化成只有支付功能？</div>
                         <div class="note">
-                            <a href="">回复</a>
+                            <a href="bbsreply.html">回复</a>
                         </div>
                     </div>
-                    <div class="da">
-                        <div class="head">
-                            <div class="user">
-                                <div class="tou">
-                                    <a href="">
-                                        <img src="../images/bbslist-portrait1.jpg" alt="">
-                                    </a>
+                    <!--问答-->
+                    <div class="wenda">
+                        <div class="list">
+                            <div class="item" style="margin-bottom:0;">
+                                <div class="da">
+                                    <div class="head">
+                                        <div class="user">
+                                            <div class="tou">
+                                                <a href="">
+                                                    <img src="../images/bbslist-portrait1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="name">陈茂源的回答</div>
+                                        </div>
+                                    </div>
+                                    <div class="text">大数据（Big Data）爆炸成长成为机器学习的养分。机器学习能获得充分的训练数据（training data） 与计算效能。人工智能产业（Artificial Intelligence，AI）经过一甲子的起落，终于因技术条件到位，开始突飞猛进。但是，单纯掌握某种数据，不能实现功能上的联动和数据共享，这种信息孤岛现象会成为人工智能发挥的最大阻碍。</div>
                                 </div>
-                                <div class="name">陈茂源的回答</div>
                             </div>
-                        </div>
-                        <div class="hua">
-                            <div class="listen">
-                                <a href="bbslook.html" style="width:50%;">
-                                    <span class="yuan">3元偷看文字答案</span>
-                                    <span class="time">22s</span>
-                                </a>
-                            </div>
-                            <div class="num">听过36</div>
                         </div>
                     </div>
                 </div>
@@ -294,7 +281,7 @@
                         <div class="hua">
                             <div class="listen">
                                 <a href="" style="width:80%;">
-                                    <span class="yuan">3元偷看文字答案</span>
+                                    <span class="yuan">点击播放</span>
                                     <span class="time">22s</span>
                                 </a>
                             </div>
@@ -340,51 +327,21 @@
                 </li>
             </ul>
         </div>
-
-
     </div>
+
     <script src="../js/com.js"></script>
     <script src="../js/jquery-3.2.1.min.js"></script>
 
     <script src="../js/mui.min.js"></script>
     <script type="text/javascript">
-        //	头部横向滚动
+        //			头部横向滚动
         mui.init();
 
-        //	横向滚动
+        //			横向滚动
         var gallery = mui('.mui-slider');
         gallery.slider({
             interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
         });
-
-        // 显示隐藏
-        $(function () {
-            $(".iconone").click(function () {
-                if($('.btnone').is(":hidden")){
-                    $('.btnone').show();
-                }else{
-                    $('.btnone').hide();
-                }
-            })
-        });
-        $(function () {
-            $(".icontwo").click(function () {
-                if($('.btntwo').is(":hidden")){
-                    $('.btntwo').show();
-                }else{
-                    $('.btntwo').hide();
-                }
-            })
-        });
-        $(function () {
-            $(".iconthree").click(function () {
-                if($('.btnthree').is(":hidden")){
-                    $('.btnthree').show();
-                }else{
-                    $('.btnthree').hide();
-                }
-            })
-        })
     </script>
 </body>
 </html>

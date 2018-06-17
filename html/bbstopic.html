@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bbstopic</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/com.css">
+</head>
+<body>
+    <div class="wrap">
+        <!--头部-->
+        <header>
+            <!--nav导航-->
+            <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+                <!--左边-->
+                <div class="mui-scroll">
+                    <a class="mui-control-item mui-active">
+                        <i></i>
+                        学堂教员
+                    </a>
+                    <a class="mui-control-item">
+                        <i></i>
+                        网络红人
+                    </a>
+                    <a class="mui-control-item">
+                        <i></i>
+                        网络商业
+                    </a>
+                    <a class="mui-control-item">
+                        <i></i>
+                        时尚造型
+                    </a>
+                    <a class="mui-control-item">
+                        <i></i>
+                        情感大师
+                    </a>
+                    <a class="mui-control-item">
+                        <i></i>
+                        星座运势
+                    </a>
+                    <a class="mui-control-item">
+                        <i></i>
+                        <b></b>
+                        留言板
+                    </a>
+                </div>
+            </div>
+            <!--右边-->
+            <div class="headoper">
+                <div class="headsearch">
+                    <div class="mui-icon mui-icon-search pl"></div>
+                    <div class="mui-icon mui-icon-bars pl"></div>
+                </div>
+            </div>
+        </header>
+
+        <!--轮播图-->
+        <div class="tab1">
+            <div class="mui-slider">
+                <div class="mui-slider-group mui-slider-loop">
+                    <!--支持循环，需要重复图片节点-->
+                    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="../images/banner.jpg" /></a></div>
+                    <div class="mui-slider-item"><a href="#"><img src="../images/banner.jpg" /></a></div>
+                    <div class="mui-slider-item"><a href="#"><img src="../images/banner.jpg" /></a></div>
+                    <div class="mui-slider-item"><a href="#"><img src="../images/banner.jpg" /></a></div>
+                    <div class="mui-slider-item"><a href="#"><img src="../images/banner.jpg" /></a></div>
+                    <!--支持循环，需要重复图片节点-->
+                    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="../images/banner.jpg" /></a></div>
+                </div>
+            </div>
+        </div>
+
+        <!--陈茂源-->
+        <div class="tab10">
+            <div class="user">
+                <div class="touxiang">
+                    <a href="">
+                        <span></span>
+                        <img src="../images/bbslist-portrait1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="jieshao">
+                    <div class="name">
+                        <a href="">陈茂源</a>
+                    </div>
+                    <div class="txt">红人学堂认证教员</div>
+                </div>
+                <div class="note">已回答20个问题</div>
+            </div>
+            <div class="jbjs">基本介绍：剑风倚荡激千尺,白云日上影中仙。便是这，白衣段云！便是这，白衣段云！“草民段云，不日定去府上做客</div>
+        </div>
+
+        <!--公开提问-->
+        <div class="tab13">
+            <div class="title">
+                <!-- 简洁模式开关打开状态 -->
+                <div class="mui-switch mui-switch-mini mui-active">
+                    <div class="mui-switch-handle"></div>
+                </div>
+                <span class="note">公开提问（推荐）</span>
+            </div>
+            <div class="main">
+                <!--提问框-->
+                <div class="textarea">
+                    <textarea placeholder="输入你的提问" cols="30" rows="10"></textarea>
+                    <span class="of">0/150</span>
+                </div>
+                <div class="jia">
+                    <a href=""></a>
+                </div>
+                <div class="niming">
+                    <label>
+                        <input type="checkbox">匿名提问
+                    </label>
+                </div>
+                <div class="btn">
+                    <input type="button" value="提交" onclick="location.href='bbsaskok.html'">
+                </div>
+            </div>
+        </div>
+
+        <!--脚部-->
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon ico1"></span>
+                        <span class="text">首页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon ico2"></span>
+                        <span class="text">学堂</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon ico3"></span>
+                        <span class="text">注册</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon ico4 icon_2"></span>
+                        <span class="text">问答</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon ico5"></span>
+                        <span class="text">我的</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    <script src="../js/com.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+
+    <script src="../js/mui.min.js"></script>
+    <script type="text/javascript">
+        //			头部横向滚动
+        mui.init();
+
+        //			横向滚动
+        var gallery = mui('.mui-slider');
+        gallery.slider({
+            interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
+        });
+    </script>
+</body>
+</html>
