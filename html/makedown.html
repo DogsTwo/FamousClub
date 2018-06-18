@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/makedown.css" />
+		<link rel="stylesheet" href="../css/header.css" />
+		<link rel="stylesheet" href="../css/demo.css" />
+	</head>
+	<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<script>
+			(function(win) {
+    var docEl = win.document.documentElement;
+    var time=null;
+    function refreshRem() {
+        var width = docEl.getBoundingClientRect().width;
+        if (width > 414) { // 鏈�澶у搴�
+            width = 414;
+        }
+        // 灏嗗睆骞曞搴﹀垎鎴�7.5浠斤紝 1浠戒负1rem,1rem=100px
+        var rem =width/7.5;
+        if (rem > 100) {
+            rem = 100;
+        }
+        docEl.style.fontSize = rem + 'px';
+    }
+    win.addEventListener('resize', function() {
+        clearTimeout(time);
+        time = setTimeout(refreshRem, 1);
+    }, false);
+    win.addEventListener('pageshow', function(e) {
+        if (e.persisted) {
+            clearTimeout(time);
+            time = setTimeout(refreshRem, 1);
+        }
+    }, false);
+    refreshRem();
+
+})(window);
+		</script>
+	<body>
+		<header class="mui-bar mui-bar-nav" id="header"></header>
+		<div class="wrapper">
+			<div class="nban">
+				<img src="../images/nban-makedown.jpg" alt="" />
+			</div>
+			<div class="tab">
+				<ul>
+					<li>
+						<a href="#" class='on'>最新课程</a>
+					</li>
+					<li>
+						<a href="#">最热课程</a>
+					</li>
+					<li>
+						<a href="#"><span class='icon'>筛选</span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="makedown">
+				<ul>
+					<li>
+						<div class="box">
+							<div class="img">
+								<a href="#">
+									<img src="../images/makedown1.jpg" alt="" />
+								</a>
+							</div>
+							<div class="icon">
+								<div class="tit">
+									<a href="#">九局讲直播，快来参加</a>
+								</div>
+								<div class="txt"><span>开课时间</span>9月22日 晚上9点<br><span>课程价格</span>500元/3天</div>
+								<div class="note">
+									<div class="num">已报名<span>120人</span></div>
+									<div class="btn"><a href="javascript:void(0)" class="opmakedown">一键预约</a></div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="box">
+							<div class="img">
+								<a href="#">
+									<img src="../images/makedown2.jpg" alt="" />
+								</a>
+							</div>
+							<div class="icon">
+								<div class="tit">
+									<a href="#">九局讲直播，快来参加</a>
+								</div>
+								<div class="txt"><span>开课时间</span>9月22日 晚上9点<br><span>课程价格</span>500元/3天</div>
+								<div class="note">
+									<div class="num">已报名<span>120人</span></div>
+									<div class="btn"><a href="javascript:void(0)" class="opmakedown2">一键预约</a></div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="box">
+							<div class="img">
+								<a href="#">
+									<img src="../images/makedown3.jpg" alt="" />
+								</a>
+							</div>
+							<div class="icon">
+								<div class="tit">
+									<a href="#">九局讲直播，快来参加</a>
+								</div>
+								<div class="txt"><span>开课时间</span>9月22日 晚上9点<br><span>课程价格</span>500元/3天</div>
+								<div class="note">
+									<div class="num"><span>报名已满</span></div>
+									<div class="btn"><a href="javascript:void(0)" class="opmakedown">一键预约</a></div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer" id='footer'></div>
+	</body>
+		<script src="../js/common.js"></script>
+		<script src='../js/jquery-3.2.1.min.js'></script>
+		<script>
+			 var f=new Footer({
+	       		box:$('#footer'),
+	       		cur:2
+	   		})
+			  var w=new Header({
+       		  box:"#header",
+            	  nav:{
+                "咨询":'news.html',
+                "学堂出品":'produced.html',
+                "红人黄页":'yellow.html',
+                '案例分析':'vipcourse.tml',
+                '红人直通车':'throughtrain.html',
+                '红人通告':'rednotice.html',
+                '书籍推荐':'#',
+                '学堂成果':'#',
+                '众筹':'#',
+                '人气榜':'#'
+            },
+            cur:1
+   	})
+		</script>
+</html>
