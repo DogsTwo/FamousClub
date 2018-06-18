@@ -1680,6 +1680,20 @@ header .headoper .headsearch{
     box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
 }
 
+/*card*/
+.tab16{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #353535;
+}
+.tab16 .img1{
+    border-radius:20px;
+    padding:20px;
+}
+
 
 
 

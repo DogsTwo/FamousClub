@@ -1,64 +1,570 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!doctype html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>buchong1</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <link href="../css/mui.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/swiper.min.css">
-    <link rel="stylesheet" href="../css/com.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" type="text/css" href="../css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
 </head>
-<body>
-    <div class="wrap">
-        <!--头部-->
-        <div class="tab17">
-            <!--nav导航-->
-            <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
-                <!--左边-->
-                <div class="mui-scroll">
-                    <a class="mui-control-item mui-active">
-                        <i></i>
-                        <b></b>
-                        一组
-                    </a>
-                    <a class="mui-control-item">
-                        <i></i>
-                        二组
-                    </a>
-                    <a class="mui-control-item">
-                        <i></i>
-                        三组
-                    </a>
-                    <a class="mui-control-item">
-                        <i></i>
-                        四组
-                    </a>
-                    <a class="mui-control-item">
-                        <i></i>
-                        五组
-                    </a>
-                    <a class="mui-control-item">
-                        六组
-                    </a>
-                </div>
+<body style="background: #fff;">
+<div class="header">
+    <div class="supnav">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#" class="on"><i></i><span><b></b>一组</span></a></div>
+                <div class="swiper-slide"><a href="#"><i></i><span><b></b>二组</span></a></div>
+                <div class="swiper-slide"><a href="#" class="no"><i></i><span><b></b>三组</span></a></div>
+                <div class="swiper-slide"><a href="#" class="no"><i></i><span><b></b>四组</span></a></div>
+                <div class="swiper-slide"><a href="#" class="no"><i></i><span><b></b>五组</span></a></div>
+                <div class="swiper-slide"><a href="#" class="no"><i></i><span><b></b>六组</span></a></div>
             </div>
         </div>
     </div>
-    <script src="../js/com.js"></script>
-    <script src="../js/jquery-3.2.1.min.js"></script>
+</div>
 
-    <script src="../js/mui.min.js"></script>
-    <script type="text/javascript">
-        //			头部横向滚动
-        mui.init();
+<div class="wrapper nopadbot">
+    <div class="supyears">
+        <a href="javascript:void(0)" class="prev"><span></span></a>
+        <div class="note">2017年12月</div>
+        <a href="javascript:void(0)" class="next"><span></span></a>
+    </div>
 
-        //			横向滚动
-        var gallery = mui('.mui-slider');
-        gallery.slider({
-            interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
-        });
-    </script>
+    <div class="suplist">
+
+        <div class="item">
+            <div class="head">
+                <div class="user">
+                    <div class="portrait"><span><img src="../images/suplevel8.png"></span><img src="../images/bbslist-portrait1.jpg"></div>
+                    <div class="name">小明</div>
+                    <div class="note">未完成2日</div>
+                </div>
+                <div class="other">
+                    <div class="state"><span class="no"></span></div>
+                    <div class="btn"><a href="javascript:void(0)">取消</a></div>
+                    <div class="arr"><a href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="on">1</span></li>
+                    <li><span class="on">2</span></li>
+                    <li><span class="on">3</span></li>
+                    <li><span class="on">4</span></li>
+                    <li><span class="on">5</span></li>
+                    <li><span class="on">6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="head">
+                <div class="user">
+                    <div class="portrait"><span><img src="../images/suplevel8.png"></span><img src="../images/bbslist-portrait2.jpg"></div>
+                    <div class="name">小明</div>
+                    <div class="note">未完成0日</div>
+                </div>
+                <div class="other">
+                    <div class="state"><span class="yes"></span></div>
+                    <div class="btn"><a href="javascript:void(0)">取消</a></div>
+                    <div class="arr"><a href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="on">1</span></li>
+                    <li><span class="on">2</span></li>
+                    <li><span class="on">3</span></li>
+                    <li><span class="on">4</span></li>
+                    <li><span class="on">5</span></li>
+                    <li><span class="on">6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="head">
+                <div class="user">
+                    <div class="portrait"><span><img src="../images/suplevel8.png"></span><img src="../images/bbslist-portrait3.jpg"></div>
+                    <div class="name">小明</div>
+                    <div class="note">未完成2日</div>
+                </div>
+                <div class="other">
+                    <div class="state"><span class="no"></span></div>
+                    <div class="btn"><a href="javascript:void(0)">取消</a></div>
+                    <div class="arr"><a href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="on">1</span></li>
+                    <li><span class="on">2</span></li>
+                    <li><span class="on">3</span></li>
+                    <li><span class="on">4</span></li>
+                    <li><span class="on">5</span></li>
+                    <li><span class="on">6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="head">
+                <div class="user">
+                    <div class="portrait"><span><img src="../images/suplevel8.png"></span><img src="../images/bbslist-portrait4.jpg"></div>
+                    <div class="name">小明</div>
+                    <div class="note">未完成0日</div>
+                </div>
+                <div class="other">
+                    <div class="state"><span class="yes"></span></div>
+                    <div class="btn"><a href="javascript:void(0)">取消</a></div>
+                    <div class="arr"><a href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="on">1</span></li>
+                    <li><span class="on">2</span></li>
+                    <li><span class="on">3</span></li>
+                    <li><span class="on">4</span></li>
+                    <li><span class="on">5</span></li>
+                    <li><span class="on">6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="head">
+                <div class="user">
+                    <div class="portrait"><span><img src="../images/suplevel8.png"></span><img src="../images/bbslist-portrait5.jpg"></div>
+                    <div class="name">小明</div>
+                    <div class="note">未完成0日</div>
+                </div>
+                <div class="other">
+                    <div class="state"><span class="yes"></span></div>
+                    <div class="btn"><a href="javascript:void(0)">取消</a></div>
+                    <div class="arr"><a href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="on">1</span></li>
+                    <li><span class="on">2</span></li>
+                    <li><span class="on">3</span></li>
+                    <li><span class="on">4</span></li>
+                    <li><span class="on">5</span></li>
+                    <li><span class="on">6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="head">
+                <div class="user">
+                    <div class="portrait"><span><img src="../images/suplevel8.png"></span><img src="../images/bbslist-portrait1.jpg"></div>
+                    <div class="name">小明</div>
+                    <div class="note">未完成0日</div>
+                </div>
+                <div class="other">
+                    <div class="state"><span class="yes"></span></div>
+                    <div class="btn"><a href="javascript:void(0)">取消</a></div>
+                    <div class="arr"><a href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="on">1</span></li>
+                    <li><span class="on">2</span></li>
+                    <li><span class="on">3</span></li>
+                    <li><span class="on">4</span></li>
+                    <li><span class="on">5</span></li>
+                    <li><span class="on">6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="head">
+                <div class="user">
+                    <div class="portrait"><span><img src="../images/suplevel8.png"></span><img src="../images/bbslist-portrait2.jpg"></div>
+                    <div class="name">小明</div>
+                    <div class="note">未完成2日</div>
+                </div>
+                <div class="other">
+                    <div class="state"><span class="no"></span></div>
+                    <div class="btn"><a href="javascript:void(0)">取消</a></div>
+                    <div class="arr"><a href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="on">1</span></li>
+                    <li><span class="on">2</span></li>
+                    <li><span class="on">3</span></li>
+                    <li><span class="on">4</span></li>
+                    <li><span class="on">5</span></li>
+                    <li><span class="on">6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="head">
+                <div class="user">
+                    <div class="portrait"><span><img src="../images/suplevel8.png"></span><img src="../images/bbslist-portrait3.jpg"></div>
+                    <div class="name">小明</div>
+                    <div class="note">未完成0日</div>
+                </div>
+                <div class="other">
+                    <div class="state"><span class="yes"></span></div>
+                    <div class="btn"><a href="javascript:void(0)">取消</a></div>
+                    <div class="arr"><a href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="on">1</span></li>
+                    <li><span class="on">2</span></li>
+                    <li><span class="on">3</span></li>
+                    <li><span class="on">4</span></li>
+                    <li><span class="on">5</span></li>
+                    <li><span class="on">6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="head">
+                <div class="user">
+                    <div class="portrait"><span><img src="../images/suplevel8.png"></span><img src="../images/bbslist-portrait4.jpg"></div>
+                    <div class="name">小明</div>
+                    <div class="note">未完成0日</div>
+                </div>
+                <div class="other">
+                    <div class="state"><span class="yes"></span></div>
+                    <div class="btn"><a href="javascript:void(0)">取消</a></div>
+                    <div class="arr"><a href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="on">1</span></li>
+                    <li><span class="on">2</span></li>
+                    <li><span class="on">3</span></li>
+                    <li><span class="on">4</span></li>
+                    <li><span class="on">5</span></li>
+                    <li><span class="on">6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="head">
+                <div class="user">
+                    <div class="portrait"><span><img src="../images/suplevel8.png"></span><img src="../images/bbslist-portrait5.jpg"></div>
+                    <div class="name">小明</div>
+                    <div class="note">未完成0日</div>
+                </div>
+                <div class="other">
+                    <div class="state"><span class="yes"></span></div>
+                    <div class="btn"><a href="javascript:void(0)">取消</a></div>
+                    <div class="arr"><a href="javascript:void(0)"></a></div>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="on">1</span></li>
+                    <li><span class="on">2</span></li>
+                    <li><span class="on">3</span></li>
+                    <li><span class="on">4</span></li>
+                    <li><span class="on">5</span></li>
+                    <li><span class="on">6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="suppages">
+        <a href="javascript:void(0)" class="prev">上一页</a>
+        <span class="num">3/50</span>
+        <a href="javascript:void(0)" class="next">下一页</a>
+        <input type="text" class="inp">
+        <a href="javascript:void(0)" class="btn">跳转</a>
+    </div>
+    <div class="supfoot">
+        <ul>
+            <li><a href="buchong2.html">今日未完成：300人　点击查看</a></li>
+            <li><span>今日已完成：200人</span></li>
+        </ul>
+    </div>
+</div>
+<script>
+    //顶部滑动菜单
+    var swiper = new Swiper('.supnav .swiper-container', {
+        slidesPerView: 5,
+        initialSlide : 0
+    });
+</script>
+<script src="../js/swiper.int.js"></script>
+<script src="../js/sino.js"></script>
 </body>
 </html>
