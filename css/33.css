@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #efeff4;
+}
+.box{
+    padding: 25px 15px;
+}
+.top{
+    background: #fbf8f8;
+    overflow: hidden;
+    padding: 12px 0;
+}
+.left{
+    width: 50%;
+    height: auto;
+    float: left;
+    border-right: 1px solid #ddd;
+    padding: 15px 0;
+}
+.right{
+    width: 49%;
+    height: auto;
+    float: left;
+    padding: 15px 0;
+}
+.list{
+    display: block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+}
+.num{
+    margin-top: 13px;
+    display: block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+}
+.text{
+    background: #fff;
+    padding: 0 25px 25px 25px;
+}
+.text .zt{
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.bk{
+    display: block;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    margin-top: 5px;
+}
+.bk span{
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+    color: #000;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.bk input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 26px;
+    padding: 30px;
+    border: 0 none;
+    background: none;
+    font-size: 26px;
+    box-sizing: border-box;
+}
+.gz{
+     padding: 15px 0;
+     font-size: 13px;
+     color: #000;
+     font-weight: bold;
+ }
+.gz span{
+    color: #fc6857;
+}
+.button input{
+    display: block;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #f7875d , #ff4f90);
+}
