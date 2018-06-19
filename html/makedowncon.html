@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/makedowncon.css" />
+		<link rel="stylesheet" href="../css/header.css" />
+		<link rel="stylesheet" href="../css/demo.css" />
+	</head>
+	<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<script>
+			(function(win) {
+    var docEl = win.document.documentElement;
+    var time=null;
+    function refreshRem() {
+        var width = docEl.getBoundingClientRect().width;
+        if (width > 414) { // 鏈�澶у搴�
+            width = 414;
+        }
+        // 灏嗗睆骞曞搴﹀垎鎴�7.5浠斤紝 1浠戒负1rem,1rem=100px
+        var rem =width/7.5;
+        if (rem > 100) {
+            rem = 100;
+        }
+        docEl.style.fontSize = rem + 'px';
+    }
+    win.addEventListener('resize', function() {
+        clearTimeout(time);
+        time = setTimeout(refreshRem, 1);
+    }, false);
+    win.addEventListener('pageshow', function(e) {
+        if (e.persisted) {
+            clearTimeout(time);
+            time = setTimeout(refreshRem, 1);
+        }
+    }, false);
+    refreshRem();
+
+})(window);
+		</script>
+	<body>
+		<header class="mui-bar mui-bar-nav" id="header"></header>
+		<div class="wrapper">
+			<div class="nban">
+				<img src="../images/nban-makedown.jpg" alt="" />
+			</div>
+			<div class="makedowncon">
+				<div class="makedowncon-tit">Hamilton Evans New Rules</div>
+				<div class="makedowncon-txt">
+					<div class="video">
+						<a href="#">
+							<span class="play"></span>
+							<img src="../images/finewcon-main1.jpg">
+						</a>
+					</div>
+					<div class="txt">舞是起源于美国，基于不同的街头文化或音乐风格而产生的多个不同种类的舞蹈的统称，最早的街舞舞种为Locking，起源于20世纪六十年代最早的街舞舞种为Locking，起源于20世纪六十年代。</div>
+					<div class="img"><img src="../images/finewcon-main2.jpg"></div>
+				</div>
+				<div class="makedowncon-more">
+					<div class="makedowncon-more-tit">详细信息</div>
+					<div class="makedowncon-more-txt">
+						<span class="name">上课时间</span>2017年9月22日  下午6点 — 晚上10点<br>
+						<span class="name">上课地点</span>北京通州巢青年社区<br>
+						<span class="name">联系电话</span>18988223366<br>
+						<span class="name">最低开课人数</span>30人<br>
+						<span class="name">课程价格</span>500元/3天<br>
+						<span class="note">注：支付定金100元，如逾期不来上课，定金不予退款！</span>
+				</div>
+				<div class="makedowncon-more-btn"><a href="javascript:void(0)" class="opmakedown">一键预约</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer" id='footer'></div>
+	</body>
+	<script src="../js/common.js"></script>
+		<script src='../js/jquery-3.2.1.min.js'></script>
+		<script>
+			 var f=new Footer({
+	       		box:$('#footer'),
+	       		cur:2
+	   		})
+			  var w=new Header({
+       		  box:"#header",
+            	  nav:{
+                "咨询":'news.html',
+                "学堂出品":'produced.html',
+                "红人黄页":'yellow.html',
+                '案例分析':'vipcourse.tml',
+                '红人直通车':'throughtrain.html',
+                '红人通告':'rednotice.html',
+                '书籍推荐':'#',
+                '学堂成果':'#',
+                '众筹':'#',
+                '人气榜':'#'
+            },
+            cur:1
+   	})
+		</script>
+</html>
