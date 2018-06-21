@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/finecourseconnewcon.css" />
+		<link rel="stylesheet" href="../css/header.css" />
+		<link rel="stylesheet" href="../css/demo.css" />
+	</head>
+	<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<script>
+			(function(win) {
+    var docEl = win.document.documentElement;
+    var time=null;
+    function refreshRem() {
+        var width = docEl.getBoundingClientRect().width;
+        if (width > 414) { // 鏈�澶у搴�
+            width = 414;
+        }
+        // 灏嗗睆骞曞搴﹀垎鎴�7.5浠斤紝 1浠戒负1rem,1rem=100px
+        var rem =width/7.5;
+        if (rem > 100) {
+            rem = 100;
+        }
+        docEl.style.fontSize = rem + 'px';
+    }
+    win.addEventListener('resize', function() {
+        clearTimeout(time);
+        time = setTimeout(refreshRem, 1);
+    }, false);
+    win.addEventListener('pageshow', function(e) {
+        if (e.persisted) {
+            clearTimeout(time);
+            time = setTimeout(refreshRem, 1);
+        }
+    }, false);
+    refreshRem();
+
+})(window);
+		</script>
+	<body>
+		<header class="mui-bar mui-bar-nav" id="header"></header>
+		<div class="wrapper">
+			<div class="finewcon-head"><a href="#"><img src="../images/finewcon-head.jpg"></a></div>
+			<div class="finewcon-user">
+				<div class="img">
+					<a href="#">
+						<img src="../images/finewcon-user.jpg">
+					</a>
+				</div>
+				<div class="box">
+					<div class="con">
+						<div class="name">
+							<a href="#"><span class="vip">小小七</span></a>
+						</div>
+						<div class="fans">粉丝  256</div>
+					</div>
+					<div class="txt">认证资料：认证资料认证资料</div>
+				</div>
+				<div class="gift">
+					<a href="#">
+						<span class="icon"><img src="../images/givegift.png"></span>
+						<span class="text">210糖豆</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer" id='footer'></div>
+	</body>
+	<script src="../js/common.js"></script>
+		<script src='../js/jquery-3.2.1.min.js'></script>
+		<script>
+			 var f=new Footer({
+	       		box:$('#footer'),
+	       		cur:2
+	   		})
+			  var w=new Header({
+       		  box:"#header",
+            	  nav:{
+                "咨询":'news.html',
+                "学堂出品":'produced.html',
+                "红人黄页":'yellow.html',
+                '案例分析':'vipcourse.tml',
+                '红人直通车':'throughtrain.html',
+                '红人通告':'rednotice.html',
+                '书籍推荐':'#',
+                '学堂成果':'#',
+                '众筹':'#',
+                '人气榜':'#'
+            },
+            cur:1
+   	})
+		</script>
+</html>
