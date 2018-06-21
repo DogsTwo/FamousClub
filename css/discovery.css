@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style:none;
+}
+.bigbox{
+    padding: 44px 0 50px 0;
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    font-size: 0px;
+    line-height: 0px;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    color: #000000;
+}
+.dismenu{
+    width: 100%;
+    background: #fff;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.dismenu ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.dismenu ul li {
+    width: 20%;
+    /*height: auto;*/
+    /*float: left;*/
+    padding: 16px 0;
+    display: flex;
+    flex-direction:column;
+}
+.dismenu ul li a{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+.dismenu ul li a span.icon {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.dismenu ul li a span.icon img{
+    width: 30px;
+    height: 30px;
+}
+.dismenu ul li a span.text {
+    font-size: 12px;
+    color: #000000;
+    padding-top: 5px;
+}
+.mui-scroll-wrapper {
+    height: 119px !important;
+}
+.mui-control-item{
+    width: 131.25px !important;
+}
+.mui-scroll {
+    width: auto;
+     height: 119px !important;
+    white-space: nowrap;
+}
+.mui-control-item img{
+    width: 131.25px;
+    height: 84px;
+}
+.dismain .disitem:first-child {
+    margin-top: 0;
+}
+.disitem {
+    width: auto;
+    height: auto;
+    background: #fff;
+    margin-top: 10px;
+}
+.distitle {
+    width: auto;
+    height: 44px;
+    padding: 0 15px;
+    position: relative;
+}
+.name {
+    width: auto;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    color: #313539;
+    font-weight: bold;
+}
+.disrecommend {
+    width: auto;
+    height: auto;
+    padding-bottom: 15px;
+}
+.img {
+    width: auto;
+    height: auto;
+    font-size: 0;
+}
+.img img {
+    width: 100%;
+    border-radius: 5px;
+}
+.mui-control-item p {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #333333;
+    /*line-height: 15px;*/
+    /*padding-top: 5px;*/
+}
+.more {
+    width: auto;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+.more a {
+    font-size: 12px;
+    color: #999999;
+}
+.disnews {
+     width: auto;
+     height: auto;
+     padding: 0 15px;
+ }
+.disnews ul li {
+    width: auto;
+    height: auto;
+    padding-bottom: 15px;
+}
+.disnews ul li a {
+    display: block;
+    width: auto;
+    height: 66px;
+    position: relative;
+    padding-left: 80px;
+}
+.img {
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tit {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #000;
+    line-height: 18px;
+}
+.txt {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+    padding-top: 5px;
+}
+.disnext {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px 0 15px 0;
+}
+.disnext a {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999999;
+    background: url(../images/disitem-next.png) no-repeat left center;
+    background-size: 12px 12px;
+    padding-left: 15px;
+}
+.dislesson ul li {
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+    padding: 0 15px 6px 15px;
+    margin-bottom: 6px;
+}
+.dislesson ul li a {
+    display: block;
+    width: auto;
+    height: 88px;
+    position: relative;
+    padding-left: 82px;
+}
+.person {
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    color: #333;
+    line-height: 18px;
+    padding-top: 2px;
+}
+.item {
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+.disfree .item .tit {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    line-height: 14px;
+}
+.disfree .item .tit .name {
+    width: auto;
+    height: auto;
+    float: left;
+    font-size: 14px;
+    color: #333;
+}
+.disfree .item .tit .more {
+    width: auto;
+    height: auto;
+    float: right;
+    font-size: 12px;
+    color: #999;
+}
+.disfree .item .list ul li {
+    width: auto;
+    height: auto;
+    line-height: 18px;
+    font-size: 12px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    background-size: 12px 12px;
+    background-image: url(../images/disfree1.png);
+}
+.disfree .item .list ul li:nth-child(1) {
+    background-image: url(../images/disfree1.png);
+}
+
+.disfree .item .list ul li a {
+    color: #999999;
+}
+.disproduced-item {
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+    padding-top: 10px;
+}
+.disproduced-tit {
+    width: auto;
+    height: auto;
+    line-height: 14px;
+    padding: 0 15px 10px 15px;
+    overflow: hidden;
+    position: relative;
+}
+.disproduced {
+    width: auto;
+    height: auto;
+}
+.disphoto {
+    width: auto;
+    height: 190px;
+    padding: 0 13px;
+    overflow: hidden;
+}
+
+ul, li {
+    display: block;
+    list-style: none;
+}
+.disphoto ul li {
+    width: 33.333%;
+    height: 175px;
+    float: left;
+    padding: 0 2px;
+}
+.disphoto ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.disphoto ul li a .con {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 2px;
+
+    z-index: 9;
+}
+.disphoto ul li a .con .tit{
+    color: #fff;
+}
+.disphoto ul li a .con .txt {
+    width: auto;
+    height: auto;
+    font-size: 9px;
+    color: #fff;
+}
+.disphoto ul li a .img {
+    width: auto;
+    height: auto;
+    font-size: 0;
+}
+.disphoto ul li a .img img {
+    width: 100%;
+}
+.disvideo {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 0 13px;
+}
+.disvideo ul li {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 0 2px 10px 2px;
+}
+.disvideo ul li a {
+    display: block;
+    width: auto;
+    height: auto;
+}
+.disvideo ul li a .img {
+    width: auto;
+    height: auto;
+    font-size: 0;
+    position: relative;
+}
+.disvideo ul li a .img span {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 9px;
+    color: #fff;
+    background: url(../images/dissee.png) no-repeat left center;
+    padding-left: 15px;
+    background-size: auto 7px;
+}
+.dismusic ul li {
+    width: 33.333%;
+    height: auto;
+    float: left;
+    padding: 0 2px;
+}
+.dismusic ul li a .img {
+    width: auto;
+    height: auto;
+    font-size: 0;
+    position: relative;
+}
+.dismusic ul li a .img span {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 9px;
+    color: #fff;
+    background: url(../images/dismusic.png) no-repeat left center;
+    padding-left: 13px;
+    background-size: auto 7px;
+}
+.mui-segmented-control .mui-control-item {
+    line-height: 16px !important;
+}
+.disitem {
+    width: auto;
+    height: auto;
+    background: #fff;
+    margin-top: 10px;
+}
+.disnav {
+    width: auto;
+    height: auto;
+    padding: 8px;
+    overflow: hidden;
+}
+.disnav ul li {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 7px;
+}
+.disnav ul li a {
+    display: block;
+    width: auto;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 5px;
+}
+.red {
+    background: #f9728b;
+}
+.bluegreen {
+    background: #98e0ec;
+}
+.orange {
+    background: #ff9966;
+}
+.green {
+    background: #a9d72c;
+}
+.blue {
+    background: #72afed;
+}
+.orangered {
+    background: #ff9933;
+}

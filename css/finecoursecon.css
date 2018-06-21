@@ -1,0 +1,403 @@
+*{
+	magin:0;
+	padding:0;
+}
+.headsearch .mui-icon-search:before,.headmenu .mui-icon-bars:before{
+	content: '';
+}
+.wrapper{
+	width: auto;
+    height: auto;
+    padding: 44px 0 50px 0;
+}
+.wrapper .head{
+	width: auto;
+    height: auto;
+    font-size: 0;
+    position: relative;
+}
+.wrapper .head .img{
+	width: auto;
+    height: auto;
+}
+.wrapper .head .img a{
+	display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.wrapper .head .img a .on{
+	display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.wrapper .head .img a .on img{
+	width:100%;
+}
+.wrapper .head .img a span{
+	display: block;
+    width: auto;
+    height: auto;
+}
+.wrapper .head .img a .off img{
+	width:100%;
+}
+.wrapper .tab{
+	width: auto;
+    height: 40px;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.wrapper .tab ul li{
+	width: 33.333%;
+    height: 40px;
+    float: left;
+}
+.wrapper .tab ul li a{
+	display: block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+.wrapper .tab ul li a span{
+	display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/tabfilter.png) no-repeat right center;
+    background-size: 15px 15px;
+    padding-right: 25px;
+}
+.finecourseconmain{
+	width: auto;
+    height: auto;
+}
+.finecourseconmain .item{
+	width: auto;
+    height: auto;
+    background: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+.finecourseconmain .item .tit{
+	width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 0;
+    padding-top: 30px;
+}
+.finecourseconmain .item .tit .box{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 12px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.finecourseconmain .item .tit .box .l{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    padding-left: 20px;
+    background: url(../images/finecoursecon-tit.png) no-repeat left center;
+    background-size: 11px 11px;
+}
+.finecourseconmain .item .tit .box .l .r{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    padding-right: 20px;
+    background: url(../images/finecoursecon-tit.png) no-repeat right center;
+    background-size: 11px 11px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+.finecourseconmain .item .intro{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding: 25px 35px 0 35px;
+    text-indent: 2em;
+}
+.finecourseconmain .item .give{
+	width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding: 20px 35px 0 35px;
+}
+.finecourseconmain .item .sle{
+	width: auto;
+    height: auto;
+    font-size: 0;
+    padding: 25px 15px 0 15px;
+}
+.finecourseconmain .item .sle img{
+	width: 100%;
+    border-radius: 5px;
+}
+.finecourseconmain .item .author{
+	width: auto;
+    height: auto;
+    padding: 15px 15px 0 15px;
+}
+.finecourseconmain .item .author ul li{
+	width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+.finecourseconmain .item .author ul li .box{
+	width: auto;
+    height: auto;
+    background: #fafafa;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+.finecourseconmain .item .author ul li .box .ren{
+	width: auto;
+    height: 60px;
+    position: relative;
+    padding-left: 70px;
+}
+.finecourseconmain .item .author ul li .box .ren .portrait{
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 3px #dddddd;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.finecourseconmain .item .author ul li .box .ren .portrait img{
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.finecourseconmain .item .author ul li .box .ren .con{
+	width: auto;
+    height: auto;
+}
+.finecourseconmain .item .author ul li .box .ren .con .tr{
+	display: table;
+    width: 100%;
+    min-height: 60px;
+}
+.finecourseconmain .item .author ul li .box .ren .con .tr .td{
+	display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+.finecourseconmain .item .author ul li .box .ren .con .tr .td .name{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #333;
+}
+.finecourseconmain .item .author ul li .box .ren .con .tr .td .tag{
+	width: auto;
+    height: auto;
+    font-size: 0;
+    padding-top: 8px;
+}
+.finecourseconmain .item .author ul li .box .ren .con .tr .td .tag div{
+	display: inline-block;
+    width: auto;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #fff;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.finecourseconmain .item .author ul li .box .txt{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding-top: 15px;
+}
+.finecourseconmain .item .for{
+	width: auto;
+    height: auto;
+    padding: 20px 15px 0 15px;
+}
+.finecourseconmain .item .for ul li{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding-left: 20px;
+    background: url(../images/finecoursecon-for.png) no-repeat left center;
+    background-size: 14px 14px;
+}
+.finecourseconmain .item .note{
+	width: auto;
+    height: auto;
+    padding: 15px 15px 0 15px;
+}
+.finecourseconmain .item .note ul li{
+	width: auto;
+    height: auto;
+    padding: 5px 0;
+}
+.finecourseconmain .item .note ul li .num{
+	width: 32px;
+    height: 32px;
+    border: 1px dotted #e30a20;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 1px;
+}
+.finecourseconmain .item .note ul li .num div{
+	width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50%;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.finecourseconmain .item .note ul li .txt{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
+.finecourseconmain .item .head{
+	width: auto;
+    height: auto;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.finecourseconmain .item .head .portrait{
+	width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: -16px;
+}
+.finecourseconmain .item .head .portrait img{
+	width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.finecourseconmain .item .head .name{
+	width: auto;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    padding-left: 42px;
+    margin-right: 5px;
+}
+.finecourseconmain .item .head .tag{
+	width: auto;
+    height: 16px;
+    line-height: 16px;
+    float: left;
+    font-size: 10px;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 3px;
+    margin-top: 8px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.finecourse-list .item .fourOpera{
+	width: auto;
+    height: 34px;
+    padding: 5px 0;
+}
+.finecourse-list .item .fourOpera ul li{
+	width: 25%;
+    height: 24px;
+    float: left;
+}
+.finecourse-list .item .fourOpera ul li a{
+	display: block;
+    width: auto;
+    height: 24px;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    text-align: center;
+    font-size: 0;
+}
+.finecourse-list .item .fourOpera ul li a .item{
+	display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.finecourse-list .item .fourOpera ul li a .item span{
+	display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon1{
+	background-position: 0px 0px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon2{
+	background-position: -12px 0px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon3{
+	background-position: -24px 0px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon4{
+	background-position: -36px 0px;
+}
+.item .txtg{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

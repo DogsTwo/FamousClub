@@ -1,0 +1,150 @@
+*{
+	magin:0;
+	padding:0;
+}
+.headsearch .mui-icon-search:before,.headmenu .mui-icon-bars:before{
+	content: '';
+}
+.wrapper{
+	width: auto;
+    height: auto;
+    padding: 44px 0 50px 0;
+}
+.wrapper .banner{
+	width: auto;
+    height: auto;
+    font-size: 0;
+    background: #fff;
+}
+.wrapper .tab{
+	width: auto;
+    height: 40px;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.wrapper .tab ul li{
+	width: 33.333%;
+    height: 40px;
+    float: left;
+}
+.wrapper .tab ul li a{
+	display: block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+.wrapper .tab ul li a span{
+	display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/tabfilter.png) no-repeat right center;
+    background-size: 15px 15px;
+    padding-right: 25px;
+}
+.wrapper .tab ul li a.on{
+	color: #333333;
+    background: #eeeeee;
+}
+.finecourse-list{
+	width: auto;
+    height: auto;
+}
+.finecourse-list .item{
+	width: auto;
+    height: auto;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.finecourse-list .item .tit{
+	width: auto;
+    height: auto;
+    font-size: 0;
+    padding: 10px 0;
+}
+.finecourse-list .item .tit a{
+	display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 0;
+    border-left: 2px solid #f54744;
+    padding-left: 12px;
+}
+.finecourse-list .item .tit a span{
+	display: inline-block;
+    width: auto;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #333;
+    padding-right: 20px;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+}
+.finecourse-list .item .img{
+	width: auto;
+    height: auto;
+    font-size: 0;
+}
+.finecourse-list .item .img img{
+	width:100%;
+}
+.finecourse-list .item .fourOpera{
+	width: auto;
+    height: 34px;
+    padding: 5px 0;
+}
+.finecourse-list .item .fourOpera ul li{
+	width: 25%;
+    height: 24px;
+    float: left;
+}
+.finecourse-list .item .fourOpera ul li a{
+	display: block;
+    width: auto;
+    height: 24px;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    text-align: center;
+    font-size: 0;
+}
+.finecourse-list .item .fourOpera ul li a .item{
+	display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.finecourse-list .item .fourOpera ul li a .item span{
+	display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon1{
+	background-position: 0px 0px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon2{
+	background-position: -12px 0px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon3{
+	background-position: -24px 0px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon4{
+	background-position: -36px 0px;
+}

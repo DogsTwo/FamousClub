@@ -1,0 +1,370 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.mui-bar .mui-segmented-control{
+ 	margin: 0 88px 0 5px;
+    top: 0;
+}
+header .mui-segmented-control.mui-segmented-control-inverted{
+    width: 5.71rem;
+}
+.mui-segmented-control.mui-scroll-wrapper{
+    height: 44px;
+}  
+.headsearch .mui-icon-search:before,.headmenu .mui-icon-bars:before{
+	content: '';
+}
+.wrap{
+	width: auto;
+    height: auto;
+    padding: 44px 0 50px 0;
+}
+.wrap .banner{
+	width: auto;
+    height: auto;
+    font-size: 0;
+    background: #fff;
+}
+.tabnav{
+	width: auto;
+    height: 40px;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.tabnav a{
+	display: block;
+    width:100%;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    font-size: 14px;
+    /*text-align: center;*/
+}
+.tabnav .mui-segmented-control.mui-scroll-wrapper .mui-control-item{
+	width:25%!important;
+	height: 40px!important;
+    }
+.tabnav .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+	color:black;
+	border:0 !important;
+	background: #eeeeee;
+    color: #333;
+}
+.tabnav .mui-segmented-control.mui-scroll-wrapper .mui-control-item{
+	padding:0;
+}
+.tabnav .mui-segmented-control.mui-scroll-wrapper{
+	overflow: hidden;
+	height: 40px!important;
+}
+.aboutmain .item{
+	width: auto;
+    height: auto;
+    background: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+.aboutmain .item .tit{
+	width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 0;
+    padding-top: 30px;
+}
+.aboutmain .item .tit .box{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 12px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.aboutmain .item .tit .box .yinghao{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    padding-left: 20px;
+    background: url(../images/finecoursecon-tit.png) no-repeat left center;
+    background-size: 11px 11px;
+}
+.aboutmain .item .tit .box .yinghao .nei{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    padding-right: 20px;
+    background: url(../images/finecoursecon-tit.png) no-repeat right center;
+    background-size: 11px 11px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+.aboutmain .item .text{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding: 25px 35px 0 35px;
+    text-indent: 2em;
+}
+.aboutmain .item .duodui{
+	width: auto;
+    height: auto;
+    padding: 20px 15px 0 15px;
+}
+.aboutmain .item .duodui ul li{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding-left: 20px;
+    background: url(../images/finecoursecon-for.png) no-repeat left center;
+    background-size: 14px 14px;
+}
+.aboutmain .item .text-duo{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding: 25px 35px 0 35px;
+}
+.aboutmain .item .img-xiao{
+	width: auto;
+    height: auto;
+    font-size: 0;
+    padding: 25px 15px 0 15px;
+}
+.aboutmain .item .img-xiao img{
+	width: 100%;
+    border-radius: 5px;
+}
+.aboutmain .item .zuozhe{
+	width: auto;
+    height: auto;
+    padding: 15px 15px 0 15px;
+}
+.aboutmain .item .zuozhe ul li{
+	width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+.aboutmain .item .zuozhe ul li .box{
+	width: auto;
+    height: auto;
+    background: #fafafa;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+.aboutmain .item .zuozhe ul li .box .present{
+	width: auto;
+    height: 60px;
+    position: relative;
+    padding-left: 70px;
+}
+.aboutmain .item .zuozhe ul li .box .present .img{
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 3px #dddddd;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.aboutmain .item .zuozhe ul li .box .present .img img{
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.aboutmain .item .zuozhe ul li .box .present .con .tab{
+	display: table;
+    width: 100%;
+    min-height: 60px;
+}
+.aboutmain .item .zuozhe ul li .box .present .con .tab .tr{
+	display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+.aboutmain .item .zuozhe ul li .box .present .con .tab .tr .name{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #333;
+}
+.aboutmain .item .zuozhe ul li .box .present .con .tab .tr .jianjie{
+	width: auto;
+    height: auto;
+    font-size: 0;
+    padding-top: 8px;
+}
+.aboutmain .item .zuozhe ul li .box .present .con .tab .tr .jianjie p{
+	display: inline-block;
+    width: auto;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #fff;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.aboutmain .item .zuozhe ul li .box .txt{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding-top: 15px;
+}
+.aboutmain .item .auoutcon-img{
+	width: auto;
+    height: auto;
+    padding: 20px 15px 0 15px;
+    font-size: 0;
+}
+.aboutmain .item .auoutcon-img ul li{
+	width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+.aboutmain .item .auoutcon-img ul li .img img{
+	width:100%;
+}
+.aboutmain .item .auoutcon-img ul li .txt{
+	width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    padding-top: 10px;
+}
+.er{
+	text-indent: 2em;
+}
+.aboutmain .item .meinv{
+	width: auto;
+    height: auto;
+    padding: 5px 15px 0 15px;	
+}
+.aboutmain .item .meinv ul li{
+	width: auto;
+    height: auto;
+    padding-top: 20px;
+}
+.aboutmain .item .meinv ul li .box{
+	width: auto;
+    height: 80px;
+    background: #fafafa;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    position: relative;
+}
+.aboutmain .item .meinv ul li .box .img{
+	width: 70px;
+    height: 88px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -44px;
+}
+.aboutmain .item .meinv ul li .box .img img{
+	width: 70px;
+    height: 88px;
+    border-radius: 5px;
+}
+.aboutmain .item .meinv ul li .box .icn{
+	width: auto;
+    height: 80px;
+    padding: 0 10px 0 80px;
+}
+.aboutmain .item .meinv ul li .box .icn .tr{
+	display: table;
+    width: 100%;
+    height: 80px;
+}
+.aboutmain .item .meinv ul li .box .icn .tr .td{
+	display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.6em;
+    color: #999999;
+}
+.aboutmain .item .note{
+	width: auto;
+    height: auto;
+    padding: 15px 15px 0 15px;
+}
+.aboutmain .item .note .item-x{
+	width: auto;
+    height: auto;
+    padding: 5px 0;
+}
+.aboutmain .item .note .item-x .num{
+	width: 32px;
+    height: 32px;
+    border: 1px dotted #e30a20;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 1px;
+}
+.aboutmain .item .note .item-x .num div{
+	width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50%;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.aboutmain .item .note .item-x .txt{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
+.item-b{
+	width: auto;
+    height: auto;
+    background: #fff;
+    padding: 40px 0;
+}
+.item-b .txt{
+	width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999;
+    line-height: 1.6em;
+    padding: 0 25px;
+    text-align: center;
+}
+.item-b .btn{
+	width: auto;
+    height: auto;
+    font-size: 0;
+    text-align: center;
+    padding-top: 15px;
+}
+.item-b .btn a{
+	display: inline-block;
+    width: auto;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 25px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}

@@ -1,0 +1,241 @@
+html,body{
+    background: #ccc;
+}
+ul,ol{
+    list-style:none;
+}
+.bigbox{
+    padding:44px 0 50px 0;
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    font-size: 0px;
+    line-height: 0px;
+    max-width: 100%;
+}
+.bigbox{
+    padding-top:44px;
+    padding-bottom: 50px;
+}
+.newsbox{
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.news_title{
+    width: auto;
+    height: auto;
+    padding: 20px 15px 0 15px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+.newsbox .news_smtitle{
+    width: auto;
+    height: auto;
+    margin: 15px 15px 0 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px 15px 10px 45px;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.6em;
+    background-image: url(../images/icon-intro.png);
+    background-repeat: no-repeat;
+    background-size: 17px 13px;
+    background-position: 15px 15px;
+}
+.news_nei{
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.6em;
+    padding: 15px;
+    text-align: justify;
+}
+.news_vid{
+    width: auto;
+    height: auto;
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+}
+.news_vid .bga{
+    width: 441px;
+}
+.news_vid .play{
+    width: 40px;
+    position: absolute;
+    left:200px;
+    top:100px;
+}
+.bga1{
+    padding: 0 15px;
+}
+.bga1 img{
+    width: 381px;
+}
+.imgg{
+    width: auto;
+    height: auto;
+    font-size: 0;
+    line-height: 0;
+}
+.imgg img{
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    font-size: 0px;
+    line-height: 0px;
+    max-width: 100%;
+}
+.item {
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.item span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.proreserphotoset{
+    margin-top: 10px;
+
+    background: #fff;
+}
+.proreserphotoset-tit {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 0;
+    padding-top: 30px;
+}
+.proreserphotoset-tit .box {
+    display: inline-block;
+    width: auto;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 12px;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391);
+    background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391);
+    background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391);
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+    box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.proreserphotoset-tit .l {
+    display: inline-block;
+    width: auto;
+    height: 26px;
+    padding-left: 20px;
+    background: url(../images/finecoursecon-tit.png) no-repeat left center;
+    background-size: 11px 11px;
+}
+.proreserphotoset-tit .r {
+    display: inline-block;
+    width: auto;
+    height: 26px;
+    padding-right: 20px;
+    background: url(../images/finecoursecon-tit.png) no-repeat right center;
+    background-size: 11px 11px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+.proreserphotoset-list {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.proreserphotoset-list ul li {
+    width: 33.333%;
+    height: auto;
+    float: left;
+    padding-top: 15px;
+}
+.proreserphotoset-list ul li .box {
+    width: auto;
+    height: auto;
+}
+.proreserphotoset-list ul li .box .icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.proreserphotoset-list ul li .box .text {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+    color: #999999;
+}
+.proreserphotoset-note {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.proreserphotoset-note span {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    position: relative;
+    font-size: 13px;
+    color: #999999;
+    padding-left: 40px;
+}
+.proreserphotoset-note span i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -15px;
+    font-size: 0;
+}
+.proreserphotoset-note span i img {
+    width: 30px;
+    height: 30px;
+}
+.proreserphotoset-code-img {
+    width: 110px;
+    height: auto;
+    font-size: 0;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.proreserphotoset-code-img img {
+    width: 110px;
+}
+.proreserphotoset-code-txt {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
