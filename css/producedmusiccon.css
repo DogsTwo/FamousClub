@@ -418,4 +418,36 @@ img {
     color: #333333;
     padding-top: 5px;
 }
-
+.mui-scroll i{
+    position: absolute;
+    top: 15px;
+    width:1px;
+    height:10px;
+    background-color: #ddd;
+}
+.mui-scroll-wrapper{
+    width:85% !important;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+    border-bottom: none !important;
+}
+.fdj{
+    width: 70px;
+    height: 38px;
+    border: none;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    top: 0px;
+    right:0px;
+    display: flex;
+    justify-content: space-around;
+}
+.fdj a span{
+    margin-top: 6px;
+    color:black;
+    border: none;
+}
+header{
+    background-color: white;
+}
