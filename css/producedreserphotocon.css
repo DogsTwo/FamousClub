@@ -1,0 +1,229 @@
+html,body{
+    background: #fff;
+}
+ul,ol{
+    list-style:none;
+}
+.bigbox{
+    padding-top:44px;
+    padding-bottom: 50px;
+}
+.newsbox{
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.news_title{
+    width: auto;
+    height: auto;
+    padding: 20px 15px 0 15px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+.newsbox .news_smtitle{
+    width: auto;
+    height: auto;
+    margin: 15px 15px 0 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px 15px 10px 45px;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.6em;
+    background-image: url(../images/icon-intro.png);
+    background-repeat: no-repeat;
+    background-size: 17px 13px;
+    background-position: 15px 15px;
+}
+.news_nei{
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.6em;
+    padding: 15px;
+    text-align: justify;
+}
+.news_vid{
+    width: auto;
+    height: auto;
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+}
+.news_vid .bga{
+    width: 441px;
+}
+.news_vid .play{
+    width: 40px;
+    position: absolute;
+    left:200px;
+    top:100px;
+}
+.bga1{
+    padding: 0 15px;
+}
+img{
+    width: 100%;
+}
+.imgg{
+    width: auto;
+    height: auto;
+    font-size: 0;
+    line-height: 0;
+}
+.imgg img{
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    font-size: 0px;
+    line-height: 0px;
+    max-width: 100%;
+}
+.four{
+    width: 100%;
+    height: 34px;
+}
+.four ul{
+    width: 100%;
+    height: 34px;
+    padding: 0;
+    margin: 0;
+}
+.four ul li{
+    width: 25%;
+    height: 34px;
+    float: left;
+    margin-top:4px;
+}
+.four ul li a {
+    display: block;
+    width: auto;
+    height: 24px;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    text-align: center;
+    font-size: 0;
+    line-height: 34px;
+}
+.item {
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.item span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.four ul li a .item span.ico2 {
+    background-position: -12px 0px;
+}
+.four ul li a .item span.ico3 {
+    background-position: -24px 0px;
+}
+.four ul li a .item span.ico4 {
+    background-position: -36px 0px;
+}
+.recomnews {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+.recomnews-tit {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    padding: 15px;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.newslist ul li {
+    width: auto;
+    height: auto;
+    padding-bottom: 5px;
+}
+.newslist ul li .box a {
+    display: block;
+    width: auto;
+    height: auto;
+    background: #fff;
+    position: relative;
+    padding: 15px;
+}
+.newslist ul li .box a .con {
+    width: auto;
+    height: auto;
+    min-height: 80px;
+    padding-right: 120px;
+}
+.newslist ul li .box a .con .tit {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #333;
+}
+.newslist ul li .box a .con .txt {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999;
+    line-height: 1.6em;
+    padding-top: 5px;
+}
+.newslist ul li .box a .con .note span {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    color: #999;
+    padding-left: 15px;
+    position: relative;
+}
+.newslist ul li .box a .con .note span i {
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background: url(../images/inopera.png) no-repeat 0px 0px;
+    background-size: 48px 24px;
+}
+.newslist ul li .box a .img {
+    width: 110px;
+    height: 80px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 0;
+}
+.newslist ul li .box a .img img {
+    width: 110px;
+    height: 80px;
+}
