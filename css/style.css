@@ -1,0 +1,1621 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*首页*/
+.banner {width: auto; height: auto; font-size: 0; background: #fff;}
+.banner .swiper-slide {width: auto; height: auto;}
+.banner .swiper-slide a {display: block; width: auto; height: auto; font-size: 0;}
+.banner .swiper-slide img {width: 100%;}
+
+.banlink {width: auto; height: auto;}/*font-size: 12px; color: #666; line-height: 1.6em;*/
+.banlink img {width: 100%;}
+
+.inrecom {width: auto; height: auto; background: #fff; padding: 4px 0;}
+.inrecom-tit {width: auto; height: auto; text-align: center; font-size: 18px; color: #333; padding-top: 10px;}
+.inrecom-list {width: auto; height: auto; padding: 11px; overflow: hidden;}
+.inrecom-list ul li {width: 25%; height: auto; float: left; padding: 4px;}
+.inrecom-list ul li a {display: block; width: auto; height: 60px; background: #fff; border-radius: 5px; box-shadow: 0px 0px 5px rgba(0,0,0,0.1); padding-top: 10px;}
+.inrecom-list ul li a span {display: block; text-align: center; margin: 0 auto;}
+.inrecom-list ul li a span.icon {width: 22px; height: 22px;}
+.inrecom-list ul li a span.icon img {width: 22px; height: 22px;}
+.inrecom-list ul li a span.text {width: auto; height: auto; font-size: 12px; color: #666; padding-top: 8px;}
+@media all and (max-width: 360px){
+	.inrecom-list ul li a span.text {font-size: 11px;}
+}
+
+
+
+.inTitle {width: auto; height: 44px; text-align: center; line-height: 44px; font-size: 18px; color: #333; background: #fff; position: relative;}
+.inTitle a.more {display: block; width: 40px; height: 40px; position: absolute; right: 0; top: 50%; margin-top: -20px; background: url(../images/inmore.png) no-repeat center; background-size: 5px 10px; opacity: 0.5;}
+
+.inMain {width: auto; height: auto; background: #fff; margin-top: 10px;}
+
+.inItem {width: auto; height: auto; background: #fff;}
+.inItem .tit {width: auto; height: auto; margin: 0 15px; font-size: 12px; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; -moz-text-overflow: ellipsis; white-space: nowrap;}
+.inItem .img {width: auto; height: auto; font-size: 0; padding-top: 10px;}
+.inItem .img a {display: block; width: auto; height: auto;}
+.inItem .img img {width: 100%;}
+
+.innews {width: auto; height: auto; background: #fff; padding: 15px 0; border-top: 5px solid #f6f6f6;}
+.innews .swiper-slide {width: 126px; float: left; margin-right: 15px;}
+.innews .swiper-slide:first-child {margin-left: 15px;}
+.innews .swiper-slide a {display: block; width: auto; height: auto;}
+.innews .swiper-slide a .img {width: auto; height: auto; font-size: 0;}
+.innews .swiper-slide a .img img {width: 100%; border-radius: 5px;}
+.innews .swiper-slide a .tit {width: auto; height: 2.6em; line-height: 1.3em; font-size: 12px; color: #333; margin-top: 8px; word-break: break-all; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;}
+.innews .swiper-slide a .txt {width: auto; height: auto; font-size: 10px; color: #999999; padding-top: 2px;}
+
+
+.inProduced {width: auto; height: auto;}
+.inProduced .swiper-slide {width: auto; height: auto;}
+
+
+.intutor {width: auto; height: auto; padding-bottom: 15px;}
+.intutor .swiper-slide {width: 52px; height: auto; float: left; margin-right: 10px;}
+.intutor .swiper-slide:first-child {margin-left: 10px;}
+.intutor .swiper-slide a {display: block; width: auto; height: auto;}
+.intutor .swiper-slide a .img {width: 42px; height: 42px; font-size: 0; position: relative; margin: 0 auto;}
+.intutor .swiper-slide a .img img {width: 42px; height: 42px; border-radius: 50%;}
+.intutor .swiper-slide a .img i {width: 14px; height: 14px; border-radius: 50%; position: absolute; right: 0; bottom: 0; text-align: center; line-height: 14px; font-size: 10px; color: #fff; font-style: normal;}
+.intutor .swiper-slide a .img i.num1 {background: #fa3333;}
+.intutor .swiper-slide a .img i.num2 {background: #ff9900;}
+.intutor .swiper-slide a .img i.num3 {background: #ffcc00;}
+.intutor .swiper-slide a .txt {width: auto; height: auto; text-align: center; font-size: 9px; color: #666; padding-top: 8px;}
+
+.intutorad {width: auto; height: auto; background: #fff; padding: 15px 0; border-top: 5px solid #f6f6f6;}
+
+.incourse {width: auto; height: auto; padding-bottom: 40px; position: relative; overflow: hidden;}
+.incourse .swiper-container {margin: 0 auto; overflow: visible;
+	width:-moz-calc(100% - 30px);
+	width:-webkit-calc(100% - 30px);
+	width: calc(100% - 30px); 
+}
+.incourse .swiper-slide .img {width: auto; height: auto; font-size: 0;}
+.incourse .swiper-slide .img a {display: block;}
+.incourse .swiper-slide .img img {width: 100%; border-radius: 5px;}
+.incourse .swiper-slide .txt {width: auto; height: auto; text-align: center; padding-top: 10px; font-size: 14px;}
+.incourse .swiper-slide .txt a {color: #333;}
+.incourse .swiper-slide .note {width: auto; height: 20px; text-align: center; font-size: 0; padding-top: 5px;}
+.incourse .swiper-slide .note span {display: inline-block; width: auto; height: 20px; line-height: 20px; font-size: 10px; color: #999; padding-left: 18px; margin-right: 20px; position: relative;}
+.incourse .swiper-slide .note span:last-child {margin-right: 0;}
+.incourse .swiper-slide .note span i {display: block; width: 12px; height: 12px; font-size: 0; line-height: 0; position: absolute; left: 0; top: 50%; margin-top: -6px; background-image: url(../images/inopera.png); background-repeat: no-repeat; background-size: 48px 24px;}
+.incourse .swiper-slide .note span i.ico1 {background-position: 0px 0px;}
+.incourse .swiper-slide .note span i.ico2 {background-position: -12px 0px;}
+.incourse .swiper-slide .note span i.ico3 {background-position: -24px 0px;}
+.incourse .swiper-pagination {width: 100%; bottom: 15px;}
+.incourse .swiper-pagination-bullet {margin: 0 3px; background: #8d9192; border: 2px solid #fff; opacity: 1;}
+.incourse .swiper-pagination-bullet-active {background: #f54744; border-color: #f54744;}
+
+
+
+
+.inabout {width: auto; height: auto; overflow: hidden; padding: 0 7px 15px 7px;}
+.inabout ul li {width: 50%; height: auto; float: left; padding: 0 7px;}
+.inabout ul li a {display: block; width: auto; height: auto;}
+.inabout ul li a .img {width: auto; height: auto; font-size: 0;}
+.inabout ul li a .img img {width: 100%; border-radius: 5px;}
+.inabout ul li a .txt {width: auto; height: auto; text-align: center; padding-top: 15px; font-size: 14px; color: #333;}
+
+
+
+
+/*资讯*/
+.newslist {width: auto; height: auto;}
+.newslist ul li {width: auto; height: auto; padding-bottom: 5px;}
+.newslist ul li:last-child {padding-bottom: 0;}
+.newslist ul li .box {width: auto; height: auto;}
+.newslist ul li .box a {display: block; width: auto; height: auto; background: #fff; position: relative; padding: 15px;}
+.newslist ul li .box a .img {width: 110px; height: 80px; position: absolute; right: 15px; top: 15px; font-size: 0;}
+.newslist ul li .box a .img img {width: 110px; height: 80px;}
+.newslist ul li .box a .con {width: auto; height: auto; min-height: 80px; padding-right: 120px;}
+.newslist ul li .box a .con .tit {width: auto; height: auto; font-size: 14px; color: #333;}
+.newslist ul li .box a .con .txt {width: auto; height: auto; font-size: 12px; color: #999; line-height: 1.6em; padding-top: 5px;}
+.newslist ul li .box a .con .note {width: auto; height: auto; font-size: 0;}
+.newslist ul li .box a .con .note span {display: inline-block; width: auto; height: 20px; line-height: 20px; font-size: 10px; color: #999; padding-left: 15px; position: relative;}
+.newslist ul li .box a .con .note span i {display: block; width: 12px; height: 12px; font-size: 0; line-height: 0; position: absolute; left: 0; top: 50%; margin-top: -6px; background: url(../images/inopera.png) no-repeat 0px 0px; background-size: 48px 24px;}
+.newslist ul li .adv {width: auto; height: auto;}
+.newslist ul li .adv a {display: block; width: auto; height: auto; position: relative;}
+.newslist ul li .adv a .img {width: auto; height: auto; font-size: 0;}
+.newslist ul li .adv a .img img {width: 100%;}
+.newslist ul li .adv a .con {width: 100%; height: 60px; font-size: 14px; color: #fff; padding: 30px 15px 0 15px; position: absolute; left: 0; bottom: 0;
+	background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)); /* Firefox 3.6 - 15 */
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)); /* 标准的语法 */
+}
+
+
+.newscon {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+.newscon-title {width: auto; height: auto; padding: 20px 15px 0 15px; font-size: 18px; color: #333; text-align: center; font-weight: bold;}
+.newscon-intro {width: auto; height: auto; margin: 15px 15px 0 15px; background-color: #eee; border-radius: 5px; padding: 10px 15px 10px 45px; font-size: 12px; color: #666; line-height: 1.6em; background-image: url(../images/icon-intro.png); background-repeat: no-repeat; background-size: 17px 13px; background-position: 15px 15px;}
+.newscon-main {width: auto; height: auto; font-size: 13px; color: #999999; line-height: 1.6em;}
+.newscon-main .txt {width: auto; height: auto; padding: 15px; text-align: justify;}
+.newscon-main .video {width: auto; height: auto; font-size: 0; line-height: 0;}
+.newscon-main .video a {display: block; width: auto; height: auto; position: relative;}
+.newscon-main .video a img {width: 100%;}
+.newscon-main .video a span {width: 40px; height: 40px; position: absolute; left: 50%; top: 50%; margin-left: -20px; margin-top: -20px; background: url(../images/video-play.png) no-repeat; background-size: 40px 40px; z-index: 2;}
+.newscon-main .img {width: auto; height: auto; font-size: 0; line-height: 0;}
+.newscon-main .img img {width: 100%;}
+.newscon-main .img.img1 {padding: 0 15px;}
+
+.newscon-main .kong {width: auto; height: 15px;}
+
+.discuss {width: auto; height: auto; background: #fff; margin-top: 10px;}
+.discuss-head {width: auto; height: 44px; padding: 0 15px; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.discuss-head .name {width: auto; height: 44px; line-height: 44px; float: left; font-size: 12px; color: #333;}
+.discuss-head .more {width: auto; height: 44px; float: right;}
+.discuss-head .more a {display: block; width: auto; height: 44px; line-height: 44px; font-size: 12px; color: #999; background: url(../images/inmore.png) no-repeat right center; background-size: 5px 10px; padding-right: 10px;}
+.discuss-main {width: auto; height: auto; background: #fff;}
+.discuss-main .item {width: auto; height: auto; padding-left: 55px; position: relative;}
+.discuss-main .item .portrait {width: 30px; height: 30px; position: absolute; left: 15px; top: 15px;}
+.discuss-main .item .portrait img {width: 30px; height: 30px; border-radius: 50%;}
+.discuss-main .item .box {width: auto; height: auto; min-height: 60px; padding: 15px 15px 15px 0; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.discuss-main .item .box .name {width: auto; height: auto; font-size: 10px; color: #333;}
+.discuss-main .item .box .name a {color: #333;}
+.discuss-main .item .box .cont {width: auto; height: auto; padding-top: 5px; position: relative;}
+.discuss-main .item .box .cont .text {width: auto; height: auto; font-size: 12px; color: #333; line-height: 18px; margin-right: 75px;}
+.discuss-main .item .box .cont .opera {width: auto; height: 36px; position: absolute; right: 0; top: -5px;}
+.discuss-main .item .box .cont .opera .like {width: auto; height: 36px; float: left;}
+.discuss-main .item .box .cont .opera .like a {display: block; width: auto; height: 36px; line-height: 36px; position: relative; font-size: 12px; color: #999999; padding-left: 18px;}
+.discuss-main .item .box .cont .opera .like a i {display: block; width: 12px; height: 12px; font-size: 0; line-height: 0; position: absolute; left: 0; top: 50%; margin-top: -6px; background-image: url(../images/inopera.png); background-repeat: no-repeat; background-size: 48px 24px; background-position: -24px 0px;}
+.discuss-main .item .box .cont .opera .like a.on {color: #ff0757;}
+.discuss-main .item .box .cont .opera .like a.on i {background-position: -24px -12px;}
+.discuss-main .item .box .cont .opera .other {width: auto; height: 36px; float: left; position: relative; margin-left: 5px;}
+.discuss-main .item .box .cont .opera .other .icon {width: auto; height: 36px;}
+.discuss-main .item .box .cont .opera .other .icon a {display: block; width: auto; height: 36px; background: url(../images/icon-other.png) no-repeat right center; background-size: 3px 12px; padding-left: 10px;}
+.discuss-main .item .box .cont .opera .other .btns {width: 44px; height: auto; position: absolute; right: -10px; top: 44px; background: #f0f0f0; border-radius: 3px; display: none;}
+.discuss-main .item .box .cont .opera .other .btns i {display: block; width: 8px; height: 8px; background: #f0f0f0; position: absolute; top: -4px; right: 8px;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); 	/* IE 9 */
+	-moz-transform:rotate(45deg); 	/* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(45deg); 
+}
+.discuss-main .item .box .cont .opera .other .btns ul {display: block; width: auto; height: auto; position: relative; z-index: 2; padding: 0 5px;}
+.discuss-main .item .box .cont .opera .other .btns ul li {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.discuss-main .item .box .cont .opera .other .btns ul li:last-child {background: none;}
+.discuss-main .item .box .cont .opera .other .btns ul li a {display: block; width: auto; height: auto; font-size: 12px; color: #666; line-height: 12px; padding: 6px 0; text-align: center;}
+.discuss-main .item .box .cont .opera .other .btns ul li a.red {color: #ff5500;}
+.discuss-main .item .box .note {width: auto; height: auto; padding-top: 5px; font-size: 10px; color: #999;}
+.discuss-main .item .box .note a {color: #999; position: relative; margin-left: 6px; padding-left: 8px;}
+.discuss-main .item .box .note a i {display: block; width: 2px; height: 2px; background: #999; border-radius: 50%; position: absolute; left: 0; top: 50%; margin-top: -1px;}
+.discuss-main .item .box .seeall {width: auto; height: auto; padding-top: 10px;}
+.discuss-main .item .box .seeall a {display: block; width: auto; height: auto; background: #f9f9f9; border-radius: 5px; font-size: 10px; color: #666666; padding: 0 10px;}
+.discuss-main .item .box .seeall a span {display: inline-block; padding: 6px 0; background: url(../images/inmore.png) no-repeat right center; background-size: 5px 10px; padding-right: 10px; line-height: 12px;}
+.discuss-main .item .box .reply {width: auto; height: auto; margin-top: 10px; background-color: #f9f9f9; border-radius: 5px; background-image: url(../images/discuss-reply.png); background-repeat: no-repeat; background-size: 12px 11px; background-position: 12px 11px; padding-left: 33px;}
+.discuss-main .item .box .reply ul li {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.discuss-main .item .box .reply ul li:last-child {background: none;}
+.discuss-main .item .box .reply ul li .replybox {width: auto; height: auto; padding: 10px 0;}
+.discuss-main .item .box .reply ul li .replybox .replyname {width: auto; height: auto; line-height: 12px; position: relative; font-size: 10px; color: #333333;}
+.discuss-main .item .box .reply ul li .replybox .replyname a {color: #3d6fce;}
+.discuss-main .item .box .reply ul li .replybox .replyname .time {display: block; width: auto; height: 12px; line-height: 12px; position: absolute; right: 0; top: 50%; margin-top: -6px; color: #999;}
+.discuss-main .item .box .reply ul li .replybox .replytext {width: auto; height: auto; font-size: 10px; color: #333333; padding-top: 5px;}
+
+
+.discuss-main .item:last-child .box {background: none;}
+
+
+
+/*红人直通车*/
+.throughtrain {background: #fff;}
+
+
+
+
+
+/*搜索*/
+.searchclear {width: 100%; height: 50px; background: #fff; text-align: center; font-size: 0; position: fixed; left: 0; bottom: 0;}
+.searchclear a {display: inline-block; width: auto; height: 50px; line-height: 50px; font-size: 14px; color: #333; padding: 0 20px;}
+.searchItem {width: auto; height: auto;}
+.searchItem .tit {width: auto; height: 44px; background: #f6f6f6; padding: 0 15px;}
+.searchItem .tit span {display: block; width: auto; height: 44px; line-height: 44px; font-size: 14px; color: #666666; padding-left: 24px; background-repeat: no-repeat; background-position: left center; background-size: 18px 18px;}
+.searchItem .tit span.ico1 {background-image: url(../images/icon-hot.png);}
+.searchItem .tit span.ico2 {background-image: url(../images/icon-history.png);}
+.searchItem .hot {width: auto; height: auto; padding: 10px; overflow: hidden;}
+.searchItem .hot ul li {width: auto; height: auto; float: left; padding: 5px;}
+.searchItem .hot ul li a {display: block; width: auto; height: 28px; line-height: 26px; border: 1px solid #ddd; padding: 0 10px; border-radius: 15px; font-size: 12px; color: #999999;}
+.searchItem .hot ul li a.on {color: #f54744; border-color: #f54744;}
+.searchItem .history {width: auto; height: auto; padding-left: 15px;}
+.searchItem .history ul li {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.searchItem .history ul li a {display: block; width: auto; height: 44px; line-height: 44px; font-size: 12px; color: #999;}
+
+
+
+
+
+/*关于我们*/
+
+.aboutcon-text {width: auto; height: auto; font-size: 14px; color: #999999; line-height: 1.6em; padding: 25px 35px 0 35px;}
+
+.aboutcon-img {width: auto; height: auto; padding: 20px 15px 0 15px; font-size: 0;}
+.aboutcon-img ul li {width: auto; height: auto; padding-top: 10px;}
+.aboutcon-img ul li .img {width: auto; height: auto;}
+.aboutcon-img ul li .img img {width: 100%;}
+.aboutcon-img ul li .txt {width: auto; height: auto; text-align: center; font-size: 13px; color: #999; padding-top: 10px;}
+
+.aboutcon-results {width: auto; height: auto; padding: 5px 15px 0 15px;}
+.aboutcon-results ul li {width: auto; height: auto; padding-top: 20px;}
+.aboutcon-results ul li .box {width: auto; height: 80px; background: #fafafa; border-radius: 5px; box-shadow: 1px 1px 2px rgba(0,0,0,0.1); position: relative;}
+.aboutcon-results ul li .box .img {width: 70px; height: 88px; position: absolute; left: 0; top: 50%; margin-top: -44px;}
+.aboutcon-results ul li .box .img img {width: 70px; height: 88px; border-radius: 5px;}
+.aboutcon-results ul li .box .con {width: auto; height: 80px; padding: 0 10px 0 80px;}
+.aboutcon-results ul li .box .con .tr {display: table; width: 100%; height: 80px;}
+.aboutcon-results ul li .box .con .td {display: table-cell; vertical-align: middle; text-align: left; font-size: 13px; line-height: 1.6em; color: #999999;}
+
+.aboutsign {width: auto; height: auto; background: #fff; padding: 40px 0;}
+.aboutsign .txt {width: auto; height: auto; font-size: 12px; color: #999; line-height: 1.6em; padding: 0 25px; text-align: center;}
+.aboutsign .btn {width: auto; height: auto; font-size: 0; text-align: center; padding-top: 15px;}
+.aboutsign .btn a {display: inline-block; width: auto; height: 26px; line-height: 26px; padding: 0 25px; border-radius: 15px; font-size: 16px; color: #fff; font-weight: bold;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+
+/*联系我们*/
+.contact {width: auto; height: auto;}
+.contact-box {width: auto; height: auto; margin-bottom: 5px;}
+.contact-box:last-child {margin-bottom: 0;}
+.contact-name {width: auto; height: auto; text-align: center; font-size: 16px; color: #333; font-weight: bold; padding: 15px 0; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+.contact-list {width: auto; height: auto;}
+.contact-list .item {width: auto; height: auto; background: #fff; margin-bottom: 5px; padding: 0 15px;}
+.contact-list .item:last-child {margin-bottom: 0;}
+.contact-list .item ul li {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+.contact-list .item ul li:last-child {background: none;}
+.contact-list .item ul li .box {width: auto; height: 44px; position: relative; padding-left: 25px;}
+.contact-list .item ul li .box .icon {width: 18px; height: 18px; position: absolute; left: 0; top: 50%; margin-top: -9px; font-size: 0;}
+.contact-list .item ul li .box .icon img {width: 18px; height: 18px;}
+.contact-list .item ul li .box .tit {width: auto; height: 44px; line-height: 44px; font-size: 12px; color: #333;}
+.contact-list .item ul li .box .txt {width: auto; height: 44px; line-height: 44px; font-size: 12px; color: #666; position: absolute; right: 0; top: 0;}
+.contact-list .item ul li .box .txt a {color: #2275ff;}
+
+/*合作平台*/
+.partners {width: auto; height: auto;}
+.partners-tit {width: auto; height: auto; text-align: center; font-size: 16px; color: #333; font-weight: bold; padding: 15px 0; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+.partners-list {width: auto; height: auto; overflow: hidden; padding: 5px;}
+.partners-list ul li {width: 33.333%; height: auto; float: left; padding: 10px;}
+.partners-list ul li a {display: block; width: auto; height: auto; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;}
+.partners-list ul li a img {width: 100%;}
+
+.partners-con {width: auto; height: auto; padding: 15px; font-size: 12px; color: #888; line-height: 1.6em;}
+
+
+/*星探登陆*/
+.login {width: auto; height: auto;}
+.login-tit {width: auto; height: auto; text-align: center; font-size: 16px; color: #333; font-weight: bold; padding: 15px 0; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+.login-form {width: auto; height: auto; padding: 13px 60px;}
+.login-form ul li {width: auto; height: auto; padding: 7px 0;}
+.login-form ul li .tit {width: auto; height: auto; font-size: 13px; color: #666666;}
+.login-form ul li .inpbox {width: auto; height: auto; margin-top: 5px; font-size: 0;}
+.login-form ul li .inpbox input {display: block; width: 100%; height: 30px; border: 1px solid #ddd; border-radius: 5px; padding: 6px 10px; font-size: 14px; line-height: 16px; color: #333; background: #fff;}
+.login-form ul li .btnbox {width: auto; height: auto; font-size: 0;}
+.login-form ul li .btnbox input {display: block; width: 100%; height: 40px; line-height: 40px; text-align: center; border-radius: 5px; border: 0px; font-size: 15px; color: #fff;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+
+
+
+
+/*红人黄页*/
+.yellowlist {width: auto; height: auto; padding: 10px; overflow: hidden; background: #fff;}
+.yellowlist ul li {width: 33.333%; height: auto; float: left; padding: 5px;}
+.yellowlist ul li a {display: block; width: auto; height: auto;}
+.yellowlist ul li a .img {width: auto; height: auto;}
+.yellowlist ul li a .img img {width: 100%; border-radius: 5px;}
+.yellowlist ul li a .con {width: auto; height: auto; padding-top: 8px;}
+.yellowlist ul li a .con .tit {width: auto; height: 20px; line-height: 20px; font-size: 14px; color: #333;}
+.yellowlist ul li a .con .txt {width: auto; height: 18px; line-height: 18px; font-size: 12px; color: #999;}
+
+
+/*我的*/
+.usintro {width: auto; height: auto; background: #fff;}
+.usintro-box {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px; padding: 0 15px 10px 15px; position: relative;}
+.usintro-box .portrait {width: 70px; height: 70px; border: 2px solid #fff; border-radius: 50%; position: absolute; left: 15px; top: -18px; z-index: 2;}
+.usintro-box .portrait img {width: 66px; height: 66px; border-radius: 50%;}
+.usintro-box .con {width: auto; height: 60px; padding-left: 80px;}
+.usintro-box .con .name {width: auto; height: auto; padding-top: 8px; font-size: 15px; color: #333333;}
+.usintro-box .con .name span {display: inline-block; background: url(../images/vip-blue.png) no-repeat right center; background-size: 14px 14px; padding-right: 20px;}
+.usintro-box .con .note {width: auto; height: auto; font-size: 12px; color: #999999; padding-top: 5px;}
+.usintro-box .con .note a {color: #999999;}
+.usintro-box .con .note span {padding: 0 5px;}
+.usintro-box .nature {width: auto; height: auto; font-size: 12px; color: #999;}
+.usintro-btns {width: auto; height: auto; padding: 10px 0; overflow: hidden;}
+.usintro-btns ul li {width: 50%; padding: 0 35px; float: left;}
+.usintro-btns ul li a {display: block; width: auto; height: 26px; border-radius: 15px; text-align: center; line-height: 24px; font-size: 12px; color: #fff; padding: 1px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.usintro-btns ul li a span {display: block; color: #fa655b; background: #fff; border-radius: 15px;}
+.usintro-btns ul li a span b {display: inline-block; width: auto; height: 24px; line-height: 24px; color: #fa655b; background: url(../images/icon-addc.png) no-repeat left center; background-size: 10px 10px; padding-left: 16px;}
+
+.usintro-btns ul li:first-child {background: url(../images/borgrayr.png) repeat-y right; background-size: 1px 1px;}
+.usintro-btns ul li:first-child a {box-shadow: 0 0 0;}
+
+.uslist {width: auto; height: auto; margin-top: 10px;}
+.uslist .item {width: auto; height: auto; margin-bottom: 5px; background: #fff;}
+.uslist .item:last-child {margin-bottom: 0;}
+.uslist .item ul li {width: auto; height: auto; padding-left: 50px;}
+.uslist .item ul li a {display: block; width: auto; height: 42px; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px; position: relative; font-size: 14px; color: #333333; line-height: 42px;}
+.uslist .item ul li:last-child a {background: none;}
+.uslist .item ul li a span {display: block; width: 50px; height: 42px; font-size: 0; line-height: 0; text-align: center; position: absolute; left: -50px; top: 0; padding: 11px 0;}
+.uslist .item ul li a span img {width: 20px; height: 20px;}
+.uslist .item ul li a i {display: block; width: 5px; height: 10px; font-size: 0; line-height: 0; position: absolute; right: 15px; top: 50%; margin-top: -5px; background: url(../images/inmore.png) no-repeat; background-size: 5px 10px; opacity: 0.5;}
+
+.usnotice {width: auto; height: auto; background: #fff; margin-top: 10px;}
+.usnotice .list {width: auto; height: auto;}
+.usnotice .list ul li {width: auto; height: auto; padding-left: 15px;}
+.usnotice .list ul li a {display: block; width: auto; height: 42px; line-height: 42px; font-size: 14px; color: #666; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.usnotice .list ul li:last-child a {background: none;}
+
+
+.userdata {width: auto; height: auto;}
+.userdata .item {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px; margin-bottom: 10px;}
+.userdata .item ul {display: block; width: auto; height: auto; background: url(../images/borgrayt.png) repeat-x top; background-size: 1px 1px; padding-left: 15px;}
+.userdata .item ul li {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.userdata .item:last-child {margin-bottom: 0;}
+.userdata .item:first-child ul {background: none;}
+.userdata .item ul li:last-child {background: none;}
+.userdata .item ul li .box {width: auto; height: auto; padding-right: 15px; position: relative;}
+.userdata .item ul li .box .cont {width: auto; height: auto; padding-left: 80px; min-height: 44px;}
+.userdata .item ul li .box .name {width: auto; height: 44px; line-height: 44px; font-size: 14px; color: #333; position: absolute; left: 0; top: 0;}
+.userdata .item ul li .box .nameCent {top: 50%; margin-top: -22px;}
+.userdata .item ul li .box a {display: block; width: auto; height: auto; background: url(../images/icon-arr.png) no-repeat right center; background-size: 6px 9px;}
+.userdata .item ul li .box .img {width: auto; height: auto; font-size: 0; padding: 10px 0;}
+.userdata .item ul li .box .img img {width: 60px; height: 60px;}
+.userdata .item ul li .box .inpbox {width: auto; height: auto; font-size: 0;}
+.userdata .item ul li .box .inpbox input.inp {width: 100%; height: 44px; line-height: 20px; padding: 12px 0; font-size: 14px; color: #666; background: none; border: 0px;}
+.userdata .item ul li .box .inpbox select {width: 100%; height: 44px; line-height: 44px; background: url(../images/icon-arr.png) no-repeat right center; background-size: 6px 9px; border: 0px; font-size: 14px; color: #666;}
+.userdata .item ul li .box .inpbox textarea {width: 100%; height: 80px; background: none; border: 0; font-size: 14px; color: #666; padding: 12px 0;}
+
+
+
+.userfans {width: auto; height: auto; background: #fff;}
+.userfans ul li {width: auto; height: auto; padding-left: 60px;}
+.userfans ul li .box {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px; position: relative; padding-right: 100px;}
+.userfans ul li .box .portrait {width: 36px; height: 36px; position: absolute; left: -50px; top: 50%; margin-top: -18px; font-size: 0;}
+.userfans ul li .box .portrait a {display: block; width: 36px; height: 36px;}
+.userfans ul li .box .portrait a img {width: 36px; height: 36px; border-radius: 50%;}
+.userfans ul li .box .btn {width: 70px; height: 26px; position: absolute; right: 10px; top: 50%; margin-top: -13px;}
+.userfans ul li .box .btn a {display: block; width: auto; height: 26px; text-align: center; line-height: 24px; padding: 1px;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 15px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+}
+.userfans ul li .box .btn a span {display: block; width: auto; height: 24px; background: #fff; border-radius: 15px; text-align: center;}
+.userfans ul li .box .btn a span b {display: inline-block; width: auto; height: 24px; line-height: 24px; color: #fa655b; background: url(../images/icon-addc.png) no-repeat left center; background-size: 10px 10px; padding-left: 16px;}
+.userfans ul li .box .btn a.on {background: #ccc;}
+.userfans ul li .box .btn a.on span {background: none;}
+.userfans ul li .box .btn a.on span b {background: none; color: #fff; padding-left: 0;}
+
+.userfans ul li .box .con {width: auto; height: auto; padding: 10px 0;}
+.userfans ul li .box .con .name {width: auto; height: auto; font-size: 14px; color: #333; line-height: 16px;}
+.userfans ul li .box .con .name a {color: #333;}
+.userfans ul li .box .con .txt {width: auto; height: auto; font-size: 12px; color: #999; padding-top: 5px; line-height: 14px; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; -moz-text-overflow: ellipsis; white-space: nowrap;}
+
+.userfans ul li:last-child {background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.userfans ul li:last-child .box {background: none;}
+
+
+
+/*学堂*/
+.finecourse {width: auto; height: auto;}
+.finecourse-list {width: auto; height: auto;}
+.finecourse-list .item {width: auto; height: auto; background: #fff; margin-bottom: 10px;}
+.finecourse-list .item:last-child {margin-bottom: 0;}
+.finecourse-list .item .tit {width: auto; height: auto; font-size: 0; padding: 10px 0;}
+.finecourse-list .item .tit a {display: inline-block; width: auto; height: auto; font-size: 0; border-left: 2px solid #f54744; padding-left: 12px;}
+.finecourse-list .item .tit a span {display: inline-block; width: auto; height: 14px; line-height: 14px; font-size: 14px; color: #333;  padding-right: 20px; background: url(../images/inmore.png) no-repeat right center; background-size: 5px 10px;}
+.finecourse-list .item .img {width: auto; height: auto; font-size: 0;}
+.finecourse-list .item .img a {display: block;}
+.finecourse-list .item .img img {width: 100%;}
+
+
+
+.finecoursecon-head {width: auto; height: auto; font-size: 0; position: relative;}
+.finecoursecon-head .img {width: auto; height: auto;}
+.finecoursecon-head .img a {display: block; width: auto; height: auto; position: relative;}
+.finecoursecon-head .img a span {display: block; width: auto; height: auto;}
+.finecoursecon-head .img a span img {width: 100%;}
+.finecoursecon-head .img a span.on {display: none; position: absolute; left: 0; top: 0;}
+.finecoursecon-head .img a.on span.on {display: block;}
+
+.finecoursecon-main {width: auto; height: auto;}
+.finecoursecon-item {width: auto; height: auto; background: #fff; margin-bottom: 10px; padding-bottom: 30px;}
+.finecoursecon-tit {width: auto; height: auto; text-align: center; font-size: 0; padding-top: 30px;}
+.finecoursecon-tit .box {display: inline-block; width: auto; height: 26px; line-height: 26px; padding: 0 12px; border-radius: 15px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.finecoursecon-tit .l {display: inline-block; width: auto; height: 26px; padding-left: 20px; background: url(../images/finecoursecon-tit.png) no-repeat left center; background-size: 11px 11px;}
+.finecoursecon-tit .r {display: inline-block; width: auto; height: 26px; padding-right: 20px; background: url(../images/finecoursecon-tit.png) no-repeat right center; background-size: 11px 11px; font-size: 16px; color: #fff; font-weight: bold;}
+.finecoursecon-intro {width: auto; height: auto; font-size: 14px; color: #999999; line-height: 1.6em; padding: 25px 35px 0 35px; text-indent: 2em;}
+.finecoursecon-sale {width: auto; height: auto; font-size: 0;}
+.finecoursecon-sale img {width: 100%;}
+.finecoursecon-give {width: auto; height: auto; text-align: center; font-size: 14px; color: #999999; line-height: 1.6em; padding: 20px 35px 0 35px;}
+.finecoursecon-img {width: auto; height: auto; font-size: 0; padding: 25px 15px 0 15px;}
+.finecoursecon-img img {width: 100%; border-radius: 5px;}
+.finecoursecon-author {width: auto; height: auto; padding: 15px 15px 0 15px;}
+.finecoursecon-author ul li {width: auto; height: auto; padding-top: 10px;}
+.finecoursecon-author ul li .box {width: auto; height: auto; background: #fafafa; border: 1px dashed #ddd; border-radius: 5px; padding: 15px;}
+.finecoursecon-author ul li .box .person {width: auto; height: 60px; position: relative; padding-left: 70px;}
+.finecoursecon-author ul li .box .person .portrait {width: 60px; height: 60px; border-radius: 50%; box-shadow: 3px 2px 3px #dddddd; position: absolute; left: 0; top: 0;}
+.finecoursecon-author ul li .box .person .portrait img {width: 60px; height: 60px; border-radius: 50%;}
+.finecoursecon-author ul li .box .person .con {width: auto; height: auto;}
+.finecoursecon-author ul li .box .person .con .tr {display: table; width: 100%; min-height: 60px;}
+.finecoursecon-author ul li .box .person .con .td {display: table-cell; vertical-align: middle; text-align: left;}
+.finecoursecon-author ul li .box .person .con .name {width: auto; height: auto; font-size: 14px; color: #333;}
+.finecoursecon-author ul li .box .person .con .tag {width: auto; height: auto; font-size: 0; padding-top: 8px;}
+.finecoursecon-author ul li .box .person .con .tag div {display: inline-block; width: auto; height: 16px; line-height: 16px; padding: 0 10px; border-radius: 10px; font-size: 10px; color: #fff;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+}
+.finecoursecon-author ul li .box .txt {width: auto; height: auto; font-size: 14px; color: #999999; line-height: 1.6em; padding-top: 15px;}
+.finecoursecon-for {width: auto; height: auto; padding: 20px 15px 0 15px;}
+.finecoursecon-for ul li {width: auto; height: auto; font-size: 14px; color: #999999; line-height: 1.6em; padding-left: 20px; background: url(../images/finecoursecon-for.png) no-repeat left center; background-size: 14px 14px;}
+.finecoursecon-note {width: auto; height: auto; padding: 15px 15px 0 15px;}
+.finecoursecon-note .item {width: auto; height: auto; padding: 5px 0;}
+.finecoursecon-note .item .num {width: 32px; height: 32px; border: 1px dotted #e30a20; margin: 0 auto; border-radius: 50%; padding: 1px;}
+.finecoursecon-note .item .num div {width: 28px; height: 28px; text-align: center; line-height: 28px; font-weight: bold; font-size: 18px; color: #fff; border-radius: 50%;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+}
+.finecoursecon-note .item .txt {width: auto; height: auto; font-size: 14px; color: #999999; line-height: 1.6em; padding-top: 10px;}
+
+
+.finecoursecon-user {width: auto; height: auto; background: #fff;}
+.finecoursecon-user .head {width: auto; height: auto; padding: 15px; position: relative; overflow: hidden;}
+.finecoursecon-user .head .portrait {width: 32px; height: 32px; position: absolute; left: 15px; top: 50%; margin-top: -16px;}
+.finecoursecon-user .head .portrait img {width: 32px; height: 32px; border-radius: 50%;}
+.finecoursecon-user .head .name {width: auto; height: 32px; line-height: 32px; float: left; font-size: 14px; color: #333; padding-left: 42px; margin-right: 5px;}
+.finecoursecon-user .head .tag {width: auto; height: 16px; line-height: 16px; float: left; font-size: 10px; color: #fff; padding: 0 5px; border-radius: 3px; margin-top: 8px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+}
+.finecoursecon-user .img {width: auto; height: auto; position: relative;}
+.finecoursecon-user .img .imgbox {width: auto; height: auto; font-size: 0;}
+.finecoursecon-user .img .imgbox img {width: 100%;}
+.finecoursecon-user .img .imgtxt {width: 100%; height: auto; position: absolute; left: 0; bottom: 0; padding: 10px 15px; font-size: 12px; color: #fff;
+	background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* Firefox 3.6 - 15 */
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* 标准的语法 */
+}
+.finecoursecon-user .fourOpera {background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.finecoursecon-user .txt {width: auto; height: auto; font-size: 14px; color: #999999; line-height: 1.6em; padding: 15px;}
+
+.finecoursecon-newintro {width: auto; height: auto; font-size: 14px; color: #999999; line-height: 1.6em; padding: 15px; background: #fff; text-indent: 2em;}
+.finecoursecon-newlist {width: auto; height: auto;}
+.finecoursecon-newlist ul li {width: auto; height: auto; padding-top: 10px;}
+.finecoursecon-newlist ul li .box {width: auto; height: auto; background: #fff;}
+.finecoursecon-newlist ul li .box .type {width: auto; height: auto; font-size: 0; padding: 10px 0;}
+.finecoursecon-newlist ul li .box .type a {display: inline-block; width: auto; height: 14px; line-height: 14px; border-left: 2px solid #f54744; padding-left: 13px; font-size: 14px; color: #333;}
+.finecoursecon-newlist ul li .box .type a span {display: inline-block; width: auto; height: auto; background: url(../images/inmore.png) no-repeat right center; padding-right: 20px; background-size: 5px 10px;}
+.finecoursecon-newlist ul li .box .item {width: auto; height: auto; padding: 0 15px 15px 15px; position: relative;}
+.finecoursecon-newlist ul li .box .item .img {width: 120px; height: 120px; position: absolute; left: 15px; top: 0;}
+.finecoursecon-newlist ul li .box .item .img img {width: 120px; height: 120px; border-radius: 5px;}
+.finecoursecon-newlist ul li .box .item .con {width: auto; height: auto; min-height: 120px; margin-left: 135px; position: relative;}
+.finecoursecon-newlist ul li .box .item .con .tit {width: auto; height: auto; font-size: 14px; color: #333;}
+.finecoursecon-newlist ul li .box .item .con .note {width: auto; height: auto; font-size: 12px; color: #999; padding-top: 8px;}
+.finecoursecon-newlist ul li .box .item .con .txt {width: auto; height: auto; min-height: 60px; font-size: 12px; color: #666; padding-top: 8px;}
+.finecoursecon-newlist ul li .box .item .con .opera {width: auto; height: 24px;}
+.finecoursecon-newlist ul li .box .item .con .opera span {display: inline-block; width: auto; height: 24px; line-height: 24px; font-size: 11px; color: #999999; position: relative; padding-left: 18px;}
+.finecoursecon-newlist ul li .box .item .con .opera span i {display: block; width: 12px; height: 12px; font-size: 0; line-height: 0; position: absolute; left: 0; top: 50%; margin-top: -6px; background-image: url(../images/inopera.png); background-repeat: no-repeat; background-size: 48px 24px; background-position: 0px 0px;}
+
+
+
+
+.finewcon-head {width: auto; height: auto; font-size: 0;}
+.finewcon-head a {display: block; width: auto; height: auto;}
+.finewcon-head img {width: 100%;}
+
+.finewcon-user {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px; position: relative; z-index: 2; padding: 0 68px 0 96px;}
+.finewcon-user .portrait {width: 66px; height: 66px; background: #fff; position: absolute; top: -10px; left: 15px; border-radius: 50%; fonnt-size: 0; padding: 2px;}
+.finewcon-user .portrait a {display: block; width: 62px; height: 62px;}
+.finewcon-user .portrait a img {width: 62px; height: 62px; border-radius: 50%;}
+.finewcon-user .gift {width: 68px; height: 40px; position: absolute; right: 0px; top: 14px; background: url(../images/borgrayl.png) repeat-y left; background-size: 1px 1px;}
+.finewcon-user .gift a {display: block; width: auto; height: 40px;}
+.finewcon-user .gift a span {display: block; margin: 0 auto; text-align: center;}
+.finewcon-user .gift a span.icon {width: 24px; height: 24px; font-size: 0;}
+.finewcon-user .gift a span.text {width: auto; height: auto; font-size: 10px; color: #999999; padding-top: 5px;}
+.finewcon-user .box {width: auto; height: auto; min-height: 68px; padding-right: 10px;}
+.finewcon-user .box .con {width: auto; height: auto; overflow: hidden; padding-top: 8px;}
+.finewcon-user .box .con .name {width: auto; height: 30px; line-height: 30px; font-size: 14px; color: #333333; float: left; padding-right: 20px;}
+.finewcon-user .box .con .name a {color: #333333;}
+.finewcon-user .box .con .name a span {display: block; width: auto; height: auto; background-repeat: no-repeat; background-position: right center; padding-right: 20px; background-size: 14px 14px;}
+.finewcon-user .box .con .name a span.vip {background-image: url(../images/vip-blue.png);}
+.finewcon-user .box .con .fans {width: auto; height: 30px; line-height: 30px; font-size: 12px; color: #999999; float: left;}
+.finewcon-user .box .txt {width: auto; height: auto; font-size: 10px; color: #999;}
+
+
+.finewcon-btns {width: auto; height: 44px; background: #fff; padding: 9px 0;}
+.finewcon-btns ul li {width: 50%; height: 26px; float: left; background: url(../images/borgrayr.png) repeat-y right; background-size: 1px 1px; padding: 0 35px;}
+.finewcon-btns ul li:last-child {background: none;}
+.finewcon-btns ul li a {display: block; width: auto; height: 26px; text-align: center; line-height: 24px; padding: 1px;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 15px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+}
+.finewcon-btns ul li a span {display: block; width: auto; height: 24px; background: #fff; border-radius: 15px; text-align: center;}
+.finewcon-btns ul li a span b {display: inline-block; width: auto; height: 24px; line-height: 24px; color: #fa655b; background: url(../images/icon-addc.png) no-repeat left center; background-size: 10px 10px; padding-left: 16px;}
+.finewcon-btns ul li a.on {background: #ccc;}
+.finewcon-btns ul li a.on span {background: none;}
+.finewcon-btns ul li a.on span b {background: none; color: #fff; padding-left: 0;}
+
+.finewcon-main {width: auto; height: auto; margin-top: 10px; background: #fff;}
+.finewcon-title {width: auto; height: auto; padding: 15px; font-size: 18px; color: #333333; font-weight: bold;}
+.finewcon-music {width: auto; height: auto; background: #f5f5f5; border: 1px dashed #ddd; border-radius: 5px; margin: 0 15px; padding: 15px;}
+.finewcon-music .tit {width: auto; height: auto; font-size: 14px; color: #333333;}
+.finewcon-music .box {width: auto; height: 25px; position: relative; margin-top: 10px;}
+.finewcon-music .box .play {width: 133px; height: 25px;}
+.finewcon-music .box .play a {display: block; width: 133px; height: 25px; background: url(../images/musicbg.png) no-repeat; background-size: 133px 25px; position: relative;}
+.finewcon-music .box .play a span.state {display: block; width: auto; height: 25px; line-height: 25px; text-align: center; font-size: 12px; color: #fff; background-image: url(../images/music.png); background-repeat: no-repeat; background-position: 15px center; background-size: 12px 12px; padding-left: 10px;}
+.finewcon-music .box .play a.on span.state {background-image: url(../images/music.gif);}
+.finewcon-music .box .play a span.num {display: block; width: auto; height: 25px; line-height: 25px; font-size: 12px; color: #999; position: absolute; left: 100%; top: 0; padding-left: 10px;}
+.finewcon-music .box .note {width: auto; height: 25px; line-height: 25px; position: absolute; right: 0; top: 0; font-size: 12px; color: #999;}
+
+.finewcon-video {width: auto; height: auto;}
+.finewcon-video a {display: block; width: auto; height: auto; position: relative;}
+.finewcon-video a img {width: 100%;}
+.finewcon-video a .icon {width: 40px; height: 40px; position: absolute; left: 50%; top: 50%; margin-left: -20px; margin-top: -20px; background: url(../images/video-play.png) no-repeat; background-size: 40px 40px;}
+.finewcon-video a .note {width: 100%; height: 44px; position: absolute; left: 0; bottom: 0; z-index: 2; text-align: right; padding: 12px 15px 0 15px;
+	background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* Firefox 3.6 - 15 */
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* 标准的语法 */
+}
+.finewcon-video a .note span {display: inline-block; width: auto; height: 32px; line-height: 32px; background: url(../images/video-note.png) no-repeat left center; background-size: 12px 12px; font-size: 12px; color: #fff; padding-left: 20px;}
+
+.finewcon-cont {width: auto; height: auto; font-size: 13px; color: #999999; line-height: 1.6em;}
+.finewcon-cont img {width: 100%;}
+.finewcon-cont .txt {width: auto; height: auto; padding: 15px;}
+.finewcon-cont .img {font-size: 0; line-height: 0;}
+
+.gifthead {width: auto; height: auto; background: url(../images/borgrayt.png) repeat-x top #fff; background-size: 1px 1px;}
+.giftlist {width: auto; height: auto; overflow: hidden; padding: 12px;}
+.giftlist ul li {width: 25%; height: auto; float: left; padding: 3px;}
+.giftlist ul li a {display: block; width: auto; height: auto; font-size: 0; border-radius: 5px; background: #e2e2e2; position: relative;}
+.giftlist ul li a .img {width: auto; height: auto;}
+.giftlist ul li a .img img {width: 100%;}
+.giftlist ul li a .con {width: 100%; height: auto; position: absolute; left: 0; bottom: 3px; z-index: 2; text-align: center;}
+.giftlist ul li a .con .name {font-size: 10px; color: #333;}
+.giftlist ul li a .con .note {font-size: 8px; color: #999;}
+.giftlist ul li a.on {
+	background: -webkit-linear-gradient(left top, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right bottom, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(left top, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to left top, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+}
+.giftlist ul li a.on .con .name {color: #fff;}
+.giftlist ul li a.on .con .note {color: #fff;}
+
+.giftform {width: auto; height: auto; padding: 5px 15px 20px 80px; position: relative; overflow: hidden;}
+.giftform .txtbox {width: auto; height: 30px; line-height: 30px; font-size: 12px; color: #333; position: absolute; left: 15px; top: 5px;}
+.giftform .inpbox {width: 50%; height: 30px; float: left; padding-right: 15px;}
+.giftform .inpbox input {display: block; width: 100%; height: 30px; line-height: 14px; padding: 7px 10px; border: 1px solid #dddddd; border-radius: 5px; font-size: 12px; color: #666666;}
+.giftform .btnbox {width: 50%; height: 30px; float: left;}
+.giftform .btnbox input {display: block; width: 100%; height: 30px; border: 1px solid #fa655b; background: #fff; border-radius: 5px; font-size: 12px; color: #fa655b; text-align: center; line-height: 28px;}
+
+.giftrank {width: auto; height: auto; padding-top: 10px;}
+.giftrank-tit {width: auto; height: 42px; text-align: center; font-size: 18px; color: #333; line-height: 42px; background: url(../images/borgrayb.png) repeat-x bottom #ffffff; background-size: 1px 1px;}
+.giftrank-tit .l {display: inline-block; background: url(../images/giftrank-tit.png) no-repeat left center; background-size: 10px 7px; padding-left: 20px;}
+.giftrank-tit .r {display: inline-block; background: url(../images/giftrank-tit.png) no-repeat right center; background-size: 10px 7px; padding-right: 20px;}
+.giftrank-note {width: auto; height: auto; text-align: center; padding: 16px 0; font-size: 0;}
+.giftrank-note .box {display: inline-block; width: auto; height: 22px; line-height: 22px; padding: 0 35px 0 55px; position: relative; font-size: 12px; color: #fff; border-radius: 15px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to left, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+}
+.giftrank-note .box span.num {color: #ffcc00;}
+.giftrank-note .box span.icon {display: block; width: 26px; height: 26px; background: url(../images/givegift.png) no-repeat center #ffcc33; background-size: 14px 14px; border: 2px solid #f58762; position: absolute; left: 0; top: 50%; margin-top: -13px; border-radius: 50%; font-size: 0; line-height: 0;}
+.giftrank-list {width: auto; height: auto; background: #ffffff; background-size: 1px 1px;}
+.giftrank-list ul li {width: auto; height: auto; background: url(../images/borgrayt.png) repeat-x top; background-size: 1px 1px;}
+.giftrank-list ul li .box {width: auto; height: 60px; position: relative;}
+.giftrank-list ul li .box .num {width: 50px; height: 60px; position: absolute; left: 0; top: 0; text-align: center; line-height: 60px; font-size: 18px; color: #333;}
+.giftrank-list ul li .box .num1 {color: #ff3333; font-weight: bold;}
+.giftrank-list ul li .box .num2 {color: #ff9900; font-weight: bold;}
+.giftrank-list ul li .box .num3 {color: #97dfeb; font-weight: bold;}
+.giftrank-list ul li .box .portrait {width: 40px; height: 40px; position: absolute; left: 50px; top: 50%; margin-top: -20px;}
+.giftrank-list ul li .box .portrait a {display: block; width: 40px; height: 40px;}
+.giftrank-list ul li .box .portrait a img {width: 40px; height: 40px; border-radius: 50%;}
+.giftrank-list ul li .box .portrait span.vip {display: block; width: 14px; height: 14px; border: 1px solid #fff; border-radius: 50%; overflow: hidden; background-repeat: no-repeat; background-position: center; background-size: 14px 14px; position: absolute; right: 0; bottom: 0;}
+.giftrank-list ul li .box .portrait span.vip1 {background-image: url(../images/giftrank-list-vip1.png);}
+.giftrank-list ul li .box .portrait span.vip2 {background-image: url(../images/giftrank-list-vip2.png);}
+.giftrank-list ul li .box .portrait span.vip3 {background-image: url(../images/giftrank-list-vip3.png);}
+.giftrank-list ul li .box .con {width: auto; height: 60px; padding-left: 105px;}
+.giftrank-list ul li .box .con .name {width: auto; height: auto; line-height: 20px; font-size: 14px; color: #333; padding-top: 10px;}
+.giftrank-list ul li .box .con .name a {color: #333;}
+.giftrank-list ul li .box .con .txt {width: auto; height: auto; line-height: 20px; font-size: 12px; color: #999;}
+.giftrank-list ul li .box .price {width: auto; height: 60px; position: absolute; right: 15px; top: 0;}
+.giftrank-list ul li .box .price a {display: block; width: auto; height: 60px; line-height: 60px; background: url(../images/arrright.png) no-repeat right center; background-size: 10px 5px; padding-right: 20px; font-size: 18px; color: #ff3333;}
+.giftrank-list ul li .box .price a span {font-size: 12px;}
+
+.opengift {width: 190px; height: 240px; background: #fff; border-radius: 5px; position: fixed; left: 50%; top: 50%; margin-left: -95px; margin-top: -120px; z-index: 1001; overflow: hidden; display: none;}
+.opengift-close {width: 30px; height: 30px; position: absolute; right: 0; top: 0; z-index: 2; background: url(../images/openclose.png) no-repeat center; background-size: 12px 12px;}
+.opengift-tit {width: auto; height: 44px; line-height: 44px; font-size: 16px; color: #fff;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to left, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+}
+.opengift-tit .box {width: auto; height: 44px; background: url(../images/opengift-tit.png) no-repeat; background-size: 100% 100%; padding: 0 15px;}
+.opengift-list {width: auto; height: 194px; overflow: auto; padding: 0 15px;}
+.opengift-list ul li {width: auto; height: 39px; border-bottom: 1px dotted #ddd;}
+.opengift-list ul li:last-child {border-bottom: 0;}
+.opengift-list ul li .box {width: auto; height: 38px; position: relative; font-size: 10px; color: #333; padding-left: 35px; line-height: 38px;}
+.opengift-list ul li .box span {display: block; width: 22px; height: 22px; position: absolute; left: 0; top: 50%; margin-top: -11px; font-size: 0; line-height: 0;}
+
+
+
+
+/*vip课*/
+.vipcourse {width: auto; height: auto;}
+.vipcourse ul li {width: auto; height: auto; padding-bottom: 10px;}
+.vipcourse ul li:last-child {padding-bottom: 0;}
+.vipcourse ul li .box {width: auto; height: auto; background: #fff;}
+.vipcourse ul li .box .type {width: auto; height: auto; font-size: 0; padding: 10px 0;}
+.vipcourse ul li .box .type a {display: inline-block; width: auto; height: 14px; line-height: 14px; border-left: 2px solid #f54744; padding-left: 13px; font-size: 14px; color: #333;}
+.vipcourse ul li .box .type a span {display: inline-block; width: auto; height: auto; background: url(../images/inmore.png) no-repeat right center; padding-right: 20px; background-size: 5px 10px;}
+.vipcourse ul li .box .item {width: auto; height: auto; padding: 0 15px 15px 15px; position: relative;}
+.vipcourse ul li .box .item .img {width: 120px; height: 120px; position: absolute; left: 15px; top: 0;}
+.vipcourse ul li .box .item .img img {width: 120px; height: 120px; border-radius: 5px;}
+.vipcourse ul li .box .item .con {width: auto; height: auto; min-height: 120px; margin-left: 135px; position: relative; padding-bottom: 36px;}
+.vipcourse ul li .box .item .con .tit {width: auto; height: auto; font-size: 14px; color: #333;}
+.vipcourse ul li .box .item .con .txt {width: auto; height: auto; font-size: 12px; color: #666; padding-top: 8px;}
+.vipcourse ul li .box .item .con .note {width: auto; height: auto; font-size: 12px; color: #999; padding-top: 8px;}
+.vipcourse ul li .box .item .con .btn {width: auto; height: auto; position: absolute; left: 0; bottom: 4px;}
+.vipcourse ul li .box .item .con .btn a {display: block; width: auto; height: auto; height: 22px; border: 1px solid #f54744; border-radius: 15px; box-shadow: inset 1px 1px 2px rgba(245,71,68,0.2); font-size: 10px; color: #f54744; line-height: 20px; padding-left: 10px;}
+.vipcourse ul li .box .item .con .btn span {display: block; width: auto; height: 20px; float: right; background: #f54744; padding: 0 10px; border-radius: 15px; margin-left: 5px; color: #fff;}
+.vipcourse ul li .box .item .con .btn a.on {padding-right: 10px; background: #ccc; border-color: #ccc; color: #fff; box-shadow: 0 0 0;}
+.vipcourse ul li .box .item .con .updated {width: auto; height: auto; line-height: 22px; position: absolute; right: 0; bottom: 4px; font-size: 12px; color: #999;}
+
+
+
+.vipcoursecon {width: auto; height: auto; padding-top: 10px;}
+.vipcoursecon .finecoursecon-item:last-child {margin-bottom: 0;}
+.vipcoursecon-list {width: auto; height: auto; padding: 25px 35px 0 35px;}
+.vipcoursecon-list ul {display: block; border-top: 1px dotted #ddd;}
+.vipcoursecon-list ul li {width: auto; height: auto; border-bottom: 1px dotted #ddd;}
+.vipcoursecon-list ul li a {display: block; width: auto; height: auto; line-height: 20px; padding: 10px 0; position: relative; padding-left: 10px; font-size: 12px; color: #999999;}
+.vipcoursecon-list ul li a i {display: block; width: 4px; height: 4px; background: #f54744; border-radius: 50%; position: absolute; left: 0px; top: 50%; margin-top: -2px; font-size: 0; line-height: 0;}
+.vipcoursecon-list ul li a span {display: inline-block; min-width: 4em;}
+
+
+
+/*私人定制*/
+.pvcustom-intro {width: auto; height: auto; background: #fff; padding: 15px; font-size: 13px; color: #999999; line-height: 1.6em;}
+.pvcustom-form {width: auto; height: auto; background: #fff; margin-top: 10px;}
+.pvcustom-form-tit {width: auto; height: auto; padding: 15px 0 5px 0; font-size: 0; line-height: 0;}
+.pvcustom-form-tit .box {width: auto; height: 14px; border-left: 2px solid #f54744; padding-left: 13px;}
+.pvcustom-form-tit .box span {display: inline-block; width: auto; height: 14px; line-height: 14px; font-size: 14px; color: #333; background: url(../images/inmore.png) no-repeat right center; padding-right: 15px; background-size: 5px 10px;}
+.pvcustom-form-list {width: auto; height: auto; padding: 8px 15px; border-bottom: 1px dotted #ddd;}
+.pvcustom-form-list ul li {width: auto; height: auto; padding: 7px 0;}
+.pvcustom-form-list ul li .box {width: auto; height: auto; position: relative; min-height: 30px; padding-left: 90px;}
+.pvcustom-form-list ul li .box .name {width: auto; height: 30px; line-height: 30px; font-size: 12px; color: #333; position: absolute; left: 0; top: 0;}
+.pvcustom-form-list ul li .box .inpbox {width: auto; height: 30px; position: relative;}
+.pvcustom-form-list ul li .box .inpbox input {display: block; width: 100%; height: 30px; border: 1px solid #ddd; border-radius: 3px; font-size: 12px; color: #333; line-height: 14px; padding: 7px 10px;}
+.pvcustom-form-list ul li .box .inpbox span.date {display: block; width: 20px; height: 20px; position: absolute; right: 5px; top: 50%; margin-top: -10px; background: url(../images/icon-calendar.png) no-repeat center; background-size: 20px 20px;}
+.pvcustom-form-list ul li .box .textarea {width: auto; height: auto;}
+.pvcustom-form-list ul li .box .textarea textarea {display: block; width: 100%; height: 64px; border: 1px solid #ddd; border-radius: 3px; font-size: 12px; color: #333; padding: 9px 9px;}
+
+.pvcustom-form-file {width: auto; height: auto;}
+.pvcustom-form-file .list {width: auto; height: auto; padding: 8px; overflow: hidden; font-size: 0;}
+.pvcustom-form-file .list ul li {width: 33.333%; height: auto; float: left; padding: 7px;}
+.pvcustom-form-file .list ul li .box {width: auto; height: auto; position: relative;}
+.pvcustom-form-file .list ul li .box img {width: 100%; border-radius: 5px;}
+.pvcustom-form-file .list ul li .box span.del {display: block; width: 14px; height: 14px; border: 1px solid #fff; border-radius: 50%; position: absolute; right: -6px; top: -6px; background: url(../images/openclose.png) no-repeat center #ffcc00; background-size: 6px 6px;}
+.pvcustom-form-file .list ul li .box a.add {display: block; width: auto; height: auto;}
+.pvcustom-form-file .list ul li .box a.add img {width: 100%;}
+.pvcustom-form-file .note {width: auto; height: auto; padding: 0 15px; font-size: 14px; color: #999999;}
+.pvcustom-form-btn {width: auto; height: auto; padding: 30px 0;}
+.pvcustom-form-btn input {display: block; width: 160px; height: 32px; line-height: 32px; text-align: center; font-size: 15px; color: #fff; background: #f54744; border-radius: 3px; margin: 0 auto; border: 0px;}
+
+.openpvcustom {width: 230px; height: 270px; background: #fff; border-radius: 5px; position: fixed; left: 50%; top: 50%; margin-left: -115px; margin-top: -135px; z-index: 1001; display: none;}
+.openpvcustom-close {width: 40px; height: 40px; position: absolute; right: 0; top: 0; background: url(../images/open-close.png) no-repeat center; background-size: 12px 12px;}
+.openpvcustom-code {width: 106px; height: auto; font-size: 0; margin: 0 auto; padding-top: 50px;}
+.openpvcustom-code img {width: 106px; height: 106px;}
+.openpvcustom-txt {width: auto; height: auto; font-size: 12px; color: #666666; line-height: 1.6em; text-align: center; padding: 15px 15px 0 15px;}
+.openpvcustom-note {width: auto; height: auto; font-size: 12px; color: #666666; line-height: 1.6em; text-align: center; padding: 5px 15px 0 15px;}
+
+
+
+/*线下预约课*/
+.makedown {width: auto; height: auto;}
+.makedown ul li {width: auto; height: auto; padding-bottom: 5px;}
+.makedown ul li .box {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+.makedown ul li .box .img {width: auto; height: auto; font-size: 0;}
+.makedown ul li .box .img a {display: block; width: auto; height: auto;}
+.makedown ul li .box .img a img {width: 100%;}
+.makedown ul li .box .con {width: auto; height: auto; padding: 15px 100px 15px 15px; position: relative;}
+.makedown ul li .box .con .tit {width: auto; height: auto; background: url(../images/inmore.png) no-repeat left center; background-size: 3px 5px; font-size: 12px; padding-left: 10px;}
+.makedown ul li .box .con .tit a {color: #333;}
+.makedown ul li .box .con .txt {width: auto; height: auto; padding: 5px 0 0 10px; line-height: 16px; font-size: 10px; color: #666;}
+.makedown ul li .box .con .txt span {color: #999; padding-right: 5px;}
+.makedown ul li .box .con .note {width: auto; min-width: 80px; height: 50px; position: absolute; right: 15px; top: 50%; margin-top: -25px;}
+.makedown ul li .box .con .note .num {width: auto; height: 25px; line-height: 25px; text-align: center; font-size: 12px; color: #666;}
+.makedown ul li .box .con .note .num span {color: #ca0813; padding-left: 5px;}
+.makedown ul li .box .con .note .num span.ok {color: #ca0813; padding: 0;}
+.makedown ul li .box .con .note .btn {width: auto; height: auto;}
+.makedown ul li .box .con .note .btn a {display: block; width: auto; height: 25px; line-height: 25px; text-align: center; font-size: 12px; color: #fff; border-radius: 3px; background: #ea9ca1;}
+.makedown ul li:last-child {padding-bottom: 0;}
+.makedown ul li:last-child .box {background: #fff;}
+.makedown ul li:nth-child(even) .box .con .note .btn a {background: #f9c99f;}
+
+
+.makedowncon {width: auto; height: auto;}
+.makedowncon-tit {width: auto; height: auto; background: #fff; padding: 15px; font-size: 12px; color: #333333;}
+.makedowncon-txt {width: auto; height: auto; background: #fff;}
+.makedowncon-txt .video {width: auto; height: auto; font-size: 0;}
+.makedowncon-txt .video a {display: block; width: auto; height: auto; position: relative;}
+.makedowncon-txt .video a img {width: 100%;}
+.makedowncon-txt .video a .play {display: block; width: 40px; height: 40px; position: absolute; left: 50%; top: 50%; margin-left: -20px; margin-top: -20px; background: url(../images/video-play.png) no-repeat; background-size: 40px 40px;}
+.makedowncon-txt .txt {width: auto; height: auto; padding: 15px; font-size: 12px; color: #333333; line-height: 1.6em;}
+.makedowncon-txt .img {width: auto; height: auto; font-size: 0;}
+.makedowncon-txt .img img {width: 100%;}
+
+.makedowncon-more {width: auto; height: auto; background: #fff; margin-top: 10px;}
+.makedowncon-more-tit {width: auto; height: auto; padding: 15px; font-size: 12px; color: #333; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.makedowncon-more-txt {width: auto; height: auto; padding: 10px 15px; font-size: 12px; color: #666; line-height: 2em; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.makedowncon-more-txt .name {color: #999999; padding-right: 10px;}
+.makedowncon-more-txt .note {color: #db7679;}
+.makedowncon-more-btn {width: auto; height: auto; text-align: center; font-size: 0; padding: 25px 0;}
+.makedowncon-more-btn a {display: inline-block; width: auto; height: 30px; line-height: 30px; text-align: center; padding: 0 30px; border-radius: 3px; background: #ea9ca1; font-size: 14px; color: #fff;}
+
+
+.openmakedown {width: 230px; height: 270px; background: #fff; border-radius: 5px; position: fixed; left: 50%; top: 50%; margin-left: -115px; margin-top: -135px; z-index: 1001; display: none;}
+.openmakedown-close {width: 40px; height: 40px; position: absolute; right: 0; top: 0; background: url(../images/open-close.png) no-repeat center; background-size: 12px 12px;}
+.openmakedown-icon {width: 52px; height: auto; margin: 0 auto; font-size: 0; padding-top: 64px;}
+.openmakedown-icon img {width: 52px; height: 52px;}
+.openmakedown-tit {width: auto; height: auto; font-size: 12px; color: #fa655b; text-align: center; padding-top: 25px; font-weight: bold;}
+.openmakedown-txt {width: auto; height: auto; font-size: 12px; color: #666666; text-align: center; padding-top: 10px;}
+
+
+
+
+
+
+/*注册*/
+.registerlist {width: auto; height: auto;}
+.registerlist .item {width: auto; height: auto; padding-top: 15px;}
+.registerlist .item .head {width: auto; height: 86px; background: #fae6e7; position: relative;}
+.registerlist .item .head .name {width: 94px; height: 86px; position: absolute; left: 0; top: 0;}
+.registerlist .item .head .name .icon {width: 22px; height: auto; font-size: 0; margin: 0 auto; padding-top: 20px;}
+.registerlist .item .head .name .icon img {width: 22px; height: 22px;}
+.registerlist .item .head .name .text {width: auto; height: auto; font-size: 12px; color: #ca0813; padding-top: 8px; text-align: center;}
+.registerlist .item .head .con {width: auto; height: 86px; margin: 0 100px 0 94px; cursor: pointer;}
+.registerlist .item .head .con .tr {display: table; width: 100%; height: 86px;}
+.registerlist .item .head .con .td {display: table-cell; vertical-align: middle; text-align: left;}
+.registerlist .item .head .con .txt {width: auto; height: auto; font-size: 14px; color: #333; line-height: 1.4em;}
+.registerlist .item .head .con .txt span.no {text-decoration: line-through;}
+.registerlist .item .head .con .more {width: auto; height: auto; font-size: 12px; color: #999999; line-height: 1.6em;}
+.registerlist .item .head .con .more a {color: #999999;}
+.registerlist .item .head .opera {width: 66px; height: 42px; position: absolute; right: 15px; top: 50%; margin-top: -21px;}
+.registerlist .item .head .opera a {display: block; width: auto; height: 42px;}
+.registerlist .item .head .opera .btn {width: auto; height: 24px; line-height: 24px; text-align: center; font-size: 12px; color: #fff; background: #ea9ca1; border-radius: 3px; margin-bottom: 2px;}
+.registerlist .item .head .opera .price {width: auto; height: 16px; text-align: center; line-height: 16px; background-color: #e2777d; background-image: url(../images/priceline.png); background-size: 3px 3px; font-size: 10px; color: #fff; border-radius: 3px;}
+.registerlist .item .cent {width: auto; height: auto; display: none;}
+.registerlist .item .cent ul li {width: auto; height: auto; padding-top: 1px;}
+.registerlist .item .cent ul li .box {width: auto; height: auto; background: #f7f7f7; position: relative; padding: 0 15px 0 94px;}
+.registerlist .item .cent ul li .box .img {width: 24px; height: 24px; position: absolute; left: 35px; top: 50%; margin-top: -12px;}
+.registerlist .item .cent ul li .box .img img {width: 24px; height: 24px;}
+.registerlist .item .cent ul li .box .con {width: auto; height: auto;}
+.registerlist .item .cent ul li .box .con .tr {display: table; width: 100%; height: auto; min-height: 50px; padding: 7px 0;}
+.registerlist .item .cent ul li .box .con .td {display: table-cell; vertical-align: middle; text-align: left; font-size: 12px; color: #333; line-height: 18px;}
+
+.registerlist .item1 .head {background: #fae6e7;}
+.registerlist .item1 .head .name .text {color: #ca0813;}
+.registerlist .item1 .head .opera .btn a {background: #ea9ca1;}
+.registerlist .item1 .head .opera .price {background-color: #e2777d;}
+
+.registerlist .item2 .head {background: #e7f0fb;}
+.registerlist .item2 .head .name .text {color: #146ed3;}
+.registerlist .item2 .head .opera .btn a {background: #a1c5ed;}
+.registerlist .item2 .head .opera .price {background-color: #7dafe7;}
+
+.registerlist .item3 .head {background: #fdefe2;}
+.registerlist .item3 .head .name .text {color: #f1790e;}
+.registerlist .item3 .head .opera .btn a {background: #f9c99f;}
+.registerlist .item3 .head .opera .price {background-color: #f7b478;}
+
+
+
+
+/*问答社区*/
+
+.bbslist {width: auto; height: auto;}
+.bbslist ul li {width: auto; height: auto; padding-bottom: 3px;}
+.bbslist ul li:last-child {padding-bottom: 0;}
+.bbslist ul li a {display: block; width: auto; height: 76px; background: #fff; position: relative;}
+.bbslist ul li a .numbox {width: 40px; height: 16px; position: absolute; left: 0; top: 50%; margin-top: -8px;}
+.bbslist ul li a .kemp {width: 20px; height: 16px; margin: 0 auto; font-size: 0;}
+.bbslist ul li a .kemp img {width: 20px; height: 16px;}
+.bbslist ul li a .num {width: auto; height: 16px; line-height: 16px; text-align: center; font-weight: bold; font-size: 16px; color: #f24d56;}
+.bbslist ul li a .portrait {width: 40px; height: 40px; position: absolute; left: 40px; top: 50%; margin-top: -20px;}
+.bbslist ul li a .portrait img {width: 40px; height: 40px; border-radius: 50%;}
+.bbslist ul li a .portrait span {display: block; width: 16px; height: 16px; border: 1px solid #fff; border-radius: 50%; position: absolute; right: 0; bottom: 0; background-image: url(../images/vipwhite.png); background-repeat: no-repeat; background-position: center; background-size: 10px 10px; background-color: #ff3333;}
+.bbslist ul li a .con {width: auto; height: 76px; padding: 0 96px 0 98px;}
+.bbslist ul li a .con .tr {display: table; width: 100%; height: 76px;}
+.bbslist ul li a .con .td {display: table-cell; vertical-align: middle; text-align: left;}
+.bbslist ul li a .con .name {width: auto; height: auto; font-size: 14px; color: #333;}
+.bbslist ul li a .con .name span {color: #999; font-size: 10px; margin-left: 10px;}
+.bbslist ul li a .con .level {width: auto; height: auto; font-size: 10px; color: #d55c5f; padding-top: 5px;}
+.bbslist ul li a .opera {width: 66px; height: 42px; position: absolute; right: 15px; top: 50%; margin-top: -21px;}
+.bbslist ul li a .opera .btn {width: auto; height: 24px; line-height: 24px; text-align: center; font-size: 12px; color: #fff; background: #ea9ca1; border-radius: 3px; margin-bottom: 2px;}
+.bbslist ul li a .opera .price {width: auto; height: 16px; text-align: center; line-height: 16px; background-color: #e2777d; background-image: url(../images/priceline.png); background-size: 3px 3px; font-size: 10px; color: #fff; border-radius: 3px;}
+.bbslist ul li:nth-child(even) a .numbox .num {color: #f5960f;}
+.bbslist ul li:nth-child(even) a .portrait span {background-color: #ffcc00;}
+.bbslist ul li:nth-child(even) a .con .tr .td .level {color: #f5960f;}
+.bbslist ul li:nth-child(even) a .opera .btn {background: #f9c99f;}
+.bbslist ul li:nth-child(even) a .opera .price {background-color: #f9c99f;}
+
+.bbscon-intro {width: auto; height: auto; background: #fff;}
+.bbscon-intro .user {width: auto; height: auto; padding: 15px; position: relative;}
+.bbscon-intro .user .portrait {width: 46px; height: 46px; position: absolute; left: 15px; top: 15px;}
+.bbscon-intro .user .portrait a {display: block; width: 46px; height: 46px; position: relative;}
+.bbscon-intro .user .portrait a img {width: 46px; height: 46px; border-radius: 50%;}
+.bbscon-intro .user .portrait a span {display: block; width: 16px; height: 16px; border: 1px solid #fff; border-radius: 50%; position: absolute; right: 0; bottom: 0; background-image: url(../images/vipwhite.png); background-repeat: no-repeat; background-position: center; background-size: 10px 10px; background-color: #ff3333;}
+.bbscon-intro .user .con {width: auto; height: 46px; padding: 0 120px 0 56px;}
+.bbscon-intro .user .con .name {width: auto; height: 30px; line-height: 30px; font-size: 16px; color: #333;}
+.bbscon-intro .user .con .name a {color: #333;}
+.bbscon-intro .user .con .txt {width: auto; height: auto; line-height: 12px; font-size: 12px; color: #999;}
+.bbscon-intro .user .note {width: auto; height: auto; line-height: 12px; font-size: 12px; color: #666; position: absolute; right: 15px; top: 45px;}
+.bbscon-intro .mation {width: auto; height: auto; padding: 0 15px 15px 15px; font-size: 13px; color: #999; line-height: 1.6em;}
+.bbscon-intro .btn {width: auto; height: auto; text-align: center; padding: 10px 0; font-size: 0; background: url(../images/borgrayt.png) repeat-x top; background-size: 1px 1px;}
+.bbscon-intro .btn a {display: inline-block; width: auto; height: 26px; line-height: 26px; text-align: center; font-size: 12px; color: #fff; border-radius: 15px; padding: 0 35px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.bbscon-main {width: auto; height: auto; padding-top: 10px;}
+.bbscon-list {width: auto; height: auto;}
+.bbscon-list .item {width: auto; height: auto; background: #fff; margin-bottom: 5px; padding: 0 15px;}
+.bbscon-list .item:last-child {margin-bottom: 0;}
+.bbscon-list .item .problem {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px; padding: 15px 0;}
+.bbscon-list .item .problem .head {width: auto; height: 36px; position: relative;}
+.bbscon-list .item .problem .head .user {width: auto; height: 36px; position: relative; padding-left: 46px;}
+.bbscon-list .item .problem .head .user .portrait {width: 36px; height: 36px; position: absolute; left: 0; top: 0;}
+.bbscon-list .item .problem .head .user .portrait a {display: block; width: 36px; height: 36px;}
+.bbscon-list .item .problem .head .user .portrait a img {width: 36px; height: 36px; border-radius: 50%;}
+.bbscon-list .item .problem .head .user .name {width: auto; height: 36px; line-height: 36px; font-size: 14px; color: #333;}
+.bbscon-list .item .problem .head .opera {width: auto; height: 36px; position: absolute; right: 0; top: 0;}
+.bbscon-list .item .problem .head .opera .like {width: auto; height: 36px; float: left;}
+.bbscon-list .item .problem .head .opera .like a {display: block; width: auto; height: 36px; line-height: 36px; position: relative; font-size: 12px; color: #999999; padding-left: 18px;}
+.bbscon-list .item .problem .head .opera .like a i {display: block; width: 12px; height: 12px; font-size: 0; line-height: 0; position: absolute; left: 0; top: 50%; margin-top: -6px; background-image: url(../images/inopera.png); background-repeat: no-repeat; background-size: 48px 24px; background-position: -24px 0px;}
+.bbscon-list .item .problem .head .opera .like a.on {color: #ff0757;}
+.bbscon-list .item .problem .head .opera .like a.on i {background-position: -24px -12px;}
+.bbscon-list .item .problem .head .opera .other {width: auto; height: 36px; float: left; position: relative; margin-left: 5px;}
+.bbscon-list .item .problem .head .opera .other .icon {width: auto; height: 36px;}
+.bbscon-list .item .problem .head .opera .other .icon a {display: block; width: auto; height: 36px; background: url(../images/icon-other.png) no-repeat right center; background-size: 3px 12px; padding-left: 10px;}
+.bbscon-list .item .problem .head .opera .other .btns {width: 44px; height: auto; position: absolute; right: -10px; top: 44px; background: #f0f0f0; border-radius: 3px; display: none;}
+.bbscon-list .item .problem .head .opera .other .btns i {display: block; width: 8px; height: 8px; background: #f0f0f0; position: absolute; top: -4px; right: 8px;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); 	/* IE 9 */
+	-moz-transform:rotate(45deg); 	/* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(45deg); 
+}
+.bbscon-list .item .problem .head .opera .other .btns ul {display: block; width: auto; height: auto; position: relative; z-index: 2; padding: 0 5px;}
+.bbscon-list .item .problem .head .opera .other .btns ul li {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.bbscon-list .item .problem .head .opera .other .btns ul li:last-child {background: none;}
+.bbscon-list .item .problem .head .opera .other .btns ul li a {display: block; width: auto; height: auto; font-size: 12px; color: #666; line-height: 12px; padding: 6px 0; text-align: center;}
+.bbscon-list .item .problem .head .opera .other .btns ul li a.red {color: #ff5500;}
+.bbscon-list .item .problem .text {width: auto; height: auto; padding-top: 10px; font-size: 13px; color: #999999; line-height: 1.6em;}
+.bbscon-list .item .problem .note {width: auto; height: auto; text-align: right; font-size: 0; padding-top: 5px;}
+.bbscon-list .item .problem .note a {display: inline-block; width: auto; height: 14px; line-height: 14px; font-size: 12px; color: #85a4df; background: url(../images/icon-reply.png) no-repeat left center; background-size: 12px 12px; padding-left: 20px;}
+.bbscon-list .item .answer {width: auto; height: auto; padding: 15px 0;}
+.bbscon-list .item .answer .head {width: auto; height: 36px; position: relative;}
+.bbscon-list .item .answer .head .user {width: auto; height: 36px; position: relative; padding-left: 46px;}
+.bbscon-list .item .answer .head .user .portrait {width: 36px; height: 36px; position: absolute; left: 0; top: 0;}
+.bbscon-list .item .answer .head .user .portrait a {display: block; width: 36px; height: 36px;}
+.bbscon-list .item .answer .head .user .portrait a img {width: 36px; height: 36px; border-radius: 50%;}
+.bbscon-list .item .answer .head .user .name {width: auto; height: 36px; line-height: 36px; font-size: 14px; color: #333;}
+.bbscon-list .item .answer .head .num {width: auto; height: 36px; line-height: 36px; position: absolute; right: 0; top: 0; font-size: 14px; color: #999999;}
+.bbscon-list .item .answer .cent {width: auto; height: auto; min-height: 36px; margin-top: 15px; position: relative;}
+.bbscon-list .item .answer .cent .num {width: auto; height: 36px; line-height: 36px; position: absolute; right: 0; top: 0; font-size: 14px; color: #999999;}
+.bbscon-list .item .answer .cent .listen {width: auto; height: 36px; position: relative; margin-right: 60px;}
+.bbscon-list .item .answer .cent .listen a {display: block; width: auto; height: 36px; border-radius: 20px; position: relative; padding: 0 10px;
+	background: -webkit-linear-gradient(left, #44ca77, #2ab45e); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #44ca77, #2ab45e); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #44ca77, #2ab45e); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #44ca77, #2ab45e); /* 标准的语法 */
+}
+.bbscon-list .item .answer .cent .listen a span {display: block; width: auto; height: 36px; line-height: 36px; font-size: 14px; color: #fff;}
+.bbscon-list .item .answer .cent .listen a span.price {float: left; background: url(../images/music.png) no-repeat left center; background-size: 12px 12px; padding-left: 15px;}
+.bbscon-list .item .answer .cent .listen a span.long {float: right;}
+.bbscon-list .item .answer .cent .listen a span.state {float: left; background-image: url(../images/music.png); background-repeat: no-repeat; background-position: left center; background-size: 12px 12px; padding-left: 15px;}
+.bbscon-list .item .answer .cent .listen a.on span.state {background-image: url(../images/music.gif);}
+
+
+.bbscon-list .item .answer .cent .look {width: auto; height: 36px; position: relative; margin-right: 60px; font-size: 0;}
+.bbscon-list .item .answer .cent .look a {display: inline-block; width: auto; height: 36px; line-height: 36px; border-radius: 20px; position: relative; padding: 0 25px; font-size: 14px; color: #fff;
+	background: -webkit-linear-gradient(left, #44ca77, #2ab45e); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #44ca77, #2ab45e); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #44ca77, #2ab45e); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #44ca77, #2ab45e); /* 标准的语法 */
+}
+.bbscon-list .item .answer .cent .text {width: auto; height: auto; font-size: 13px; color: #999999; line-height: 1.6em;}
+
+
+.bbsask {width: auto; height: auto; background: #fff; margin-top: 10px; padding: 15px;}
+.bbsask-switch {width: auto; height: 30px; margin-bottom: 15px;}
+.bbsask-switch .switchbox {float: left; margin-right: 10px;}
+.bbsask-switch .note {width: auto; height: 30px; line-height: 30px; float: left; font-size: 14px; color: #333;}
+
+.bbsask-form {width: auto; height: auto;}
+.bbsask-form .textarea {width: auto; height: auto; position: relative;}
+.bbsask-form .textarea textarea {width: 100%; height: 150px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 5px; font-size: 14px; color: #666; padding: 10px;}
+.bbsask-form .textarea .of {display: block; position: absolute; right: 10px; bottom: 10px; font-size: 12px; color: #999;}
+.bbsask-form .addfile {width: auto; height: auto; padding-top: 15px;}
+.bbsask-form .addfile a {display: block; width: 56px; height: 56px; border: 1px solid #ddd; border-radius: 5px; background: url(../images/icon-add.png) no-repeat center #fff; background-size: 22px 22px;}
+.bbsask-form .anonymous {width: auto; height: auto; padding-top: 10px; overflow: hidden;}
+.bbsask-form .anonymous label {display: block; width: auto; height: 24px; line-height: 24px; float: left; font-size: 12px; color: #999;}
+.bbsask-form .anonymous label input {display: block; width: 14px; height: 14px; border: 1px solid #ddd; border-radius: 3px; float: left; margin: 5px 5px 0 0; background: #fff;}
+.bbsask-form .anonymous label input:checked {background: url(../images/checkon.png) no-repeat center #fff; background-size: 70% 70%; border-color: #ff0757;}
+.bbsask-form .btn {width: auto; height: auto; padding-top: 10px;}
+.bbsask-form .btn input {display: block; width: 150px; height: 44px; line-height: 44px; text-align: center; border: 0px; font-size: 14px; color: #fff; margin: 0 auto; border-radius: 5px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.bbsask-intro {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px; padding-bottom: 15px;}
+.bbsask-intro .head {width: auto; height: 36px; position: relative;}
+.bbsask-intro .head .price {width: auto; height: 36px; line-height: 36px; font-size: 14px; color: #999; position: absolute; right: 0; top: 0;}
+.bbsask-intro .head .user {width: auto; height: 36px; position: relative; padding-left: 46px;}
+.bbsask-intro .head .user .portrait {width: 36px; height: 36px; position: absolute; left: 0; top: 0;}
+.bbsask-intro .head .user .portrait a {display: block; width: 36px; height: 36px;}
+.bbsask-intro .head .user .portrait a img {width: 36px; height: 36px; border-radius: 50%;}
+.bbsask-intro .head .user .name {width: auto; height: 36px; line-height: 36px; font-size: 14px; color: #333;}
+.bbsask-intro .text {width: auto; height: auto; padding-top: 10px; font-size: 12px; color: #999999;}
+.bbsask-intro .note {width: auto; height: auto; padding-top: 5px; font-size: 12px; color: #db7679;}
+
+.bbsask-state {width: auto; height: auto; padding: 25px 0;}
+.bbsask-state .icon {width: 50px; height: 50px; font-size: 0; margin: 0 auto;}
+.bbsask-state .icon img {width: 50px; height: 50px;}
+.bbsask-state .text {width: auto; height: auto; text-align: center; padding-top: 10px; font-size: 12px; color: #fa655b; font-weight: bold;}
+.bbsask-state .back {width: auto; height: auto; font-size: 0; padding-top: 20px;}
+.bbsask-state .back a {display: block; width: 150px; height: 44px; line-height: 44px; text-align: center; border: 0px; font-size: 14px; color: #fff; margin: 0 auto; border-radius: 5px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+
+.bbsreply {width: auto; height: auto; padding-top: 10px;}
+.bbsreply .inp {width: auto; height: auto; font-size: 0; position: relative;}
+.bbsreply .inp input {display: block; width: 100%; height: 44px; border: 1px solid #ddd; border-radius: 5px; background: #f9f9f9; padding: 13px 54px 13px 10px; line-height: 16px; font-size: 14px; color: #333;}
+.bbsreply .inp a {display: block; width: 44px; height: 44px; position: absolute; right: 0; top: 0; background: url(../images/icon-voice.png) no-repeat center; background-size: 16px 16px; z-index: 2;}
+.bbsreply .btn {width: auto; height: auto; padding: 30px 0;}
+.bbsreply .btn input {display: block; width: 150px; height: 44px; line-height: 44px; text-align: center; border: 0px; font-size: 14px; color: #fff; margin: 0 auto; border-radius: 5px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+
+
+.prophoto {width: auto; height: auto;}
+.prophoto-tit {width: auto; height: 44px; padding: 15px 0; background: #fff;}
+.prophoto-tit .name {width: auto; height: 14px; border-left: 2px solid #f54744; float: left; padding-left: 8px;}
+.prophoto-tit .name span {display: block; width: auto; height: 14px; float: left; line-height: 14px; font-size: 14px; color: #333; padding-right: 20px; background: url(../images/inmore.png) no-repeat right center; background-size: 5px 10px;}
+.prophoto-tit .note {width: auto; height: 14px; float: right;}
+.prophoto-tit .note ul li {width: auto; height: 14px; background: url(../images/borgrayr.png) repeat-y right; background-size: 1px 1px; float: left; padding: 0 6px;}
+.prophoto-tit .note ul li:last-child {background: none;}
+.prophoto-tit .note ul li a {display: block; width: auto; height: 14px; line-height: 14px; text-align: center; padding-left: 16px; font-size: 12px; color: #000; position: relative; opacity: 0.5;}
+.prophoto-tit .note ul li a span {display: block; width: 12px; height: 12px; position: absolute; left: 0; top: 50%; margin-top: -6px; font-size: 0; line-height: 0; background-image: url(../images/icon-titfil.png); background-repeat: no-repeat; background-size: 24px 12px;}
+.prophoto-tit .note ul li a span.icon-new {background-position: 0 0;}
+.prophoto-tit .note ul li a span.icon-hot {background-position: -12px 0;}
+.prophoto-tit .note ul li a.on {opacity: 0.8;}
+.prophoto-list {width: auto; height: auto; overflow: hidden; padding: 3px; background: #fff;}
+.prophoto-list ul li {width: 50%; height: auto; float: left; padding: 3px;}
+.prophoto-list ul li a {display: block; width: auto; height: auto; position: relative;}
+.prophoto-list ul li a .img {width: auto; height: auto; font-size: 0; line-height: 0;}
+.prophoto-list ul li a .img img {width: 100%;}
+.prophoto-list ul li a .con {width: 100%; height: auto; position: absolute; left: 0; bottom: 0; z-index: 2; padding: 10px;
+	background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* Firefox 3.6 - 15 */
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); /* 标准的语法 */
+}
+.prophoto-list ul li a .con .tit {width: auto; height: auto; font-size: 14px; color: #ffffff;}
+.prophoto-list ul li a .con .txt {width: auto; height: auto; font-size: 12px; color: #cccccc; padding-top: 3px; line-height: 1.4em;}
+
+.prophoto-list-new {width: auto; height: auto;}
+.prophoto-list-new .finecoursecon-newlist ul li {padding-top: 0; margin-bottom: 10px;}
+.prophoto-list-new .finecoursecon-newlist ul li .box {padding-top: 15px;}
+.prophoto-list-new .finecoursecon-newlist ul li:first-child .box {padding-top: 0;}
+.prophoto-list-new .finecoursecon-newlist ul li:last-child {margin-bottom: 0;}
+
+
+.provideo-list {width: auto; height: auto;}
+.provideo-list .item {width: auto; height: auto; background: #fff; margin-bottom: 10px;}
+.provideo-list .item:last-child {margin-bottom: 0;}
+.provideo-list .item .tit {width: auto; height: auto; padding: 15px; font-size: 14px;}
+.provideo-list .item .tit a {display: block; color: #333;}
+.provideo-list .item .img {width: auto; height: auto; font-size: 0;}
+.provideo-list .item .img a {display: block;}
+.provideo-list .item .img img {width: 100%;}
+
+
+
+.promusic-list {width: auto; height: auto; padding: 3px; background: #fff; overflow: hidden;}
+.promusic-list ul li {width: 50%; height: auto; float: left; padding: 3px;}
+.promusic-list ul li a {display: block; width: auto; height: auto;}
+.promusic-list ul li a .img {width: auto; height: auto; font-size: 0; position: relative;}
+.promusic-list ul li a .img img {width: 100%;}
+.promusic-list ul li a .img span {display: block; width: auto; height: 14px; line-height: 14px; position: absolute; right: 5px; top: 5px; background: url(../images/icon-music.png) no-repeat left center; background-size: 12px 12px; padding-left: 18px; font-size: 12px; color: #fff;}
+.promusic-list ul li a .con {width: auto; height: auto; padding: 10px;}
+.promusic-list ul li a .con .tit {width: auto; height: auto; font-size: 13px; color: #333;}
+.promusic-list ul li a .con .txt {width: auto; height: auto; font-size: 11px; color: #999; padding-top: 3px;}
+
+.promusiccon {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+
+
+.recomnews {width: auto; height: auto; padding-top: 10px;}
+.recomnews-tit {width: auto; height: auto; text-align: center; font-size: 18px; color: #333; font-weight: bold; padding: 15px; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+
+.proreserphotoset {width: auto; height: auto; background: #fff; margin-top: 10px; padding-bottom: 30px;}
+.proreserphotoset-tit {width: auto; height: auto; text-align: center; font-size: 0; padding-top: 30px;}
+.proreserphotoset-tit .box {display: inline-block; width: auto; height: 26px; line-height: 26px; padding: 0 12px; border-radius: 15px;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+	box-shadow: 0px 2px 2px rgba(255,150,149,0.5);
+}
+.proreserphotoset-tit .l {display: inline-block; width: auto; height: 26px; padding-left: 20px; background: url(../images/finecoursecon-tit.png) no-repeat left center; background-size: 11px 11px;}
+.proreserphotoset-tit .r {display: inline-block; width: auto; height: 26px; padding-right: 20px; background: url(../images/finecoursecon-tit.png) no-repeat right center; background-size: 11px 11px; font-size: 16px; color: #fff; font-weight: bold;}
+
+.proreserphotoset-list {width: auto; height: auto; overflow: hidden; padding-top: 20px;}
+.proreserphotoset-list ul li {width: 33.333%; height: auto; float: left; padding-top: 15px;}
+.proreserphotoset-list ul li .box {width: auto; height: auto;}
+.proreserphotoset-list ul li .box .icon {width: 30px; height: 30px; margin: 0 auto;}
+.proreserphotoset-list ul li .box .text {width: auto; height: auto; text-align: center; font-size: 13px; color: #999999;}
+.proreserphotoset-note {width: auto; height: auto; text-align: center; padding-top: 30px;}
+.proreserphotoset-note span {display: inline-block; width: auto; height: auto; position: relative; font-size: 13px; color: #999999; padding-left: 40px;}
+.proreserphotoset-note span i {display: block; width: 30px; height: 30px; position: absolute; left: 0; top: 50%; margin-top: -15px; font-size: 0;}
+.proreserphotoset-note span i img {width: 30px; height: 30px;}
+.proreserphotoset-code {width: auto; height: auto; padding-top: 20px;}
+.proreserphotoset-code-img {width: 110px; height: auto; font-size: 0; margin: 0 auto; padding-top: 20px;}
+.proreserphotoset-code-img img {width: 110px;}
+.proreserphotoset-code-txt {width: auto; height: auto; text-align: center; font-size: 13px; color: #999; line-height: 1.6em; padding-top: 10px;}
+
+
+
+
+
+
+.login-form ul li .inpbox {position: relative;}
+.login-form ul li .inpbox input.inp2 {padding-right: 110px;}
+.login-form ul li .inpbox input.inp3 {padding-right: 110px;}
+.login-form ul li .inpbox a.obtain {display: block; width: 100px; height: 30px; line-height: 30px; text-align: center; position: absolute; right: 0; top: 50%; margin-top: -15px; color: #fff; font-size: 12px; border-radius: 0 5px 5px 0; z-index: 99;
+	background: -webkit-linear-gradient(left, #f58762 , #fb5b5b 70%, #ff5391); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f58762 , #fb5b5b 70%, #ff5391); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391); /* 标准的语法 */
+}
+.login-form ul li .inpbox a.yzm {display: block; width: 100px; height: 30px; position: absolute; right: 0; top: 50%; margin-top: -15px; border-radius: 0 5px 5px 0; z-index: 99;}
+.login-form ul li .inpbox a.yzm img {width: 100px; height: 30px;}
+
+
+
+
+
+
+
+
+.loginlist {width: auto; height: auto;}
+.loginlist-tabs {width: auto; height: 44px; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.loginlist-tabs .swiper-slide {width: auto; height: 44px; float: left;}
+.loginlist-tabs .swiper-slide a {display: block; width: auto; height: 44px; line-height: 44px; position: relative; padding: 0 20px; font-size: 14px; color: #333;}
+.loginlist-tabs .swiper-slide a i {display: block; width: 1px; height: 10px; font-size: 0; line-height: 0; background: #ddd; position: absolute; right: 0; top: 50%; margin-top: -5px;}
+.loginlist-tabs .swiper-slide a b {display: none; width: auto; height: 2px; background: #ff165b; font-size: 0; line-height: 0; position: absolute; left: 0; right: 0; bottom: 0;}
+.loginlist-tabs .swiper-slide a.on b {display: block;}
+.loginlist-tabs .swiper-slide:last-child a i {display: none;}
+
+.loginlist-main {width: auto; height: auto; overflow: auto;}
+
+
+
+
+
+
+
+/*补充页面*/
+
+.supnav {width: auto; height: 44px; font-size: 0; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.supnav .swiper-slide {width: auto; height: 44px; float: left;}
+.supnav .swiper-slide a {display: block; width: auto; height: 44px; text-align: center; padding: 11px 0;}
+.supnav .swiper-slide a i {display: block; width: 1px; height: 10px; font-size: 0; line-height: 0; background: #ddd; position: absolute; right: 0; top: 50%; margin-top: -5px;}
+.supnav .swiper-slide a span {display: inline-block; width: auto; height: 22px; line-height: 22px; font-size: 14px; color: #333; position: relative; border-radius: 12px; padding: 0 10px;}
+.supnav .swiper-slide a span b {display: none; width: auto; height: 2px; background: #ff165b; font-size: 0; line-height: 0; position: absolute; left: 10px; right: 10px; bottom: -5px;}
+.supnav .swiper-slide a.on span b {display: block;}
+.supnav .swiper-slide a.no span {background: #ffffcc;}
+.supnav .swiper-slide:last-child a i {display: none;}
+
+.supyears {
+	width: auto;
+	height: 44px;
+	background-color: #ffffff;
+	background-image: url(../images/borgrayb.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	background-size: 1px 1px;
+	position: relative;
+}
+
+.supyears a.prev, .supyears a.next {
+	display: block;
+	width: 44px;
+	height: 44px;
+	padding: 17px 0;
+	position: absolute;
+	top: 0;
+}
+
+
+.supyears a.prev span, .supyears a.next span {
+	display: block;
+	width: 26px;
+	height: 10px;
+	background-image: url(../images/supyears-btns.png);
+	background-repeat: no-repeat;
+	background-size: 26px 20px;
+	margin: 0 auto;
+}
+
+.supyears a.prev {left: 0;}
+.supyears a.next {right: 0;}
+.supyears a.prev span {background-position: left top;}
+.supyears a.next span {background-position: left bottom;}
+
+.supyears .note {width: auto; height: 44px; line-height: 44px; text-align: center; font-size: 15px; color: #333333; padding: 0 44px;}
+
+.suppages {width: auto; height: auto; text-align: center; font-size: 0; padding: 10px 0; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+.suppages a.prev, .suppages a.next {display: inline-block; width: auto; height: 28px; line-height: 26px; border: 1px solid #eee; border-radius: 15px; background: #fff; box-shadow: 0px 0px 5px rgba(0,0,0,0.1); font-size: 14px; color: #333; padding: 0 10px;}
+.suppages span.num {display: inline-block; width: auto; height: 28px; line-height: 26px; border: 1px solid #fff; font-size: 14px; color: #333; padding: 0 20px;}
+.suppages input.inp {display: inline-block; width: 44px; height: 28px; line-height: 26px; border: 1px solid #eee; border-radius: 15px; background: #fff; box-shadow: 0px 0px 5px rgba(0,0,0,0.1); font-size: 14px; color: #333; text-align: center; margin-left: 20px;}
+.suppages a.btn {display: inline-block; width: auto; height: 28px; line-height: 26px; border: 1px solid #fff; font-size: 14px; color: #146ed3; margin-left: 10px;}
+
+.supfoot {width: auto; height: auto; padding: 10px 0; font-size: 0;}
+.supfoot ul li {width: auto; height: auto; padding: 10px 0; text-align: center;}
+.supfoot ul li a, .supfoot ul li span {display: inline-block; width: auto; height: 38px; line-height: 36px; text-align: center; font-size: 15px; border: 1px solid #ff3333; border-radius: 20px; box-shadow: 0px 0px 5px rgba(255,255,51,0.2);}
+
+.supfoot ul li a {color: #ff3333; background: #ffffff; padding: 0 20px;}
+.supfoot ul li span {color: #ffffff; background: #ff3333; padding: 0 55px;}
+
+.suplist {width: auto; height: auto; background: #fff;}
+.suplist .item {
+	width: auto;
+	height: auto;
+	background-image: url(../images/borgrayb.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background-size: 1px 1px;
+	background-color: #fff;
+}
+.suplist .item .head {width: auto; height: 60px; position: relative;}
+.suplist .item .head .user {width: auto; height: 60px; margin-left: 15px; margin-right: 120px; position: relative; overflow: hidden; padding-left: 55px;}
+.suplist .item .head .user .portrait {width: 40px; height: 40px; position: absolute; left: 0px; top: 50%; margin-top: -20px; font-size: 0;}
+.suplist .item .head .user .portrait img {width: 40px; height: 40px; border-radius: 50%;}
+.suplist .item .head .user .portrait span {display: block; width: 14px; height: 14px; position: absolute; right: 0; bottom: 0;}
+.suplist .item .head .user .portrait span img {width: 14px; height: 14px;}
+.suplist .item .head .user .name {width: auto; height: 60px; float: left; font-size: 15px; color: #333333; line-height: 60px;}
+.suplist .item .head .user .note {width: auto; height: 60px; float: left; font-size: 13px; color: #999999; line-height: 60px; padding-left: 15px;}
+.suplist .item .head .other {width: auto; height: 60px; position: absolute; right: 0; top: 0;}
+.suplist .item .head .other .state {width: 30px; height: 60px; float: left;}
+.suplist .item .head .other .state span {display: block; width: 16px; height: 16px; border-radius: 50%; margin-top: 22px;}
+.suplist .item .head .other .state span.no {background: #ff3333; box-shadow: 0px 0px 3px rgba(255,51,51,0.5);}
+.suplist .item .head .other .state span.yes {background: #00d272; box-shadow: 0px 0px 3px rgba(0,210,114,0.5);}
+.suplist .item .head .other .btn {width: 46px; height: 44px; float: left; margin-top: 19px;}
+.suplist .item .head .other .btn a {display: block; width: auto; height: 22px; line-height: 20px; border: 1px solid #ddd; background: #fff; font-size: 13px; color: #999999; box-shadow: 0px 0px 5px rgba(0,0,0,0.1); border-radius: 15px; text-align: center;}
+.suplist .item .head .other .arr {width: 42px; height: 60px; float: left;}
+.suplist .item .head .other .arr a {display: block; width: auto; height: 60px; background: url(../images/suparr.png) no-repeat center; background-size: 12px 7px;}
+
+
+.suplist .item .list {width: auto; height: auto; overflow: hidden; display: none; padding: 5px 10px;}
+.suplist .item .list ul li {width: 9%; height: auto; float: left; padding: 5px 0;}
+.suplist .item .list ul li span {display: block; width: 16px; height: 16px; border-radius: 5px; text-align: center; line-height: 16px; font-size: 9px; color: #fff; background: #aaaaaa; margin: 0 auto;}
+.suplist .item .list ul li span.on {background: #00b763;}
+
+
+.suplist .item.itemon {background-color: #f5f5f5;}
+.suplist .item.itemon .list {display: block;}
+
+.suplist2 .item .head .other .btn {margin-right: 15px;}
+
+
+
+
+
+
+/*新播放语音样式*/
+/*
+.finenewmusic {width: auto; height: auto; background: #f5f5f5; border: 1px dashed #ddd; border-radius: 5px; margin: 0 15px; padding: 15px;}
+.finenewmusic-tit {width: auto; height: auto; font-size: 14px; color: #333;}
+.finenewmusic-box {width: auto; height: auto; position: relative; margin-top: 10px;}
+.finenewmusic-voice {width: auto; height: 30px; position: relative; padding: 7px 0 0 40px;}
+.finenewmusic-voice a {display: block; width: 30px; height: 30px; border-radius: 50%; background-repeat: no-repeat; background-position: center; background-size: 100% 100%; background-image: url(../images/finenewmusic.png); position: absolute; left: 0; top: 0;}
+.finenewmusic-voice a span {display: none; width: 30px; height: 30px; font-size: 0;}
+.finenewmusic-voice a span img {width: 30px; height: 30px;}
+.finenewmusic-voice a.on {background: none;}
+.finenewmusic-voice a.on span {display: block;}
+
+.finenewmusic-voice .line {width: 100%; height: 2px; background: #1caa16; border-radius: 2px;}
+.finenewmusic-voice span.long {display: block; width: auto; line-height: 14px; position: absolute; left: 40px; top: 15px; font-size: 12px; color: #999;}
+
+.finenewmusic-note {width: auto; height: 20px; line-height: 14px; position: absolute; right: 0; top: 15px; font-size: 12px; color: #999;}
+
+
+
+
+*/
+
+
+.finenewmusic {width: auto; height: auto; background: #fcfcfc; border: 1px solid #eee; border-radius: 5px; margin: 0 15px; padding: 15px; position: relative;}
+.finenewmusic-btn {width: 42px; height: 42px; position: absolute; left: 15px; top: 50%; margin-top: -21px; font-size: 0;}
+.finenewmusic-btn a {display: block; width: 42px; height: 42px; background: url(../images/finenewmusic.png) no-repeat; background-size: 100% 100%;}
+.finenewmusic-btn a span {display: none; width: 42px; height: 42px;}
+.finenewmusic-btn a span img {width: 42px; height: 42px;}
+.finenewmusic-btn a.on {background: none;}
+.finenewmusic-btn a.on span {display: block;}
+.finenewmusic-box {width: auto; height: auto; padding-left: 58px;}
+.finenewmusic-box .tit {width: auto; height: auto; font-size: 16px; color: #333; padding-bottom: 8px;}
+.finenewmusic-box .line {width: auto; height: 2px; background: #1caa16; border-radius: 2px;}
+.finenewmusic-box .note {width: auto; height: auto; font-size: 12px; color: #999; padding-top: 8px;}
+
+
+
+
+
+.sharebox {width: auto; height: auto; background: #fff; padding: 10px; border: 1px solid #e3e3e3; border-radius: 3px; margin: 40px;}
+.sharebox .tit {width: auto; height: auto; font-size: 16px; color: #000;}
+.sharebox .con {width: auto; height: auto; margin-top: 5px; position: relative}
+.sharebox .con .txt {width: auto; height: auto; padding-right: 50px; min-height: 40px; font-size: 12px; color: #999;}
+.sharebox .con .img {width: 40px; height: 40px; position: absolute; right: 0; top: 0; font-size: 0; background: #eee;}
+.sharebox .con .img img {width: 40px; height: 40px;}
+
+
+
+/*手机注册*/
+
+.phbind-head {width: 100%; height: 44px; background: #000; position: fixed; left: 0; top: 0; z-index: 999;}
+.phbind-head .back {display: block; width: 44px; height: 44px; position: absolute; left: 0; top: 0; background: url("../images/icon-back-white.png") no-repeat center; -webkit-background-size: 30% auto; background-size: 30% auto;}
+.phbind-head .name {display: block; width: auto; height: 44px; line-height: 44px; text-align: center; font-size: 18px; color: #fff;}
+
+.phbind-main {width: auto; height: auto; padding-top: 44px;}
+.phbind-logo {width: auto; height: auto; font-size: 0; text-align: center; padding: 60px 30px;}
+.phbind-logo img {max-width: 210px;}
+.phbind-form {width: auto; height: auto; padding: 0 40px;}
+.phbind-form .item {width: auto; height: auto; position: relative; margin-bottom: 14px;}
+.phbind-form .item .icon {width: 52px; height: 52px; position: absolute; left: 0; top: 0; z-index: 2; font-size: 0;}
+.phbind-form .item .icon img {width: 52px; height: 52px;}
+.phbind-form .item .inps {width: auto; height: auto; font-size: 0; padding: 1px; border-radius: 6px;
+	background: -webkit-linear-gradient(left, #f7875d , #ff4f90); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f7875d, #ff4f90); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f7875d, #ff4f90); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f7875d , #ff4f90); /* 标准的语法 */
+}
+.phbind-form .item .inps input {display: block; width: 100%; height: 50px; background: #fff; border-radius: 5px; border: 0 none; font-size: 12px; color: #919191; line-height: 16px; padding: 17px 10px 17px 52px;}
+.phbind-form .item .inps input.inp2 {padding-right: 130px;}
+.phbind-form .item .obtain {display: block; width: 110px; height: 34px; position: absolute; right: 10px; top: 50%; margin-top: -17px; color: #fff; border-radius: 5px; font-size: 12px; text-align: center; line-height: 34px;
+	background: -webkit-linear-gradient(left, #f7875d , #ff4f90); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f7875d, #ff4f90); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f7875d, #ff4f90); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f7875d , #ff4f90); /* 标准的语法 */
+}
+
+.phbind-form .item .obtainWait {background: #ccc;}
+.phbind-form .item input.btn {display: block; width: 100%; height: 52px; border: 0 none; font-size: 18px; color: #fff; border-radius: 5px; margin-top: 20px;
+	background: -webkit-linear-gradient(left, #f7875d , #ff4f90); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f7875d, #ff4f90); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f7875d, #ff4f90); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f7875d , #ff4f90); /* 标准的语法 */
+}
+
+.phbind-form .item .note {width: auto; height: auto; font-size: 12px; color: #919191;}
+.phbind-form .item .note a {color: #919191;}
+
+/*----提现----*/
+.withdraw {width: auto; height: auto; padding: 25px 15px;}
+.withdraw-head {width: auto; height: auto; background: #fbf8f8; overflow: hidden; padding: 12px 0;}
+.withdraw-head .item {width: 50%; height: auto; float: left; border-right: 1px solid #ddd; padding: 15px 0;}
+.withdraw-head .item:last-child {border: 0 none;}
+.withdraw-head .item span {display: block; width: auto; height: auto; text-align: center; font-size: 13px; color: #000; font-weight: bold;}
+.withdraw-head .item span.num {padding-top: 10px;}
+
+.withdraw-foot {width: auto; height: auto; background: #fff; padding: 0 25px 25px 25px;}
+.withdraw-tit {width: auto; height: auto; font-size: 13px; color: #000; font-weight: bold; padding-top: 10px;}
+.withdraw-inp {width: auto; height: auto; border-bottom: 1px solid #ddd; position: relative; margin-top: 5px;}
+.withdraw-inp span.unit {display: block; width: auto; height: 50px; line-height: 50px; font-size: 26px; color: #000; position: absolute; left: 0; top: 0;}
+.withdraw-inp input.inp {display: block; width: 100%; height: 50px; line-height: 26px; padding: 12px 0 12px 30px; border: 0 none; background: none; font-size: 26px;}
+.withdraw-note {width: auto; height: auto; padding: 15px 0; font-size: 13px; color: #000; font-weight: bold;}
+.withdraw-note span {color: #fc6857; font-weight: bold;}
+.withdraw-btn {width: auto; height: auto;}
+.withdraw-btn input.btn {display: block; width: 100%; height: 44px; line-height: 44px; text-align: center; font-size: 18px; color: #fff; border: 0 none; border-radius: 5px;
+	background: -webkit-linear-gradient(left, #f7875d , #ff4f90); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f7875d, #ff4f90); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f7875d, #ff4f90); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f7875d , #ff4f90); /* 标准的语法 */
+}
+
+
+
+.usbank {width: auto; height: auto; padding: 10px 10px;}
+.usbank .list {width: auto; height: auto;}
+.usbank .list ul li {width: auto; height: auto; padding: 5px 0;}
+.usbank .list ul li a {display: block; width: auto; height: 98px; border-radius: 5px; position: relative; padding-left: 54px;
+	box-shadow: 2px 2px 4px rgba(255,51,51,0.2);
+	background: -webkit-linear-gradient(left, #f7875d , #ff4f90); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f7875d, #ff4f90); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f7875d, #ff4f90); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f7875d , #ff4f90); /* 标准的语法 */
+}
+.usbank .list ul li a .icon {width: 31px; height: 22px; position: absolute; left: 12px; top: 17px; background: url("../images/usbank.png") no-repeat; background-size: 31px 22px;}
+.usbank .list ul li a .cont {width: auto; height: auto; padding-top: 15px;}
+.usbank .list ul li a .tit {width: auto; height: auto; overflow: hidden;}
+.usbank .list ul li a .tit span {display: block; float: left; width: auto; height: 16px; line-height: 16px; margin-right: 10px;}
+.usbank .list ul li a .tit span.type {font-size: 14px; color: #fff;}
+.usbank .list ul li a .tit span.state {background: rgba(242, 242, 242, 0.5); padding: 0 5px; border-radius: 3px; font-size: 11px; color: #b30000;}
+.usbank .list ul li a .name {width: auto; height: auto; font-size: 12px; color: #ffeaeb; line-height: 14px; padding-top: 5px;}
+.usbank .list ul li a .num {width: auto; height: auto; font-size: 24px; color: #fff; line-height: 30px; padding-top: 5px;}
+@media all and (max-width:360px){
+	.usbank .list ul li a .num {font-size: 20px;}
+}
+
+.usbank .adds {width: auto; height: auto; padding: 10px 0 5px 18px;}
+.usbank .adds a {display: inline-block; width: auto; height: 20px; line-height: 20px; font-size: 15px; color: #999999; background: url("../images/usbank-add.png") no-repeat left center; background-size: 18px 18px; padding-left: 30px;}
+
+
+.usbankadd {width: auto; height: auto; padding: 15px 0;}
+.usbankadd-note {width: auto; height: auto; padding: 5px 20px; font-size: 13px; color: #999999;}
+.usbankadd-form {width: auto; height: auto; background: #fff; padding: 0 10px;}
+.usbankadd-form ul li {width: auto; height: auto; background: url("../images/borgrayb.png") repeat-x bottom; background-size: 1px 1px; padding-left: 10px;}
+.usbankadd-form ul li:last-child {background: none;}
+.usbankadd-form ul li .box {width: auto; height: auto; position: relative; min-height: 44px; padding-left: 80px;}
+.usbankadd-form ul li .box .name {width: 80px; height: 44px; line-height: 44px; font-size: 15px; color: #333333; position: absolute; left: 0px; top: 0;}
+.usbankadd-form ul li .box .inps {width: auto; height: auto; font-size: 0;}
+.usbankadd-form ul li .box .inps input.inp {width: 100%; height: 44px; line-height: 16px; font-size: 15px; color: #999999; padding: 14px 0; background: none; border: 0 none;}
+.usbankadd-form ul li .box .inps select {width: 100%; height: 44px; line-height: 44px; font-size: 15px; color: #999; background: url("../images/arrright.png") no-repeat right center; background-size: 10px 5px; border: 0 none;}
+
+.usbankadd-default {width: auto; height: auto; padding: 20px 10px; overflow: hidden;}
+.usbankadd-default label {display: block; float: left; width: auto; height: 20px; line-height: 20px; font-size: 15px; color: #666666;}
+.usbankadd-default label input {display: block; width: 20px; height: 20px; background: #fff; border: 1px solid #ddd; border-radius: 5px; float: left; margin-right: 10px;}
+
+
+.usbankadd-default label input:checked {background: url("../images/checkon2.png") no-repeat center #ff5555; border-color: #ff5555; background-size: 20px 20px;}
+
+.usbankadd-btns {width: auto; height: auto; padding: 0 5px; overflow: hidden;}
+.usbankadd-btns ul li {width: auto; height: auto; padding: 0 5px;}
+.usbankadd-btns ul li input.btn {display: block; width: 100%; height: 44px; text-align: center; font-size: 15px; color: #fff; line-height: 44px; border: 0 none; border-radius: 5px;}
+.usbankadd-btns ul li input.btn1 {
+	box-shadow: 2px 2px 4px rgba(255,51,51,0.2);
+	background: -webkit-linear-gradient(left, #f7875d , #ff4f90); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #f7875d, #ff4f90); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #f7875d, #ff4f90); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #f7875d , #ff4f90); /* 标准的语法 */
+}
+.usbankadd-btns ul li input.btn2 {
+	box-shadow: 2px 2px 4px rgba(187,187,187,0.2);
+	background: #bbbbbb;
+}
+.usbankadd-btns ul.two li {width: 50%; float: left;}
+
+
+
+
+.dismenu {width: auto; height: auto; overflow: hidden; background: url("../images/borgrayb.png") repeat-x bottom #fff; background-size: 1px 1px; padding: 0 7px;}
+.dismenu ul li {width: 20%; height: auto; float: left; padding: 16px 0;}
+.dismenu ul li a {display: block; width: auto; height: auto;}
+.dismenu ul li a span {display: block; margin: 0 auto; text-align: center; font-size: 0;}
+.dismenu ul li a span.icon {width: 30px; height: 30px;}
+.dismenu ul li a span.icon img {width: 30px; height: 30px;}
+.dismenu ul li a span.text {font-size: 12px; color: #000000; padding-top: 5px;}
+
+
+.dismain {width: auto; height: auto;}
+.disitem {width: auto; height: auto; background: #fff; margin-top: 10px;}
+.dismain .disitem:first-child {margin-top: 0;}
+.distitle {width: auto; height: 44px; padding: 0 15px; position: relative;}
+.distitle .name {width: auto; height: 44px; line-height: 44px; font-size: 16px; color: #313539; font-weight: bold;}
+.distitle .name span {font-size: 12px; color: #ff3333; font-weight: normal; padding-left: 10px;}
+.distitle .more {width: auto; height: 44px; line-height: 44px; position: absolute; right: 15px; top: 0;}
+.distitle .more a {font-size: 12px; color: #999999;}
+.distitle .more a.next {background: url("../images/disitem-next.png") no-repeat left center; padding-left: 15px; background-size: 12px 12px;}
+
+.disnext {width: auto; height: auto; text-align: center; padding: 10px 0 15px 0;}
+.disnext a {display: inline-block; width: auto; height: auto; font-size: 12px; color: #999999; background: url("../images/disitem-next.png") no-repeat left center; background-size: 12px 12px; padding-left: 15px;}
+
+
+
+
+.disrecommend {width: auto; height: auto; padding-bottom: 15px;}
+.disrecommend .swiper-slide {width: 35%; height: auto; float: left; margin-right: 15px;}
+.disrecommend .swiper-slide:first-child {margin-left: 15px;}
+.disrecommend .swiper-slide a {display: block; width: auto; height: auto;}
+.disrecommend .swiper-slide a .img {width: auto; height: auto; font-size: 0;}
+.disrecommend .swiper-slide a .img img {width: 100%; border-radius: 5px;}
+.disrecommend .swiper-slide a .txt {width: auto; height: auto; font-size: 12px; color: #333333; line-height: 15px; padding-top: 5px;}
+
+
+.disnews {width: auto; height: auto; padding: 0 15px;}
+.disnews ul li {width: auto; height: auto; padding-bottom: 15px;}
+.disnews ul li:last-child {padding-bottom: 0;}
+.disnews ul li a {display: block; width: auto; height: 66px; position: relative; padding-left: 80px;}
+.disnews ul li a .img {width: 66px; height: 66px; position: absolute; left: 0; top: 0;}
+.disnews ul li a .img img {width: 66px; height: 66px;}
+.disnews ul li a .con {width: auto; height: auto;}
+.disnews ul li a .con .tit {width: auto; height: auto; font-size: 12px; color: #000; line-height: 18px;}
+.disnews ul li a .con .txt {width: auto; height: auto; font-size: 12px; color: #666; line-height: 18px; padding-top: 5px;}
+
+
+.dislesson {width: auto; height: auto;}
+.dislesson {width: auto; height: auto;}
+.dislesson ul li {width: auto; height: auto; background: url("../images/borgrayb.png") repeat-x bottom; background-size: 1px 1px; padding: 0 15px 6px 15px; margin-bottom: 6px;}
+.dislesson ul li a {display: block; width: auto; height: 88px; position: relative; padding-left: 82px;}
+.dislesson ul li a .img {width: 68px; height: 88px; font-size: 0; position: absolute; left: 0; top: 0;}
+.dislesson ul li a .img img {width: 68px; height: 88px;}
+.dislesson ul li a .con {width: auto; height: auto;}
+.dislesson ul li a .con .tit {width: auto; height: auto; font-size: 14px; color: #333; line-height: 18px;}
+.dislesson ul li a .con .person {width: auto; height: auto; font-size: 13px; color: #333; line-height: 18px; padding-top: 2px;}
+.dislesson ul li a .con .txt {width: auto; height: auto; font-size: 12px; color: #999; line-height: 18px; padding-top: 5px;}
+.dislesson ul li:last-child {padding-bottom: 0; background: none; margin-bottom: 0;}
+
+
+.disfree {width: auto; height: auto;}
+.disfree .item {width: auto; height: auto; background: url("../images/borgrayb.png") repeat-x bottom; background-size: 1px 1px; padding: 0 15px; margin-bottom: 15px;}
+.disfree .item:last-child {margin-bottom: 0; background: none;}
+.disfree .item .tit {width: auto; height: auto; overflow: hidden; line-height: 14px;}
+.disfree .item .tit .name {width: auto; height: auto; float: left; font-size: 14px; color: #333;}
+.disfree .item .tit .more {width: auto; height: auto; float: right; font-size: 12px; color: #999;}
+.disfree .item .tit .more a {color: #999;}
+.disfree .item .list {width: auto; height: auto; padding-top: 10px;}
+.disfree .item .list ul li {width: auto; height: auto; line-height: 18px; font-size: 12px; background-repeat: no-repeat; background-position: left center; padding-left: 20px; background-size: 12px 12px; background-image: url(../images/disfree1.png);}
+.disfree .item .list ul li:nth-child(1) {background-image: url(../images/disfree1.png);}
+.disfree .item .list ul li:nth-child(2) {background-image: url(../images/disfree2.png);}
+.disfree .item .list ul li:nth-child(3) {background-image: url(../images/disfree3.png);}
+.disfree .item .list ul li a {color: #999999;}
+
+
+.disproduced {width: auto; height: auto;}
+.disproduced-item {width: auto; height: auto; background: url("../images/borgrayb.png") repeat-x bottom; background-size: 1px 1px; padding-top: 10px;}
+.disproduced .disproduced-item:first-child {padding-top: 0;}
+.disproduced .disproduced-item:last-child {background: none;}
+.disproduced-tit {width: auto; height: auto; line-height: 14px; padding: 0 15px 10px 15px; overflow: hidden;}
+.disproduced-tit .name {width: auto; height: auto; float: left; font-size: 14px; color: #000;}
+.disproduced-tit .more {width: auto; height: auto; float: right; font-size: 12px;}
+.disproduced-tit .more a {color: #999;}
+
+.disphoto {width: auto; height: auto; padding: 0 13px; overflow: hidden;}
+.disphoto ul li {width: 33.333%; height: auto; float: left; padding: 0 2px;}
+.disphoto ul li a {display: block; width: auto; height: auto; position: relative;}
+.disphoto ul li a .img {width: auto; height: auto; font-size: 0;}
+.disphoto ul li a .img img {width: 100%;}
+.disphoto ul li a .con {width: 100%; height: auto; position: absolute; left: 0; bottom: 0; padding: 2px; color: #fff;}
+.disphoto ul li a .con .tit {width: auto; height: auto; font-size: 12px;}
+.disphoto ul li a .con .txt {width: auto; height: auto; font-size: 9px;}
+
+.disvideo {width: auto; height: auto; overflow: hidden; padding: 0 13px;}
+.disvideo ul li {width: 50%; height: auto; float: left; padding: 0 2px 10px 2px;}
+.disvideo ul li a {display: block; width: auto; height: auto;}
+.disvideo ul li a .img {width: auto; height: auto; font-size: 0; position: relative;}
+.disvideo ul li a .img img {width: 100%;}
+.disvideo ul li a .img span {display: block; width: auto; height: auto; position: absolute; right: 5px; top: 5px; font-size: 9px; color: #fff; background: url("../images/dissee.png") no-repeat left center; padding-left: 15px; background-size: auto 7px;}
+.disvideo ul li a .con {width: auto; height: auto; padding-top: 5px;}
+.disvideo ul li a .con .tit {width: auto; height: auto; font-size: 12px; color: #000; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; -moz-text-overflow: ellipsis; white-space: nowrap;}
+.disvideo ul li a .con .txt {width: auto; height: auto; font-size: 12px; color: #999; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; -moz-text-overflow: ellipsis; white-space: nowrap; margin-top: 2px;}
+
+.dismusic {width: auto; height: auto; overflow: hidden; padding: 0 13px;}
+.dismusic ul li {width: 33.333%; height: auto; float: left; padding: 0 2px;}
+.dismusic ul li a {display: block; width: auto; height: auto;}
+.dismusic ul li a .img {width: auto; height: auto; font-size: 0; position: relative;}
+.dismusic ul li a .img img {width: 100%;}
+.dismusic ul li a .img span {display: block; width: auto; height: auto; position: absolute; right: 5px; top: 5px; font-size: 9px; color: #fff; background: url("../images/dismusic.png") no-repeat left center; padding-left: 13px; background-size: auto 7px;}
+.dismusic ul li a .con {width: auto; height: auto; padding-top: 5px;}
+.dismusic ul li a .con .tit {width: auto; height: auto; font-size: 12px; color: #000; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; -moz-text-overflow: ellipsis; white-space: nowrap; text-align: center;}
+.dismusic ul li a .con .txt {width: auto; height: auto; font-size: 12px; color: #999; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; -moz-text-overflow: ellipsis; white-space: nowrap; text-align: center; margin-top: 2px;}
+
+
+.disshop {width: auto; height: auto; padding: 0 15px 15px 15px;}
+.disshop .swiper-slide a {display: block; width: auto; height: auto;}
+.disshop .swiper-slide a .img {width: auto; height: auto;}
+.disshop .swiper-slide a .img img {width: 100%;}
+.disshop .swiper-slide a .con {width: auto; height: auto; padding-top: 8px;}
+.disshop .swiper-slide a .con .tit {width: auto; height: auto; font-size: 12px; color: #000;}
+.disshop .swiper-slide a .con .txt {width: auto; height: auto; font-size: 12px; color: #999; padding-top: 3px;}
+
+
+
+.dislive {width: auto; height: auto; padding: 0px 15px 10px 15px;}
+.dislive ul li {width: auto; height: auto; padding-bottom: 5px;}
+.dislive ul li a {display: block; width: auto; height: auto;}
+.dislive ul li a .tit {width: auto; height: auto; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; -moz-text-overflow: ellipsis; white-space: nowrap; position: relative; font-size: 12px; color: #000; padding-right: 100px;}
+.dislive ul li a .tit span {display: block; position: absolute; right: 0; top: 0; color: #999;}
+.dislive ul li a .txt {width: auto; height: auto; font-size: 12px; color: #999; padding-top: 5px;}
+
+
+.disnav {width: auto; height: auto; padding: 8px; overflow: hidden;}
+.disnav ul li {width: 50%; height: auto; float: left; padding: 7px;}
+.disnav ul li a {display: block; width: auto; height: 90px; line-height: 90px; text-align: center; font-size: 24px; color: #fff; border-radius: 5px;}
+.disnav ul li a.red {background: #f9728b;}
+.disnav ul li a.bluegreen {background: #98e0ec;}
+.disnav ul li a.orange {background: #ff9966;}
+.disnav ul li a.green {background: #a9d72c;}
+.disnav ul li a.blue {background: #72afed;}
+.disnav ul li a.orangered {background: #ff9933;}
+
+@media all and (max-width: 360px){
+	.disnav ul li a {height: 80px; line-height: 80px; font-size: 20px;}
+}
+
+
+
+
+.sharecard {width: auto; height: auto; position: fixed; left: 0; right: 0; top: 0; bottom: 0; background: #353535;}
+.sharecard-imgs {width: 100%; position: relative; padding: 20px 0;
+	height: -moz-calc(100% - 90px);
+	height: -webkit-calc(100% - 90px);
+	height: calc(100% - 90px);
+}
+.sharecard-imgs-box {width: 100%; height: 100%; text-align: center; }
+.sharecard-imgs-box img {border-radius: 10px; height: 100%;}
+
+
+.sharecard-foot {width: 100%; height: 90px; background: #fff; position: fixed; left: 0; bottom: 0; z-index: 2;}
+.sharecard-note {width: auto; height: 32px; line-height: 32px; text-align: center; font-size: 14px; color: #666;}
+.sharecard-tabs {width: 100%; height: 48px; padding: 0 15px;}
+.sharecard-tabs .swiper-slide {width: 48px; height: 48px; font-size: 0;}
+.sharecard-tabs .swiper-slide a {display: block; width: 48px; height: 48px; position: relative; border: 1px solid #ddd; border-radius: 5px; overflow: hidden;}
+.sharecard-tabs .swiper-slide a i {display: none; width: 46px; height: 46px; background: url("../images/selected.png") no-repeat center rgba(0, 0, 0, 0.5); background-size: 22px 22px; position: absolute; left: 0; top: 0;}
+.sharecard-tabs .swiper-slide a img {width: 46px; height: 46px;}
+.sharecard-tabs .swiper-slide a.on i {display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

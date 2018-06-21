@@ -230,8 +230,164 @@
     line-height: 1.6em;
     padding-top: 15px;
 }
+.finecourseconmain .item .for{
+	width: auto;
+    height: auto;
+    padding: 20px 15px 0 15px;
 }
-
+.finecourseconmain .item .for ul li{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding-left: 20px;
+    background: url(../images/finecoursecon-for.png) no-repeat left center;
+    background-size: 14px 14px;
+}
+.finecourseconmain .item .note{
+	width: auto;
+    height: auto;
+    padding: 15px 15px 0 15px;
+}
+.finecourseconmain .item .note ul li{
+	width: auto;
+    height: auto;
+    padding: 5px 0;
+}
+.finecourseconmain .item .note ul li .num{
+	width: 32px;
+    height: 32px;
+    border: 1px dotted #e30a20;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 1px;
+}
+.finecourseconmain .item .note ul li .num div{
+	width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50%;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.finecourseconmain .item .note ul li .txt{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
+.finecourseconmain .item .head{
+	width: auto;
+    height: auto;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.finecourseconmain .item .head .portrait{
+	width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: -16px;
+}
+.finecourseconmain .item .head .portrait img{
+	width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.finecourseconmain .item .head .name{
+	width: auto;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    padding-left: 42px;
+    margin-right: 5px;
+}
+.finecourseconmain .item .head .tag{
+	width: auto;
+    height: 16px;
+    line-height: 16px;
+    float: left;
+    font-size: 10px;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 3px;
+    margin-top: 8px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.finecourse-list .item .fourOpera{
+	width: auto;
+    height: 34px;
+    padding: 5px 0;
+}
+.finecourse-list .item .fourOpera ul li{
+	width: 25%;
+    height: 24px;
+    float: left;
+}
+.finecourse-list .item .fourOpera ul li a{
+	display: block;
+    width: auto;
+    height: 24px;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    text-align: center;
+    font-size: 0;
+}
+.finecourse-list .item .fourOpera ul li a .item{
+	display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.finecourse-list .item .fourOpera ul li a .item span{
+	display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon1{
+	background-position: 0px 0px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon2{
+	background-position: -12px 0px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon3{
+	background-position: -24px 0px;
+}
+.finecourse-list .item .fourOpera ul li a .item span.icon4{
+	background-position: -36px 0px;
+}
+.item .txtg{
+	width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6em;
+    padding: 15px;
+}
 
 
 

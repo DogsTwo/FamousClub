@@ -558,3 +558,9 @@ li {
 
 
 
+
+
+/*通用原子类*/
+.bg-white{
+	background: #fff;
+}

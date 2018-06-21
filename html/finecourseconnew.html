@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/finecourseconnew.css" />
+		<link rel="stylesheet" href="../css/header.css" />
+		<link rel="stylesheet" href="../css/demo.css" />
+	</head>
+	<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<script>
+			(function(win) {
+    var docEl = win.document.documentElement;
+    var time=null;
+    function refreshRem() {
+        var width = docEl.getBoundingClientRect().width;
+        if (width > 414) { // 鏈�澶у搴�
+            width = 414;
+        }
+        // 灏嗗睆骞曞搴﹀垎鎴�7.5浠斤紝 1浠戒负1rem,1rem=100px
+        var rem =width/7.5;
+        if (rem > 100) {
+            rem = 100;
+        }
+        docEl.style.fontSize = rem + 'px';
+    }
+    win.addEventListener('resize', function() {
+        clearTimeout(time);
+        time = setTimeout(refreshRem, 1);
+    }, false);
+    win.addEventListener('pageshow', function(e) {
+        if (e.persisted) {
+            clearTimeout(time);
+            time = setTimeout(refreshRem, 1);
+        }
+    }, false);
+    refreshRem();
+
+})(window);
+		</script>
+	<body>
+		<header class="mui-bar mui-bar-nav" id="header"></header>
+		<div class="wrapper">
+			<div class="head">
+				<div class="img">
+					<a href="#">
+						<span class="on"><img src="../images/finecoursecon-headon.jpg"></span>
+						<span class="off"><img src="../images/finecoursecon-head.jpg"></span>
+					</a>
+				</div>
+			</div>
+			<div class="tab">
+				<ul>
+					<li>
+						<a href="#">最新课程</a>
+					</li>
+					<li>
+						<a href="#" class='on'>最热课程</a>
+					</li>
+					<li>
+						<a href="#">热门课程</a>
+					</li>
+				</ul>
+			</div>
+			<div class="datxt">相信很多人都有这样的感受：在很吵的咖啡厅能够非常专注地工作，但在开放式的办公室却很难做到专注。究竟为什么会出现这种现象呢？研究表明，适当水平的环境噪音能激发我们的思维进行更有创造性地思考。</div>
+			<div class="duozu">
+				<ul>
+					<li>
+						<div class="box">
+							<div class="type"><a href="#"><span>炫迈讲美妆</span></a></div>
+							<div class="item">
+								<div class="img"><a href="#"><img src="../images/finecoursecon-newlist1.jpg"></a></div>
+								<div class="con">
+									<div class="tit"><a href="#">300天品牌思维修炼</a></div>
+									<div class="note">打造你的专属个人品牌</div>
+									<div class="txt">最新：小众和大众市场如何区分和互相…</div>
+									<div class="opera"><span><i class="ico1"></i>6666</span></div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="box">
+							<div class="type"><a href="#"><span>炫迈讲美妆</span></a></div>
+							<div class="item">
+								<div class="img"><a href="#"><img src="../images/finecoursecon-newlist2.jpg"></a></div>
+								<div class="con">
+									<div class="tit"><a href="#">300天品牌思维修炼</a></div>
+									<div class="note">打造你的专属个人品牌</div>
+									<div class="txt">最新：小众和大众市场如何区分和互相…</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="box">
+							<div class="type"><a href="#"><span>炫迈讲美妆</span></a></div>
+							<div class="item">
+								<div class="img"><a href="#"><img src="../images/finecoursecon-newlist3.jpg"></a></div>
+								<div class="con">
+									<div class="tit"><a href="#">300天品牌思维修炼</a></div>
+									<div class="note">打造你的专属个人品牌</div>
+									<div class="txt">最新：小众和大众市场如何区分和互相…</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="box">
+							<div class="type"><a href="#"><span>炫迈讲美妆</span></a></div>
+							<div class="item">
+								<div class="img"><a href="#"><img src="../images/finecoursecon-newlist4.jpg"></a></div>
+								<div class="con">
+									<div class="tit"><a href="#">300天品牌思维修炼</a></div>
+									<div class="note">打造你的专属个人品牌</div>
+									<div class="txt">最新：小众和大众市场如何区分和互相…</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="box">
+							<div class="type"><a href="#"><span>炫迈讲美妆</span></a></div>
+							<div class="item">
+								<div class="img"><a href="#"><img src="../images/finecoursecon-newlist5.jpg"></a></div>
+								<div class="con">
+									<div class="tit"><a href="#">300天品牌思维修炼</a></div>
+									<div class="note">打造你的专属个人品牌</div>
+									<div class="txt">最新：小众和大众市场如何区分和互相…</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="box">
+							<div class="type"><a href="#"><span>炫迈讲美妆</span></a></div>
+							<div class="item">
+								<div class="img"><a href="#"><img src="../images/finecoursecon-newlist6.jpg"></a></div>
+								<div class="con">
+									<div class="tit"><a href="#">300天品牌思维修炼</a></div>
+									<div class="note">打造你的专属个人品牌</div>
+									<div class="txt">最新：小众和大众市场如何区分和互相…</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="box">
+							<div class="type"><a href="#"><span>炫迈讲美妆</span></a></div>
+							<div class="item">
+								<div class="img"><a href="#"><img src="../images/finecoursecon-newlist7.jpg"></a></div>
+								<div class="con">
+									<div class="tit"><a href="#">300天品牌思维修炼</a></div>
+									<div class="note">打造你的专属个人品牌</div>
+									<div class="txt">最新：小众和大众市场如何区分和互相…</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer" id='footer'></div>
+	</body>
+	<script src="../js/common.js"></script>
+		<script src='../js/jquery-3.2.1.min.js'></script>
+		<script>
+			 var f=new Footer({
+	       		box:$('#footer'),
+	       		cur:2
+	   		})
+			  var w=new Header({
+       		  box:"#header",
+            	  nav:{
+                "咨询":'news.html',
+                "学堂出品":'produced.html',
+                "红人黄页":'yellow.html',
+                '案例分析':'vipcourse.tml',
+                '红人直通车':'throughtrain.html',
+                '红人通告':'rednotice.html',
+                '书籍推荐':'#',
+                '学堂成果':'#',
+                '众筹':'#',
+                '人气榜':'#'
+            },
+            cur:1
+   	})
+		</script>
+</html>
