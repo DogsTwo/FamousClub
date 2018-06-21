@@ -1,0 +1,408 @@
+*{
+	magin:0;
+	padding:0;
+}
+.headsearch .mui-icon-search:before,.headmenu .mui-icon-bars:before{
+	content: '';
+}
+.wrapper{
+	width: auto;
+    height: auto;
+    padding: 44px 0 50px 0;
+}
+.wrapper .finewcon-head{
+	width: auto;
+    height: auto;
+    font-size: 0;
+}
+.wrapper .finewcon-head a{
+	display: block;
+    width: auto;
+    height: auto;
+}
+.wrapper .finewcon-head a img{
+	width: 100%;
+}
+.wrapper .finewcon-user{
+	width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+    position: relative;
+    z-index: 2;
+    padding: 0 68px 0 96px;
+}
+.wrapper .finewcon-user .img{
+	width: 66px;
+    height: 66px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    border-radius: 50%;
+    padding: 2px;
+}
+.wrapper .finewcon-user .img a{
+	display: block;
+    width: 62px;
+    height: 62px;
+}
+.wrapper .finewcon-user .img a img{
+	width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+.wrapper .finewcon-user .box{
+	width: auto;
+    height: auto;
+    min-height: 68px;
+    padding-right: 10px;
+}
+.wrapper .finewcon-user .box .con{
+	width: auto;
+    height: auto;
+    overflow: hidden;
+    padding-top: 8px;
+}
+.wrapper .finewcon-user .box .con .name{
+	width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    padding-right: 20px;
+}
+.wrapper .finewcon-user .box .con .name a{
+	color: #333333;
+}
+.wrapper .finewcon-user .box .con .name a span{
+	background-image: url(../images/vip-blue.png);
+	display: block;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+    background-size: 14px 14px;
+}
+.wrapper .finewcon-user .box .con .fans{
+	width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999999;
+    float: left;
+}
+.wrapper .finewcon-user .box .txt{
+	width: auto;
+    height: auto;
+    font-size: 10px;
+    color: #999;
+}
+.wrapper .finewcon-user .gift{
+	width: 68px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 14px;
+    background: url(../images/borgrayl.png) repeat-y left;
+    background-size: 1px 1px;
+}
+.wrapper .finewcon-user .gift a{
+	display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40px;
+}
+.wrapper .finewcon-user .gift a .icon{
+	display: block;
+	width: 24px;
+    height: 24px;
+    font-size: 0;
+}
+.wrapper .finewcon-user .gift a .icon img{
+	vertical-align: middle;
+    font-size: 0px;
+    line-height: 0px;
+    max-width: 100%;
+}
+.wrapper .finewcon-user .gift a .text{
+	width: auto;
+    height: auto;
+    font-size: 10px;
+    color: #999999;
+    padding-top: 5px;
+}
+.wrapper .finewcon-btn{
+	width: auto;
+    height: 44px;
+    background: #fff;
+    padding: 9px 0;
+}
+.wrapper .finewcon-btn ul li{
+	width: 50%;
+    height: 26px;
+    float: left;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    padding: 0 35px;
+}
+.wrapper .finewcon-btn ul li a{
+	display: block;
+    width: auto;
+    height: 26px;
+    text-align: center;
+    line-height: 24px;
+    padding: 1px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 15px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.wrapper .finewcon-btn ul li a span{
+	display: block;
+    width: auto;
+    height: 24px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.wrapper .finewcon-btn ul li a span b{
+	display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    color: #fa655b;
+    background: url(../images/icon-addc.png) no-repeat left center;
+    background-size: 10px 10px;
+    padding-left: 16px;
+}
+.wrapper .finewcon-btn ul li a.se{
+	display: block;
+    width: auto;
+    height: 26px;
+    text-align: center;
+    line-height: 24px;
+    padding: 1px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 15px;
+    background: linear-gradient(to right, #f58762 , #fb5b5b 70%, #ff5391);
+}
+.wrapper .finewcon-main{
+	width: auto;
+    height: auto;
+    margin-top: 10px;
+    background: #fff;
+}
+.wrapper .finewcon-main .finewcon-title{
+	width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+.wrapper .finewcon-main{
+	width: auto;
+    height: auto;
+    margin-top: 10px;
+    background: #fff;
+}
+.wrapper .finewcon-main .finewcon-title{
+	width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+.wrapper .finewcon-main .music{
+	width: auto;
+    height: auto;
+    background: #fcfcfc;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 15px;
+    position: relative;
+}
+.wrapper .finewcon-main .music .img{
+	width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: -21px;
+    font-size: 0;
+}
+.wrapper .finewcon-main .music .img a{
+	 display: block;
+    width: 42px;
+    height: 42px;
+    background: url(../images/finenewmusic.png) no-repeat;
+    background-size: 100% 100%;
+}
+.wrapper .finewcon-main .music .img a span{
+	display: none;
+    width: 42px;
+    height: 42px;
+}
+.wrapper .finewcon-main .music .img a span img{
+	width: 42px;
+    height: 42px;
+}
+.wrapper .finewcon-main .finewcon-box{
+	width: auto;
+    height: auto;
+    padding-left: 58px;
+}
+.wrapper .finewcon-main .finewcon-box .tit{
+	width: auto;
+    height: auto;
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 8px;
+}
+.wrapper .finewcon-main .finewcon-box .line{
+	width: auto;
+    height: 2px;
+    background: #1caa16;
+    border-radius: 2px;
+}
+.wrapper .finewcon-main .finewcon-box .note{
+	width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999;
+    padding-top: 8px
+}
+.wrapper .finewcon-main .finewcon-cont{
+	width: auto;
+    height: auto;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.6em;
+}
+.wrapper .finewcon-main .finewcon-cont .txt{
+	width: auto;
+    height: auto;
+    padding: 15px;	
+}
+.wrapper .finewcon-main .fourOpera{
+	width: auto;
+    height: 34px;
+    padding: 5px 0;
+}
+.wrapper .finewcon-main .fourOpera ul li{
+	width: 25%;
+    height: 24px;
+    float: left;
+}
+.wrapper .finewcon-main .fourOpera ul li a{
+	display: block;
+    width: auto;
+    height: 24px;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    text-align: center;
+    font-size: 0;
+}
+.wrapper .finewcon-main .fourOpera ul li a .item{
+	display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.wrapper .finewcon-main .fourOpera ul li a .item span{
+	display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.wrapper .finewcon-main .fourOpera ul li a .item span.icon1{
+	background-position: 0px 0px;
+}
+.wrapper .finewcon-main .fourOpera ul li a .item span.icon2{
+	background-position: -12px 0px;
+}
+.wrapper .finewcon-main .fourOpera ul li a .item span.icon3{
+	background-position: -24px 0px;
+}
+.wrapper .finewcon-main .fourOpera ul li a .item span.icon4{
+	background-position: -36px 0px;
+}
+.finewcon-video {
+    width: auto;
+    height: auto;
+}
+.finewcon-video a {
+    display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.finewcon-video a .icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    background: url(../images/video-play.png) no-repeat;
+    background-size: 40px 40px;
+}
+.finewcon-video a .note {
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    text-align: right;
+    padding: 12px 15px 0 15px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+}
+.finewcon-video a .note span {
+    display: inline-block;
+    width: auto;
+    height: 32px;
+    line-height: 32px;
+    background: url(../images/video-note.png) no-repeat left center;
+    background-size: 12px 12px;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 20px;
+}
+.finewcon-video a img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
