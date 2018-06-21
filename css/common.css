@@ -1,0 +1,560 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+a,abbr,address,article,aside,audio,b,blockquote,body,caption,cite,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,sup,tfoot,th,thead,time,tr,ul,var,video {
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: none;
+    background-color: #f6f6f6;
+    font: 16px/1.25 PingFangSC-Regular, Helvetica, "Droid Sans", Arial, sans-serif;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+}
+
+body * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    color: #000000;
+}
+
+input,
+button,
+textarea,
+select {
+    -webkit-appearance: none;
+    font-size: 1rem;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    font-size: 0px;
+    line-height: 0px;
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 1rem;
+}
+
+th,
+td,
+caption {
+    vertical-align: top;
+    text-align: left;
+    font-size: 1rem;
+}
+
+
+ul,
+li {
+    display: block;
+    list-style: none;
+}
+
+.clear {
+    width: 0px;
+    height: 0px;
+    font-size: 0;
+    clear: both;
+}
+
+
+
+.header {width: 100%;height: 44px; background: #fff; position: fixed; left: 0; top: 0; z-index: 999;}
+.headnav {width: auto; height: 44px; margin: 0 88px 0 5px;}
+.headnav .swiper-slide {width: auto; height: 44px; float: left;}
+.headnav .swiper-slide a {display: block; width: auto; height: 44px; line-height: 44px; position: relative; padding: 0 11px 0 10px; font-size: 14px; color: #333;}
+.headnav .swiper-slide a i {display: block; width: 1px; height: 10px; font-size: 0; line-height: 0; background: #ddd; position: absolute; right: 0; top: 50%; margin-top: -5px;}
+.headnav .swiper-slide a b {display: none; width: auto; height: 2px; background: #ff165b; font-size: 0; line-height: 0; position: absolute; left: 10px; right: 11px; bottom: 6px;}
+.headnav .swiper-slide a.on b {display: block;}
+.headnav .swiper-slide:last-child a i {display: none;}
+.headopera {width: 60px; height: 44px; position: absolute; right: 14px; top: 0; z-index: 2;}
+.headsearch {width: 30px; height: 44px; float: left;}
+.headsearch a {display: block; width: auto; height: 44px; background: url(../images/icon-search.png) no-repeat center; background-size: 15px 15px;}
+.headmenu {width: 30px; height: 44px; float: left;}
+.headmenu a {display: block; width: auto; height: 44px; background: url(../images/icon-menu.png) no-repeat center; background-size: 15px 15px;}
+
+
+.headTitle {width: auto; height: 44px; line-height: 44px; text-align: center; font-size: 14px; color: #333; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.headTitle.headTitle-dis {text-align: left; padding-left: 40px;}
+.headBack {width: 44px; height: 44px; position: absolute; left: 0; top: 0;}
+.headBack a {display: block; width: auto; height: 44px; background: url(../images/icon-back.png) no-repeat center; background-size: 10px 15px;}
+
+.headSort {width: auto; height: 44px; position: absolute; right: 5px; top: 0; padding: 16px 0;}
+.headSort ul li {width: auto; height: 12px; float: left; background: url(../images/borgrayr.png) repeat-y right; background-size: 1px 1px;}
+.headSort ul li:last-child {background: none;}
+.headSort ul li a {display: block; width: auto; height: 12px; line-height: 12px; font-size: 10px; color: #666666; padding: 0 10px 0 25px; position: relative;}
+.headSort ul li a i {display: block; width: 10px; height: 10px; position: absolute; left: 10px; top: 50%; margin-top: -5px; font-size: 0; line-height: 0; background-image: url(../images/icon-sort.png); background-size: 40px 10px;}
+.headSort ul li a i.up {background-position: 0px 0px;}
+.headSort ul li a i.down {background-position: -20px 0px;}
+.headSort ul li a.on {color: #ff7777;}
+.headSort ul li a.on i.up {background-position: -10px 0px;}
+.headSort ul li a.on i.down {background-position: -30px 0px;}
+
+.headSave {width: auto; height: 30px; position: absolute; right: 0; top: 50%; margin-top: -15px; z-index: 2;}
+.headSave a {display: block; width: auto; height: 30px; line-height: 30px; text-align: center; color: #ff0757; padding: 0 15px; font-size: 14px;}
+
+
+.searchform {width: auto; height: 44px; padding: 7px 65px 7px 15px; position: relative; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.searchform .back {display: block; width: auto; height: 44px; line-height: 0; padding: 22px 0; font-size: 14px; color: #999999; position: absolute; right: 15px; top: 0;}
+.searchform .icon {width: 36px; height: 30px; background: url(../images/icon-search.png) no-repeat center; background-size: 15px 15px; position: absolute; left: 15px; top: 50%; margin-top: -15px;}
+.searchform input.inp {width: 100%; height: 30px; line-height: 14px; background: #eeeeee; border: 0;  border-radius: 3px; font-size: 12px; color: #333; padding: 7px 10px 7px 36px;}
+
+
+
+.searchform a.emptied {display: block; width: 14px; height: 14px; position: absolute; right: 75px; top: 50%; margin-top: -7px; background: url("../images/search-emptied.png") no-repeat; background-size: 100% 100%;}
+.searchform2 .back {color: #000;}
+.searchform2 input.inp {background: #e7ebee; border-radius: 5px; color: #000;}
+.searchresult-person {width: auto; height: auto; background: #fff;}
+.searchresult-person .list {width: auto; height: auto; padding-left: 15px; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px;}
+.searchresult-person .list ul li {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px; padding: 10px 0;}
+.searchresult-person .list ul li:last-child {background: none;}
+.searchresult-person .list ul li .item {width: auto; height: auto; position: relative;}
+.searchresult-person .list ul li .item .img {width: 48px; height: 48px; font-size: 0; position: absolute; left: 0; top: 0;}
+.searchresult-person .list ul li .item .img img {width: 48px; height: 48px; border-radius: 5px;}
+.searchresult-person .list ul li .item .txt {width: auto; height: 48px; line-height: 48px; padding-left: 58px; font-size: 12px; color: #000;}
+.searchresult-person .list ul li .item .txt span {color: #ff6666;}
+.searchresult-person .more {width: auto; height: auto; padding: 5px 15px;}
+.searchresult-person .more a {display: inline-block; width: auto; height: auto; font-size: 12px; color: #ff6666; background: url("../images/icon-search2.png") no-repeat left center; background-size: auto 100%; padding-left: 20px;}
+
+.searchresult-other {width: auto; height: auto; background: #fff; margin-top: 10px; padding-left: 15px;}
+.searchresult-other ul li {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px; padding: 15px 15px 15px 0;}
+.searchresult-other ul li:last-child {background: none;}
+.searchresult-other ul li .item {width: auto; height: auto; position: relative;}
+.searchresult-other ul li .item .img {width: 85px; height: 62px; font-size: 0; position: absolute; left: 0; top: 0;}
+.searchresult-other ul li .item .img img {width: 85px; height: 62px;}
+.searchresult-other ul li .item span.play {display: block; width: 26px; height: 26px; position: absolute; left: 50%; margin-left: -13px; top: 50%; margin-top: -13px; z-index: 2; background: url("../images/video-play.png") no-repeat; background-size: 100% 100%;}
+.searchresult-other ul li .item .con {width: auto; height: auto; min-height: 62px; padding-left: 110px;}
+.searchresult-other ul li .item .con .tit {width: auto; height: auto; font-size: 12px; color: #333333;}
+.searchresult-other ul li .item .con .txt {width: auto; height: auto; font-size: 10px; color: #999999; line-height: 14px; margin-top: 3px;}
+.searchresult-other ul li .item .con .note {width: auto; height: auto; line-height: 12px; overflow: hidden; margin-top: 3px;}
+.searchresult-other ul li .item .con .note span.see {display: block; width: auto; float: left; font-size: 8px; color: #999999; position: relative; padding-left: 15px;}
+.searchresult-other ul li .item .con .note span.see i {display: block; width: 10px; height: 10px; position: absolute; left: 0; top: 1px;
+    background-image: url(../images/inopera.png);
+    background-size: auto 20px;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.searchresult-other ul li .item .con .note span.date {float: right; font-size: 8px; color: #666666;}
+
+
+
+
+
+
+
+.openmenu {width: auto; height: auto; background: #fff; position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 1000; overflow: auto; display: none;}
+.openmenu-close {width: 100%; height: 44px; background: #fff; z-index: 2; position: fixed; left: 0; top: 0;}
+.openmenu-close a {display: block; width: 44px; height: 44px; background: url(../images/open-close.png) no-repeat center; background-size: 15px 15px; margin-left: 2px;}
+.openmenu-main {width: auto; height: auto; padding-top: 44px;}
+.openmenu-main .item {width: auto; height: auto; background: url(../images/borgrayb.png) repeat-x bottom; background-size: 1px 1px; padding-bottom: 14px;}
+.openmenu-main .item .tit {width: auto; height: auto; font-size: 0; padding-top: 14px;}
+.openmenu-main .item .tit a {display: inline-block; width: auto; height: auto; font-size: 0; border-left: 2px solid #f54744; padding-left: 12px;}
+.openmenu-main .item .tit a span {display: inline-block; width: auto; height: 14px; line-height: 14px; font-size: 14px; color: #666666; background: url(../images/inmore.png) no-repeat right center; background-size: 5px 10px; padding-right: 20px;}
+.openmenu-main .item .list {width: auto; height: auto;}
+.openmenu-main .item .list ul {display: block; width: auto; height: auto; overflow: hidden; padding: 0 7px 0 7px;}
+.openmenu-main .item .list ul li {width: 33.333%; height: auto; float: left; padding: 14px 7px 0 7px;}
+.openmenu-main .item .list ul li a {display: block; width: auto; height: 30px; border: 1px solid #ddd; border-radius: 5px; font-size: 12px; color: #666666; text-align: center; line-height: 28px; box-shadow: 0px 2px 5px rgba(0,0,0,0.1);}
+
+
+.openshare {width: auto; height: auto; background: rgba(0,0,0,0.9); position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 1000; display: none;}
+.openshare span {display: block; width: auto; height: auto; text-align: right; font-size: 0; padding: 20px;}
+.openshare span img {width: 140px;}
+
+
+
+.footer {width: 100%; height: 50px; background: url(../images/borgrayt.png) repeat-x top #fff; background-size: 1px 1px; position: fixed; left: 0; bottom: 0; z-index: 999;}
+.footer ul li {width: 20%; height: 49px; float: left;}
+.footer ul li a {display: block; width: auto; height: 49px; padding-top: 8px;}
+.footer ul li a span {display: block; margin: 0 auto; text-align: center;}
+.footer ul li a span.icon {width: 20px; height: 20px; background-repeat: no-repeat; background-image: url(../images/footer.png); background-size: 100px 40px;}
+.footer ul li a span.ico1 {background-position: 0px 0px;}
+.footer ul li a span.ico2 {background-position: -20px 0px;}
+.footer ul li a span.ico3 {background-position: -40px 0px;}
+.footer ul li a span.ico4 {background-position: -60px 0px;}
+.footer ul li a span.ico5 {background-position: -80px 0px;}
+.footer ul li a span.text {font-size: 10px; color: #666666; padding-top: 5px;}
+.footer ul li a.on span.text {color: #ff0757;}
+.footer ul li a.on span.ico1 {background-position: 0px -20px;}
+.footer ul li a.on span.ico2 {background-position: -20px -20px;}
+.footer ul li a.on span.ico3 {background-position: -40px -20px;}
+.footer ul li a.on span.ico4 {background-position: -60px -20px;}
+.footer ul li a.on span.ico5 {background-position: -80px -20px;}
+
+
+.footReply {width: 100%; height: 50px; background: url(../images/borgrayt.png) repeat-x top #f6f6f6; background-size: 1px 1px; position: fixed; left: 0; bottom: 0; z-index: 999; padding: 6px 76px 6px 6px;}
+.footReply span.icon {width: 38px; height: 38px; position: absolute; left: 6px; top: 6px; z-index: 2; background: url(../images/icon-edit.png) no-repeat center; background-size: 18px 18px;}
+.footReply input.inp {width: 100%; height: 38px; border: 1px solid #ddd; border-radius: 5px; background: #fff; font-size: 14px; color: #333; line-height: 16px; padding: 10px 10px 10px 38px;}
+.footReply input.btn {display: block; width: 60px; height: 38px; background: #ff7777; font-size: 14px; color: #fff; border-radius: 5px; border: 0; position: absolute; right: 6px; top: 6px; z-index: 2;}
+
+
+.wrapper {width: auto; height: auto; padding: 44px 0 50px 0;}
+.wrapper.nopadtop {padding-top: 0;}
+.wrapper.nopadbot {padding-bottom: 0;}
+.uswrap {width: auto; height: auto; padding: 0 0 50px 0;}
+
+
+
+
+.fourOpera {width: auto; height: 34px; padding: 5px 0;}
+.fourOpera ul li {width: 25%; height: 24px; float: left;}
+.fourOpera ul li a {display: block; width: auto; height: 24px; background: url(../images/borgrayr.png) repeat-y right; background-size: 1px 1px; text-align: center; font-size: 0;}
+.fourOpera ul li:last-child a {background: none;}
+.fourOpera ul li a .item {display: inline-block; width: auto; height: 24px; line-height: 24px; font-size: 10px; color: #999; position: relative; padding-left: 18px; margin: 0;}
+.fourOpera ul li a .item span {display: block; width: 12px; height: 12px; font-size: 0; line-height: 0; position: absolute; left: 0; top: 50%; margin-top: -6px; background-image: url(../images/inopera.png); background-repeat: no-repeat; background-size: 48px 24px;}
+.fourOpera ul li a .item span.ico1 {background-position: 0px 0px;}
+.fourOpera ul li a .item span.ico2 {background-position: -12px 0px;}
+.fourOpera ul li a .item span.ico3 {background-position: -24px 0px;}
+.fourOpera ul li a .item span.ico4 {background-position: -36px 0px;}
+
+.fourOpera ul li a.on .item {color: #ff0757;}
+.fourOpera ul li a.on .item span.ico2 {background-position: -12px -12px;}
+.fourOpera ul li a.on .item span.ico3 {background-position: -24px -12px;}
+
+
+.filtabs {width: auto; height: 40px; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+.filtabs ul li {width: 33.333%; height: 40px; float: left;}
+.filtabs ul.two li {width: 50%;}
+.filtabs ul.four li {width: 25%;}
+.filtabs ul li a {display: block; width: auto; height: 40px; line-height: 40px; font-size: 14px; color: #666; text-align: center; position: relative;}
+.filtabs ul li a b {display: none; width: 100%; height: 2px; line-height: 0; font-size: 0; background: #f54744; position: absolute; left: 0; bottom: 0;}
+.filtabs ul li a.on {color: #333333; background: #eeeeee;}
+.filtabs ul li a span.icon-filter {display: inline-block; width: auto; height: 40px; line-height: 40px; background: url(../images/tabfilter.png) no-repeat right center; background-size: 15px 15px; padding-right: 25px;}
+
+
+.tabsnav {width: auto; height: 40px; background: url(../images/borgrayb.png) repeat-x bottom #fff; background-size: 1px 1px;}
+.tabsnav .swiper-slide {width: 25%; height: 40px; float: left;}
+.tabsnav .swiper-slide a {display: block; width: auto; height: 40px; line-height: 40px; color: #666; font-size: 14px; text-align: center;}
+.tabsnav .swiper-slide a.on {background: #eeeeee; color: #333;}
+
+
+.openwrap {width: auto; height: auto; position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 1000; background: rgba(0,0,0,0.8); display: none;}
+
+
+.nban {width: auto; height: auto; font-size: 0;}
+.nban a {display: block; width: auto; height: auto;}
+.nban img {width: 100%;}
+
+
+
+.openfilter {width: auto; height: auto; background: #fff; position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 1000; overflow: auto; display: none;}
+.openfilter-close {width: 44px; height: 44px; background: #fff; z-index: 2; position: fixed; left: 2px; top: 0;}
+.openfilter-close a {display: block; width: 44px; height: 44px; background: url(../images/open-close.png) no-repeat center; background-size: 15px 15px;}
+.openfilter-title {width: 100%; height: 44px; background: #fff; position: fixed; left: 0; top: 0; text-align: center; line-height: 44px; font-size: 16px; color: #333;}
+
+
+.switchbox {width: 52px; height: 30px;}
+.switchbox a {display: block; width: auto; height: 30px; background: #ccc; border-radius: 15px; position: relative; transition: ease-in 0.08s , ease-out 0.16s;}
+.switchbox a span {display: block; width: 26px; height: 26px; background: #fff; border-radius: 50%; position: absolute; left: 2px; top: 2px; box-shadow: 0px 2px 2px rgba(0,0,0,0.2); transition: ease-in 0.08s , ease-out 0.16s;}
+.switchbox a.on {background: #74d86b;}
+.switchbox a.on span {left: 24px;}
+.switchbox .input {display: none;}
+
+
+.savebtn {width: auto; height: auto; padding: 15px;}
+.savebtn a {display: block; width: auto; height: auto; background: #fa655b; border-radius: 5px; color: #fff; font-size: 16px; padding: 13px 0; text-align: center;}
+
+
+
+/*弹窗价格*/
+.openprice {width: 300px; height: auto; position: fixed; left: 50%; margin-left: -150px; top: 50%; margin-top: -205px; z-index: 2;}
+.openprice-close {width: 40px; height: 40px; position: absolute; right: 0; top: 0; z-index: 2; background: url(../images/openprice-close.png) no-repeat center; background-size: 10px 10px;}
+.openprice-intro {width: auto; height: auto; background: #fff; border-radius: 5px; padding: 40px 20px;}
+.openprice-intro .tit {width: auto; height: auto; text-align: center;}
+.openprice-intro .tit span {width: auto; height: auto; font-size: 13px; color: #d55c5f; padding-left: 30px; position: relative; padding-right: 30px;}
+.openprice-intro .tit span i {display: block; width: 22px; height: 22px; position: absolute; left: 0; top: 50%; margin-top: -11px; background-image: url(../images/openprice-intro.png); background-repeat: no-repeat; background-position: center; background-size: 22px 22px;}
+.openprice-intro .txt {width: auto; height: auto; text-align: center; font-size: 13px; color: #666666; padding-top: 20px; line-height: 1.6em;}
+.openprice-list {width: auto; height: auto;}
+.openprice-list ul li {width: auto; height: auto; padding-top: 5px;}
+.openprice-list ul li a {display: block; width: auto; height: 60px; border-radius: 5px; background-repeat: no-repeat; background-position: left center; background-size: auto 60px; padding-right: 20px;}
+.openprice-list ul li a .tit {width: auto; height: auto; text-align: right; font-size: 12px; color: #fff; line-height: 14px; padding-top: 13px;}
+.openprice-list ul li a .num {width: auto; height: auto; text-align: right; font-size: 18px; color: #fff; font-weight: bold; line-height: 20px;}
+.openprice-list ul li a .num span {font-size: 14px; padding-right: 5px; font-weight: normal;}
+
+
+
+
+/*滚动加载*/
+.dropload-up,.dropload-down{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    font-size: 12px;
+    /* 开启硬件加速 */
+    -webkit-transform:translateZ(0);
+    transform:translateZ(0);
+}
+.dropload-down{
+    height: 50px;
+}
+.dropload-refresh,.dropload-update,.dropload-load,.dropload-noData{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+	color: #666;
+}
+.dropload-load .loading{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin: 6px;
+    border: 2px solid #666;
+    border-bottom-color: transparent;
+    vertical-align: middle;
+    -webkit-animation: rotate 0.75s linear infinite;
+    animation: rotate 0.75s linear infinite;
+}
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+ .opacity{
+        -webkit-animation: opacity 0.3s linear;
+        animation: opacity 0.3s linear;
+    }
+    @-webkit-keyframes opacity {
+        0% {
+            opacity:0;
+        }
+        100% {
+            opacity:1;
+        }
+    }
+    @keyframes opacity {
+        0% {
+            opacity:0;
+        }
+        100% {
+            opacity:1;
+        }
+    }
+
+
+
+
+/*上传图片插件的样式*/
+
+
+
+.z_photo {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	padding: 8px;
+}
+.z_photo .z_file {
+	position: relative;
+}
+
+.z_photo section {
+	width: 33.333%;
+	height: auto;
+	float: left;
+	position: relative;
+	padding: 7px;
+}
+
+
+
+.z_file .add-img {width: 100%;}
+
+.z_file  .file {
+	opacity: 0;
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	right: 7px;
+	bottom: 7px;
+	z-index: 100;
+}
+
+
+.up-section .close-upimg {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	z-index: 10;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+}
+.up-section .up-span {
+	display: none;
+}
+.z_photo .up-img {
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+}
+
+
+
+.loading{
+	background:url(../images/loading.gif) no-repeat center;
+	background-size: 16px 16px;
+}
+
+
+
+
+.up-opcity{
+	opacity: 0;
+}
+
+
+
+.img-name-p{
+	display: none;
+}
+
+
+.img-up-note {
+	width: auto;
+	height: auto;
+	padding: 0 15px;
+	font-size: 14px;
+	color: #999;
+}
+
+
+
+
+
+
+/*遮罩层样式*/
+.mask {
+	z-index: 1000;
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+}
+.mask .mask-content {
+	width: 280px;
+	height: 140px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -140px;
+	margin-top: -70px;
+	background: #ffffff;
+	text-align: center;
+	border-radius: 8px;
+}
+.mask .mask-content .del-p {
+	width: auto;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	color: #666;
+	font-size: 16px;
+}
+.mask-content .check-p {
+	width: 100%;
+	height: 50px;
+	background: url(../images/borgrayt.png) repeat-x top;
+	background-size: 1px 1px;
+	overflow: hidden;
+}
+.mask-content .check-p span {
+	display: block;
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #333;
+	float: left;
+	background: url(../images/borgrayr.png) repeat-y right;
+	background-size: 1px 1px;
+}
+.mask-content .check-p span:last-child {
+	background: none;
+}
+
+
+
+.openVoice {width: auto; height: auto; position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 9999; display: none;}
+.openVoice-box {width: 100%; height: 180px; background: #fff; position: fixed; left: 0; bottom: 0; z-index: 10000; display: none;}
+.openVoice-note {width: auto; height: auto; line-height: 14px; text-align: center; padding: 15px 0 10px 0; font-size: 14px; color: #999999;}
+.openVoice-icon {width: 92px; height: 92px; margin: 0 auto;}
+.openVoice-icon a {display: block; width: 92px; height: 92px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+.openVoice-icon a.star {background-image: url(../images/voicestar.png);}
+.openVoice-icon a.stop {background-image: url(../images/voicestop.png);}
+.openVoice-icon a.play {background-image: url(../images/voiceplay.png);}
+
+
+.openVoice-btns {width: 100%; height: 35px; position: absolute; left: 0; bottom: 0; border-top: 1px solid #ddd; display: none;}
+.openVoice-btns ul li {width: 50%; height: 34px; float: left; border-right: 1px solid #ddd;}
+.openVoice-btns ul li:last-child {border-right: 0;}
+.openVoice-btns ul li a {display: block; width: auto; height: 34px; line-height: 34px; text-align: center; font-size: 14px; color: #2ab45e;}
+
+
+
+
+
+/*弹出关注*/
+
+.openAtten {width: auto; height: auto; position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 99999; background: rgba(0,0,0,0.5);}
+.openAtten-box {width: 200px; height: 230px; background: #fff; border-radius: 5px; position: fixed; left: 50%; margin-left: -100px; top: 50%; margin-top: -115px;}
+.openAtten-note {width: auto; height: auto; text-align: center; font-size: 14px; color: #333; padding-top: 15px; line-height: 1.4em; font-weight: bold;}
+.openAtten-code {width: 170px; height: auto; font-size: 0; padding-top: 10px; margin: 0 auto;}
+.openAtten-code img {width: 170px; height: 170px;}
+.openAtten-close {width: 30px; height: 30px; position: absolute; right: 0; top: 0; z-index: 2; background: url(../images/open-close.png) no-repeat center; background-size: 30%; opacity: 0.5;}
+
+
+
+
+
+
