@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style:none;
+}
+.filltext{
+    width: auto;
+    height: 40px;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.filltext ul li{
+    width: 25%;
+    height: 40px;
+    float: left;
+}
+.filltext ul li a{
+    display: block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    position: relative;
+}
+.filltext ul li a.on{
+    color: #333333;
+    background: #eeeeee;
+}
+.filltext ul li a .iconspan{
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/tabfilter.png) no-repeat right center;
+    background-size: 15px 15px;
+    padding-right: 25px;
+}
+.promusic-list {
+    width: auto;
+    height: auto;
+    padding: 3px;
+    background: #fff;
+    overflow: hidden;
+}
+.promusic-list ul li a {
+    display: block;
+    width: auto;
+    height: auto;
+}
+.promusic-list ul li {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 3px;
+}
+.promusic-list ul li a .img span {
+    display: block;
+    width: auto;
+    height: 14px;
+    line-height: 14px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: url(../images/icon-music.png) no-repeat left center;
+    background-size: 12px 12px;
+    padding-left: 18px;
+    font-size: 12px;
+    color: #fff;
+}
+.promusic-list ul li a .img {
+    width: auto;
+    height: auto;
+    font-size: 0;
+    position: relative;
+}
+.promusic-list ul li a .img img {
+    width: 100%;
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    font-size: 0px;
+    line-height: 0px;
+    max-width: 100%;
+}
+.promusic-list ul li a .con {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+.promusic-list ul li a .con .tit {
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    color: #333;
+}
+.promusic-list ul li a .con .txt {
+    width: auto;
+    height: auto;
+    font-size: 11px;
+    color: #999;
+    padding-top: 3px;
+}
+.mui-scroll i{
+    position: absolute;
+    top: 15px;
+    width:1px;
+    height:10px;
+    background-color: #ddd;
+}
+.mui-scroll-wrapper{
+    width:85% !important;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+    border-bottom: none !important;
+}
+.fdj{
+    width: 70px;
+    height: 38px;
+    border: none;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    top: 0px;
+    right:0px;
+    display: flex;
+    justify-content: space-around;
+}
+.fdj a span{
+    margin-top: 6px;
+    color:black;
+    border: none;
+}
+header{
+    background-color: white;
+}

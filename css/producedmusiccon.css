@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.promusiccon {
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.finewcon-title {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+.finewcon-music {
+    width: auto;
+    height: auto;
+    background: #f5f5f5;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 15px;
+}
+.finewcon-music .tit {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    color: #333333;
+}
+.finewcon-music .box {
+    width: auto;
+    height: 25px;
+    position: relative;
+    margin-top: 10px;
+}
+.finewcon-music .box .play {
+    width: 133px;
+    height: 25px;
+}
+.finewcon-music .box .play a {
+    display: block;
+    width: 133px;
+    height: 25px;
+    background: url(../images/musicbg.png) no-repeat;
+    background-size: 133px 25px;
+    position: relative;
+}
+.finewcon-music .box .note {
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    color: #999;
+}
+.finewcon-cont {
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.6em;
+}
+.finewcon-cont .txt {
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+.finewcon-cont .img {
+    font-size: 0;
+    line-height: 0;
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    font-size: 0px;
+    line-height: 0px;
+    max-width: 100%;
+}
+.fourOpera {
+    width: auto;
+    height: 34px;
+    padding: 5px 0;
+}
+.fourOpera ul li {
+    width: 25%;
+    height: 24px;
+    float: left;
+}
+.fourOpera ul li a {
+    display: block;
+    width: auto;
+    height: 24px;
+    background: url(../images/borgrayr.png) repeat-y right;
+    background-size: 1px 1px;
+    text-align: center;
+    font-size: 0;
+}
+.fourOpera ul li a .item {
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 10px;
+    color: #999;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+.fourOpera ul li a .item span.ico1 {
+    background-position: 0px 0px;
+}
+.fourOpera ul li a .item span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+}
+.fourOpera ul li a .item span.ico2 {
+    background-position: -12px 0px;
+}
+.fourOpera ul li a .item span.ico3 {
+    background-position: -24px 0px;
+}
+.fourOpera ul li a .item span.ico4 {
+    background-position: -36px 0px;
+}
+.finewcon-music .box .play a span.state {
+    display: block;
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-image: url(../images/music.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 12px 12px;
+    padding-left: 10px;
+}
+.finewcon-music .box .play a span.num {
+    display: block;
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    padding-left: 10px;
+}
+.discuss-head {
+    width: auto;
+    height: 44px;
+    padding: 0 15px;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+    background-color: #fff;
+    margin-top:15px;
+}
+.discuss-head .name {
+    width: auto;
+    height: 44px;
+    line-height: 44px;
+    float: left;
+    font-size: 12px;
+    color: #333;
+}
+.discuss-head .more {
+    width: auto;
+    height: 44px;
+    float: right;
+}
+.discuss-head .more a {
+    display: block;
+    width: auto;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color: #999;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+    padding-right: 10px;
+}
+.discuss-main {
+    width: auto;
+    height: auto;
+    background: #fff;
+}
+.discuss-main .item {
+    width: auto;
+    height: auto;
+    padding-left: 55px;
+    position: relative;
+}
+.discuss-main .item .portrait {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.discuss-main .item .portrait img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.discuss-main .item .box {
+    width: auto;
+    height: auto;
+    min-height: 60px;
+    padding: 15px 15px 15px 0;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+}
+.discuss-main .item .box .name {
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    color: #333;
+}
+.discuss-main .item .box .name a {
+    color: #333;
+}
+.discuss-main .item .box .cont {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    position: relative;
+}
+.discuss-main .item .box .cont .text {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    margin-right: 75px;
+}
+.discuss-main .item .box .cont .opera {
+    width: auto;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+.discuss-main .item .box .cont .opera .like {
+    width: auto;
+    height: 36px;
+    float: left;
+}
+.discuss-main .item .box .cont .opera .like a {
+    display: block;
+    width: auto;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+    font-size: 12px;
+    color: #999999;
+    padding-left: 18px;
+}
+.discuss-main .item .box .cont .opera .like a i {
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    background-image: url(../images/inopera.png);
+    background-repeat: no-repeat;
+    background-size: 48px 24px;
+    background-position: -24px 0px;
+}
+.discuss-main .item .box .cont .opera .other {
+    width: auto;
+    height: 36px;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+}
+.discuss-head .name {
+    width: auto;
+    height: 44px;
+    line-height: 44px;
+    float: left;
+    font-size: 12px;
+    color: #333;
+}
+.discuss-head .more {
+    width: auto;
+    height: 44px;
+    float: right;
+}
+.discuss-head .more a {
+    display: block;
+    width: auto;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color: #999;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+    padding-right: 10px;
+}
+.discuss-main .item .box .cont .opera .other {
+    width: auto;
+    height: 36px;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+}
+.discuss-main .item .box .cont .opera .other .icon {
+    width: auto;
+    height: 36px;
+}
+.discuss-main .item .box .cont .opera .other .icon a {
+    display: block;
+    width: auto;
+    height: 36px;
+    background: url(../images/icon-other.png) no-repeat right center;
+    background-size: 3px 12px;
+    padding-left: 10px;
+}
+.discuss-main .item .box .cont .opera .other .btns {
+    width: 44px;
+    height: auto;
+    position: absolute;
+    right: -10px;
+    top: 44px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    /*display: none;*/
+}
+.discuss-main .item .box .note {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    font-size: 10px;
+    color: #999;
+}
+.discuss-main .item .box .note a {
+    color: #999;
+    position: relative;
+    margin-left: 6px;
+    padding-left: 8px;
+}
+.discuss-main .item .box .seeall {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+.discuss-main .item .box .seeall a {
+    display: block;
+    width: auto;
+    height: auto;
+    background: #f9f9f9;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #666666;
+    padding: 0 10px;
+}
+.discuss-main .item .box .reply {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    background-image: url(../images/discuss-reply.png);
+    background-repeat: no-repeat;
+    background-size: 12px 11px;
+    background-position: 12px 11px;
+    padding-left: 33px;
+}
+.discuss-main .item .box .reply ul li {
+    width: auto;
+    height: auto;
+    background: url(../images/borgrayb.png) repeat-x bottom;
+    background-size: 1px 1px;
+}
+.discuss-main .item .box .reply ul li .replybox {
+    width: auto;
+    height: auto;
+    padding: 10px 0;
+}
+.discuss-main .item .box .reply ul li .replybox .replyname {
+    width: auto;
+    height: auto;
+    line-height: 12px;
+    position: relative;
+    font-size: 10px;
+    color: #333333;
+}
+.discuss-main .item .box .reply ul li .replybox .replytext {
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    color: #333333;
+    padding-top: 5px;
+}
+.mui-scroll i{
+    position: absolute;
+    top: 15px;
+    width:1px;
+    height:10px;
+    background-color: #ddd;
+}
+.mui-scroll-wrapper{
+    width:85% !important;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+    border-bottom: none !important;
+}
+.fdj{
+    width: 70px;
+    height: 38px;
+    border: none;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    top: 0px;
+    right:0px;
+    display: flex;
+    justify-content: space-around;
+}
+.fdj a span{
+    margin-top: 6px;
+    color:black;
+    border: none;
+}
+header{
+    background-color: white;
+}
