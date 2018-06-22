@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style:none;
+}
+.bigbox{
+    padding:44px 0 50px 0;
+}
+.smbox{
+    width:auto;
+    height: auto;
+}
+.smnox_ul{
+    width: 100%;
+}
+.smnox_ul h1{
+    display: block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    padding: 15px 0;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.smnox_ul li,h1{
+    background: #fff;
+}
+.contan_lis{
+    padding:0 10px 0 10px;
+
+    width: auto;
+    height: auto;
+}
+.contan_lis .smbox_uldis{
+    display: flex;
+    justify-content:space-between;
+    line-height: 44px;
+    position: relative;
+    padding-left: 30px;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+
+}
+.contan_lis .smbox_uldis a img{
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.contan_lis a{
+    display: flex;
+    justify-content:flex-start;
+}
+.contan_lis a img{
+
+    width: 18px;
+    height: 18px;
+}
+.smbox_uldis>p{
+    color: #666;
+}

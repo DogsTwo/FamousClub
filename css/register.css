@@ -1,0 +1,88 @@
+body{
+    background: #fff;
+}
+.bigbox{
+    padding-top: 44px;
+}
+ul{
+    list-style:none;
+}
+.register_bigbox{
+    background: #fae6e7;
+}
+.searchbox_box{
+    height: 100px;
+    position: relative;
+    margin-top:10px;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+.let{
+    width: 94px;
+    height: 86px;
+    float: left;
+    /*position: absolute;*/
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+.let img{
+    margin-top: 20px;
+    width: 22px;
+}
+.let p{
+    color: red;
+}
+.cen{
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.cen1{
+    width:166px;
+    font-size: 14px;
+    color: #333;
+    padding-top: 20px;
+    line-height: 1.4em;
+}
+.dianji{
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999999;
+    line-height: 1.6em;
+}
+.cen1 u{
+    text-decoration: line-through;
+}
+.rig{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+.yijian{
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background: #ea9ca1;
+    border-radius: 3px;
+    margin-bottom: 2px;
+}
+.jiage{
+    width: auto;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    background-color: #e2777d;
+    background-image: url(../images/priceline.png);
+    background-size: 3px 3px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+.register_bigbox ul{
+    display: none;
+}

@@ -1,0 +1,131 @@
+html,body{
+    background: #ccc;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style:none;
+}
+.bigbox{
+    padding:44px 0 50px 0;
+}
+.filtabs {
+    width: auto;
+    height: 40px;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+    margin-top: 0px;
+}
+.filtabs ul li {
+    width: 33.333%;
+    height: 40px;
+    float: left;
+}
+.filtabs ul li a.on {
+    color: #333333;
+    background: #eeeeee;
+}
+.filtabs ul li a {
+    display: block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    position: relative;
+}
+.filtabs ul li a span.icon-filter {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/tabfilter.png) no-repeat right center;
+    background-size: 15px 15px;
+    padding-right: 25px;
+}
+.prophoto-tit {
+    width: auto;
+    height: 44px;
+    padding: 15px 0;
+    background: #fff;
+}
+.prophoto-tit .name {
+    width: auto;
+    height: 14px;
+    border-left: 2px solid #f54744;
+    float: left;
+    padding-left: 8px;
+}
+.prophoto-tit .name span {
+    display: block;
+    width: auto;
+    height: 14px;
+    float: left;
+    line-height: 14px;
+    font-size: 14px;
+    color: #333;
+    padding-right: 20px;
+    background: url(../images/inmore.png) no-repeat right center;
+    background-size: 5px 10px;
+}
+.prophoto-list-new .finecoursecon-newlist ul li {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.finecoursecon-newlist ul li .box .item {
+    width: auto;
+    height: auto;
+    padding: 0 15px 15px 15px;
+    position: relative;
+}
+.finecoursecon-newlist ul li .box .item .img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    color: #000000;
+}
+.finecoursecon-newlist ul li .box .item .img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+.finecoursecon-newlist ul li .box .item .con {
+    width: auto;
+    height: auto;
+    min-height: 120px;
+    margin-left: 135px;
+    position: relative;
+}
+.finecoursecon-newlist ul li .box .item .con {
+    width: auto;
+    height: auto;
+    min-height: 120px;
+    margin-left: 135px;
+    position: relative;
+}
+.finecoursecon-newlist ul li .box .item .con .note {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #999;
+    padding-top: 8px;
+}
+.finecoursecon-newlist ul li .box .item .con .txt {
+    width: auto;
+    height: auto;
+    min-height: 60px;
+    font-size: 12px;
+    color: #666;
+    padding-top: 8px;
+}

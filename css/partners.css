@@ -1,0 +1,61 @@
+body{
+    background: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style:none;
+}
+.bogbox{
+    padding-top:44px;
+    padding-bottom: 54px;
+}
+.pingtai{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    padding: 15px 0;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.pingtai span{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    padding: 15px 0;
+    background: url(../images/borgrayb.png) repeat-x bottom #fff;
+    background-size: 1px 1px;
+}
+.hezuo li{
+    width: 33.333%;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+.hezuo li a {
+    display: block;
+    width: auto;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.hezuo li a img {
+    width: 100%;
+}
+.paryners_txt span{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 12px;
+    color: #888;
+    line-height: 1.6em;
+}

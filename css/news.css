@@ -16,97 +16,6 @@ ul, li {
     display: block;
     list-style: none;
 }
-/*header  and  footer  start*/
-.footer-icon{
-    width: 20px!important;
-    height: 20px!important;
-    background: url(../images/footer.png) no-repeat;
-    background-size: 100px 40px;
-}
-.mui-bar-tab .mui-tab-item.mui-active{
-    color:#ff0757;
-}
-.footer-icon-index{
-    background-position: 0 0;
-}
-.footer-icon-school{
-    background-position: -20px 0;
-}
-.footer-icon-register{
-    background-position: -40px 0;
-}
-.footer-icon-answer{
-    background-position: -60px 0;
-}
-.footer-icon-user{
-    background-position: -80px 0;
-}
-.mui-bar-tab .mui-tab-item.mui-active .footer-icon-index{
-    background-position: 0 -20px;
-}
-.mui-bar-tab .mui-tab-item.mui-active .footer-icon-school{
-    background-position: -20px -20px;
-}
-.mui-bar-tab .mui-tab-item.mui-active .footer-icon-register{
-    background-position: -40px -20px;
-}
-.mui-bar-tab .mui-tab-item.mui-active .footer-icon-answer{
-    background-position: -60px -20px;
-}
-.mui-bar-tab .mui-tab-item.mui-active .footer-icon-user{
-    background-position: -80px -20px;
-}
-.index-header-bar.index-header-bar{
-    padding: 0;
-    height: 44px;
-}
-.mui-scroll-wrapper-box{
-    width: auto;
-    padding: 0;
-    height: 44px;
-    margin: 0 88px 0 5px;
-}
-.slider{
-    padding-top: 48px;
-}
-.mui-inner-wrap{
-    padding: 44px 0 50px 0;
-}
-.mui-segmented-control.mui-scroll-wrapper .mui-control-item{
-    padding: 0 11px 0 10px;
-    font-size: 14px;
-    color: #333;
-}
-.mui-segmented-control .mui-control-item{
-    line-height: 44px;
-}
-.mui-segmented-control.mui-scroll-wrapper{
-    height: 44px;
-}
-.mui-bar .mui-segmented-control{
-    top: 0;
-}
-.index-header-bar-nav-right{
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: flex;
-}
-.index-header-bar-nav-search{
-    display: block;
-    width: 30px;
-    height: 44px;
-    background: url(../images/icon-search.png) no-repeat center;
-    background-size: 15px 15px;
-}
-.index-header-bar-nav-list{
-    display: block;
-    width: 30px;
-    height: 44px;
-    background: url(../images/icon-menu.png) no-repeat center;
-    background-size: 15px 15px;
-}
-/*header  and  footer  end*/
 .mui-bar{
     padding-left: 5px;
     padding-right: 0;
@@ -531,3 +440,92 @@ ul, li {
 }
 
 
+.footer-icon{
+    width: 20px!important;
+    height: 20px!important;
+    background: url(../images/footer.png) no-repeat;
+    background-size: 100px 40px;
+}
+.mui-bar-tab .mui-tab-item.mui-active{
+    color:#ff0757;
+}
+.footer-icon-index{
+    background-position: 0 0;
+}
+.footer-icon-school{
+    background-position: -20px 0;
+}
+.footer-icon-register{
+    background-position: -40px 0;
+}
+.footer-icon-answer{
+    background-position: -60px 0;
+}
+.footer-icon-user{
+    background-position: -80px 0;
+}
+.mui-bar-tab .mui-tab-item.mui-active .footer-icon-index{
+    background-position: 0 -20px;
+}
+.mui-bar-tab .mui-tab-item.mui-active .footer-icon-school{
+    background-position: -20px -20px;
+}
+.mui-bar-tab .mui-tab-item.mui-active .footer-icon-register{
+    background-position: -40px -20px;
+}
+.mui-bar-tab .mui-tab-item.mui-active .footer-icon-answer{
+    background-position: -60px -20px;
+}
+.mui-bar-tab .mui-tab-item.mui-active .footer-icon-user{
+    background-position: -80px -20px;
+}
+.index-header-bar.index-header-bar{
+    padding: 0;
+    height: 44px;
+}
+.mui-scroll-wrapper-box{
+    width: auto;
+    padding: 0;
+    height: 44px;
+    margin: 0 88px 0 5px;
+}
+.slider{
+    padding-top: 48px;
+}
+.mui-inner-wrap{
+    padding: 44px 0 50px 0;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item{
+    padding: 0 11px 0 10px;
+    font-size: 14px;
+    color: #333;
+}
+.mui-segmented-control .mui-control-item{
+    line-height: 44px;
+}
+.mui-segmented-control.mui-scroll-wrapper{
+    height: 44px;
+}
+.mui-bar .mui-segmented-control{
+    top: 0;
+}
+.index-header-bar-nav-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+}
+.index-header-bar-nav-search{
+    display: block;
+    width: 30px;
+    height: 44px;
+    background: url(../images/icon-search.png) no-repeat center;
+    background-size: 15px 15px;
+}
+.index-header-bar-nav-list{
+    display: block;
+    width: 30px;
+    height: 44px;
+    background: url(../images/icon-menu.png) no-repeat center;
+    background-size: 15px 15px;
+}
